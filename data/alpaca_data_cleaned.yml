@@ -1,0 +1,68 @@
+- instruction: |
+    请帮我使用 Ktor + Kotlin + Exposed 实现一个用户注册的 RESTful API，要求如下：
+    
+    1. 涉及到数据库的地方，请直接使用 Database.connect。
+    2. 只返回核心逻辑，并写在 Server 类里，我要部署在 Serverless 服务器里。
+    3. 请使用 Kotlin DSL 的方式编写代码。
+    4. 不返回其它的无关代码，如：注释、依赖、import 等。
+    5. 最后，你只返回类的代码，返回格式如下：
+
+    ```kotlin
+    class Server : KotlessAWS() {
+        override fun prepare(app: Application) {
+            Database.connect("jdbc:h2:mem:test", driver = "org.h2.Driver", user = "root", password = "")
+            transaction {
+                SchemaUtils.create(Users)
+            }
+    
+            app.routing {
+                {{{}}}
+            }
+        }
+    }
+    ```
+  input:
+  output: |
+    class Server : KotlessAWS() {
+      override fun prepare(app: Application) {
+          Database.connect("jdbc:h2:mem:test", driver = "org.h2.Driver", user = "root", password = "")
+          transaction {
+              SchemaUtils.create(Users)
+          }
+  
+          app.routing {
+              post("/users") {
+                  val user = call.receive<User>()
+  
+                  val existingUser = transaction {
+                      Users.select { Users.username.eq(user.username) }.firstOrNull()
+                  }
+  
+                  if (existingUser != null) {
+                      call.respond(HttpStatusCode.Conflict, "User already exists")
+                      return@post
+                  }
+  
+                  transaction {
+                      Users.insert {
+                          it[username] = user.username
+                          it[password] = user.password
+                          it[email] = user.email
+                      }
+                  }
+  
+                  call.respond(HttpStatusCode.Created)
+              }
+          }
+      }
+  
+      private object Users : Table() {
+          val id = integer("id").autoIncrement().primaryKey()
+          val username = varchar("username", length = 50).uniqueIndex()
+          val password = varchar("password", length = 50)
+          val email = varchar("email", length = 50)
+      }
+    
+        data class User(val username: String, val password: String, val email: String)
+    }
+
