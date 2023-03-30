@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 .idea
 _exec
+ggml-alpaca-7b-q4.bin
