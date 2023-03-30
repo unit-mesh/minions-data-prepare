@@ -79,7 +79,7 @@ def generate_prompt(instruction, input=None):
 
 ### Response:"""
 
-model.half()
+
 model.eval()
 if torch.__version__ >= "2":
     model = torch.compile(model)
@@ -92,7 +92,7 @@ def evaluate(
     top_p=0.75,
     top_k=40,
     num_beams=4,
-    max_new_tokens=128,
+    max_new_tokens=256,
     **kwargs,
 ):
     prompt = generate_prompt(instruction, input)
@@ -103,8 +103,10 @@ def evaluate(
         top_p=top_p,
         top_k=top_k,
         num_beams=num_beams,
+        no_repeat_ngram_size=3,
         **kwargs,
     )
+
     with torch.no_grad():
         generation_output = model.generate(
             input_ids=input_ids,
@@ -126,16 +128,16 @@ g = gr.Interface(
         ),
         gr.components.Textbox(lines=2, label="Input", placeholder="none"),
         gr.components.Slider(minimum=0, maximum=1, value=0.1, label="Temperature"),
-        gr.components.Slider(minimum=0, maximum=1, value=0.75, label="Top p"),
-        gr.components.Slider(minimum=0, maximum=100, step=1, value=40, label="Top k"),
+        # gr.components.Slider(minimum=0, maximum=1, value=0.75, label="Top p"),
+        # gr.components.Slider(minimum=0, maximum=100, step=1, value=40, label="Top k"),
         gr.components.Slider(minimum=1, maximum=4, step=1, value=4, label="Beams"),
         gr.components.Slider(
-            minimum=1, maximum=512, step=1, value=128, label="Max tokens"
+            minimum=1, maximum=512, step=1, value=256, label="Max tokens"
         ),
     ],
     outputs=[
         gr.inputs.Textbox(
-            lines=5,
+            lines=8,
             label="Output",
         )
     ],
