@@ -32,7 +32,6 @@ with open('seed_tasks.jsonl', 'w') as out_file:
                     data = json.load(in_file)
                     data["id"] = id
                     data["name"] = file.split(".")[0]
-                    json.dump(data, out_file)
 
                     out_file.write(json.dumps(data) + '\n')
 
