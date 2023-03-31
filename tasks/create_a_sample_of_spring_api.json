@@ -1,1 +1,10 @@
-{}
+{
+  "instruction": "Use Spring + Java to create a api for ",
+  "instances": [
+    {
+      "input": "/blog/{id}",
+      "output": "Sure! Here's an example of how you could use Spring and Java to create an API endpoint for /blog/{id}: First, you would need to create a class to represent a blog post. Here's an example: public class BlogPost {\n    private Long id;\n    private String title;\n    private String content;\n\n    // Constructors, getters, and setters\n}\n Next, you would need to create a controller class to handle HTTP requests. Here's an example: @RestController\n@RequestMapping(\"/blog\")\npublic class BlogController {\n    private final Map<Long, BlogPost> blogPosts = new HashMap<>();\n\n    @GetMapping(\"/{id}\")\n    public BlogPost getBlogPost(@PathVariable Long id) {\n        // Check if the blog post exists\n        BlogPost blogPost = blogPosts.get(id);\n        if (blogPost == null) {\n            throw new ResourceNotFoundException();\n        }\n\n        return blogPost;\n    }\n\n    @PostMapping\n    public BlogPost createBlogPost(@RequestBody BlogPost blogPost) {\n        // Generate a new ID for the blog post\n        Long id = blogPosts.size() + 1L;\n        blogPost.setId(id);\n\n        // Save the blog post\n        blogPosts.put(id, blogPost);\n\n        return blogPost;\n    }\n}\n"
+    }
+  ],
+  "is_classification": false
+}

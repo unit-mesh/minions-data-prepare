@@ -1,0 +1,10 @@
+{
+  "instruction": "Use given-when-then and AC1,AC2,AC3... to Create use story for",
+    "instances": [
+    {
+      "input": "User browser books scene",
+      "output": "Here's an example of a user story using the given-when-then format and AC1, AC2, AC3, etc.: Given a user who wants to browse books by genre\nWhen the user selects a genre from the list of available genres\nThen the user should be able to view a list of books filtered by the selected genre\n\nAC1: The list of available genres should include at least five popular genres.\nAC2: The book list should display the book cover image, title, author, and price.\nAC3: The book list should be sorted by popularity (number of sales) by default.\nAC4: The user should be able to filter the book list by price range and rating.\nAC5: The user should be able to view the details of a book, including a description, reviews, and related books.\nAC6: The user should be able to add a book to their cart or wish list from the book details page.\nAC7: The user should be able to navigate back to the genre selection screen at any time.\n"
+    }
+  ],
+  "is_classification": false
+}

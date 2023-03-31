@@ -1,0 +1,10 @@
+{
+  "instruction": "Use PlantUML to design all Data Structure for",
+  "instances": [
+    {
+      "input": " Animation and Comics - Payment",
+      "output": "Sure! Here's an example of how the data structures for Animation and Comics - Payment could be designed using PlantUML: @startuml\nclass User {\n  -username: string\n  -password: string\n  -email: string\n  -paymentInfo: Payment\n}\n\nclass Payment {\n  -paymentType: string\n  -paymentDate: date\n  -amount: decimal\n}\n\nUser --> Payment\n@enduml\n"
+    }
+  ],
+  "is_classification": false
+}

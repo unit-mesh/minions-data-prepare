@@ -1,1 +1,10 @@
-{}
+{
+  "instruction": "Use graphviz format to draw C4 architecture's Container level for",
+    "instances": [
+    {
+      "input": "Womens Health",
+      "output": "Here is an example code snippet: digraph {\n  node [shape=box, style=rounded];\n  \n  // Containers\n  webapp [label=\"Web Application\"];\n  api [label=\"API Service\"];\n  db [label=\"Database\"];\n  \n  // Relationships\n  webapp -> api [label=\"Uses\"];\n  api -> db [label=\"Stores Data\"];\n}\n This code will produce a diagram with three containers: Web Application, API Service, and Database. The Web Application uses the API Service, and the API Service stores data in the Database.\n\nYou can customize this code to fit the specific containers and relationships in the Women's Health C4 architecture."
+    }
+  ],
+  "is_classification": false
+}

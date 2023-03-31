@@ -1,3 +1,10 @@
 {
-
+  "instruction": "According follow APIs to create use stories for a Online MovieTicket website. ",
+  "instances": [
+    {
+      "input": "User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user",
+      "output": "As an AI language model, I can provide you with a use case scenario for the given APIs as follows:\n\nUse Case Scenario: Online Movie Ticket Booking System\n\nActor: User\n\nPreconditions: The user has access to the internet and the Online Movie Ticket Booking System.\n\nFlow of Events:\n\n    The user opens the Online Movie Ticket Booking System and clicks on the \"Register\" button.\n    The system presents a registration form to the user.\n    The user fills in their personal information such as name, email, phone number, and password in the registration form.\n    The user submits the registration form by clicking on the \"Create User\" button.\n    The system creates a new user account using the provided information and returns a success message to the user.\n    The user logs in to their account by clicking on the \"Login\" button.\n    The system presents a login form to the user.\n    The user enters their email and password in the login form and clicks on the \"Login\" button.\n    The system verifies the user's credentials and returns a success message along with a unique authentication token to the user.\n    The user selects a movie and a preferred showtime from the available options on the website.\n    The user selects the desired seats and adds them to their cart.\n    The user proceeds to the checkout page and confirms their booking by providing their payment information.\n    The system processes the payment and generates a confirmation page with the booking details.\n    The user receives a confirmation email and a text message with the booking details and a QR code for the ticket.\n    On the day of the show, the user presents the QR code at the theater entrance and enjoys the movie.\n\nPostconditions: The user has successfully booked and attended the movie show."
+    }
+  ],
+  "is_classification": false
 }
