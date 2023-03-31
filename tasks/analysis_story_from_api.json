@@ -1,0 +1,11 @@
+{
+  "name": "design_api_data_structure",
+  "instruction": "According follow APis to design user journal",
+  "instances": [
+    {
+      "input": "Animation and Comics",
+      "output": ""
+    }
+  ],
+  "is_classification": false
+}
