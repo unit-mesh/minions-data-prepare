@@ -1,10 +1,10 @@
 {
   "name": "suggest_spring_controller",
-  "instruction": "Suggest a completion for the following Java code.",
+  "instruction": "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.",
   "instances": [
     {
-      "input": "import json\n\ndef read_task_from_jsonl(data_file):\n    '''This function will read a .jsonl file and return the ``task`` fields in all the lines.'''",
-      "output": "import json\n\ndef read_task_from_jsonl(data_file):\n    '''This function will read a .jsonl file and return the ``task`` fields in all the lines.'''\n    with open(data_file) as fin:\n        return [json.loads(line)['task'] for line in fin]"
+      "input": "@RestController\n@RequestMapping(\"/users\")\npublic class UserController {\n    @Autowired\n    private UserApplicationService applicationService;\n\n    @Autowired\n    private AuthorizeService authorizeService;\n\n    @PutMapping(\"/me\")\n    public UpdateUserCase.Response update(@RequestBody @Valid UpdateUserCase.Request request) {\n       // TODO: verify user, if not exist, throw exception, if exist, update user\n    }\n}",
+      "output": "Here's an example of how you can complete the code with the given TODO: @RestController\n@RequestMapping(\"/users\")\npublic class UserController {\n    @Autowired\n    private UserApplicationService applicationService;\n\n    @Autowired\n    private AuthorizeService authorizeService;\n\n    @PutMapping(\"/me\")\n    public UpdateUserCase.Response update(@RequestBody @Valid UpdateUserCase.Request request) {\n        Operator operator = authorizeService.verifyUser(request.getUsername());\n        return applicationService.updateUser(request, operator);\n    }\n}"
     }
   ],
   "is_classification": false
