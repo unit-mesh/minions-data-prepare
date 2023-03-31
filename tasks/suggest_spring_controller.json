@@ -1,0 +1,11 @@
+{
+  "name": "suggest_spring_controller",
+  "instruction": "Suggest a completion for the following Java code.",
+  "instances": [
+    {
+      "input": "import json\n\ndef read_task_from_jsonl(data_file):\n    '''This function will read a .jsonl file and return the ``task`` fields in all the lines.'''",
+      "output": "import json\n\ndef read_task_from_jsonl(data_file):\n    '''This function will read a .jsonl file and return the ``task`` fields in all the lines.'''\n    with open(data_file) as fin:\n        return [json.loads(line)['task'] for line in fin]"
+    }
+  ],
+  "is_classification": false
+}
