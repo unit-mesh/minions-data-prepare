@@ -1,0 +1,1136 @@
+[
+    {
+        "instruction": "Generate a list of 5 topics about \"Food\"",
+        "input": "",
+        "output": "Here are 5 topics about Food: \n\n1. The health benefits of a balanced diet \n2. Global cuisines and the unique cultural influences behind them \n3. The history of famous dishes \n4. Plant-based diets and the impact on the environment \n5. New food trends and the science behind them.",
+        "most_similar_instructions": {
+            "Use Spring + Java to create a api for ": 0.125,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1,
+            "I working on design software system, could you design a user journal for": 0.09523809523809525,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.07999999999999999,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.06451612903225806,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0
+        },
+        "avg_similarity_score": 0.04225038402457757
+    },
+    {
+        "instruction": "Summarize the following passage",
+        "input": "Talking to health workers and community elders, we gained valuable insights into the main challenges. Barriers to treatment include limited access to healthcare facilities, including a lack of health centres, and funds that could be used to employ more health workers. In some rural areas, genetic inbreeding is making communities more vulnerable to rare diseases.",
+        "output": "This passage talks about the challenges facing healthcare in some remote areas. Some of the challenges include limited access to healthcare facilities, a lack of funds for hiring health workers, and heightened vulnerability to rare diseases due to genetic inbreeding.",
+        "most_similar_instructions": {
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.09523809523809523,
+            "Generate a list of 5 topics about \"Food\"": 0.0,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0
+        },
+        "avg_similarity_score": 0.007936507936507936
+    },
+    {
+        "instruction": "Translate the following sentence to Spanish",
+        "input": "I love reading books",
+        "output": "Me encanta leer libros.",
+        "most_similar_instructions": {
+            "Summarize the following passage": 0.4,
+            "Use UML to design all Data Structure for": 0.14285714285714288,
+            "Use PlantUML to design all Data Structure for": 0.14285714285714288,
+            "Use Spring + Java to create a api for ": 0.14285714285714288,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.11764705882352942,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1111111111111111,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.10526315789473684,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.08695652173913045,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.06896551724137931,
+            "Generate a list of 5 topics about \"Food\"": 0.0
+        },
+        "avg_similarity_score": 0.101424215029332
+    },
+    {
+        "instruction": "Identify the type of the following sentence",
+        "input": "This is a good movie",
+        "output": "The type of this sentence is an opinion statement. It expresses the speaker's opinion that \"This is a good movie\".",
+        "most_similar_instructions": {
+            "Translate the following sentence to Spanish": 0.4615384615384615,
+            "Summarize the following passage": 0.36363636363636365,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.16666666666666666,
+            "Generate a list of 5 topics about \"Food\"": 0.13333333333333333,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0
+        },
+        "avg_similarity_score": 0.08036963036963037
+    },
+    {
+        "instruction": "Generate 5 positive affirmations",
+        "input": "",
+        "output": "Here are 5 positive affirmations: \n\n1. I am capable and strong. \n2. I can cope with any challenge I have to face. \n3. I believe in myself and in my ability to make decisions. \n4. I am choosing to be the best version of myself. \n5. I am worthy of love, respect, and joy.",
+        "most_similar_instructions": {
+            "Generate a list of 5 topics about \"Food\"": 0.3333333333333333,
+            "Identify the type of the following sentence": 0.0,
+            "Translate the following sentence to Spanish": 0.0,
+            "Summarize the following passage": 0.0,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0
+        },
+        "avg_similarity_score": 0.02222222222222222
+    },
+    {
+        "instruction": "Find the rhyme scheme",
+        "input": "A summer breeze, the birds so please",
+        "output": "The rhyme scheme of this sentence is AA. This means that the first two lines both end with the same word, \"please\".",
+        "most_similar_instructions": {
+            "Summarize the following passage": 0.25,
+            "Translate the following sentence to Spanish": 0.2,
+            "Identify the type of the following sentence": 0.18181818181818182,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.09523809523809523,
+            "Generate 5 positive affirmations": 0.0,
+            "Generate a list of 5 topics about \"Food\"": 0.0,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0
+        },
+        "avg_similarity_score": 0.04544101731601732
+    },
+    {
+        "instruction": "Create an algorithm that plays tic-tac-toe",
+        "input": "",
+        "output": "Here's an example of an algorithm for playing tic-tac-toe.\n\n1. Set up the board by initializing a 2D array of size 3x3, where each cell is either empty (represented by 0), or has a piece (represented by X or O).\n2. Ask the player to make a move. The move must be valid (ie: within the boundaries of the board and an empty position).\n3. Check if the move wins the game. If it does, the game is over.\n4. If the move does not win the game, the AI will make a move. First, it will check if there are winning opportunities for itself, and if so, it will make the winning move. Otherwise, it will try to block the player's winning opportunities. If there are no winning opportunities, it will pick a random valid move.\n5. Go to Step 2 and continue playing until the game is over.",
+        "most_similar_instructions": {
+            "Use Spring + Java to create a api for ": 0.125,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.09523809523809525,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.06451612903225806,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "Find the rhyme scheme": 0.0,
+            "Generate 5 positive affirmations": 0.0
+        },
+        "avg_similarity_score": 0.022632601427667844
+    },
+    {
+        "instruction": "Design a system for Professional Networking",
+        "input": "",
+        "output": "Here's a possible design for a Professional Networking system: \n\n- Allow users to create profiles that include their work experience, skills, interests, and contact information. \n- Connect users with others in their industry, based on their skills and interests. \n- Allow users to customize their profile page and use it as a virtual portfolio. \n- Enable users to search for job postings and apply directly from their profile page. \n- Utilize features such as direct messaging to facilitate communication between users. \n- Allow users to create and join groups based on their job field, location, or other criteria. \n- Provide users with the ability to post updates, articles, and resources. \n- Integrate with external platforms such as LinkedIn, Twitter, and Facebook. \n\nThis design is just a starting point, and it can be further customized based on the specific needs and requirements of the system.",
+        "most_similar_instructions": {
+            "I working on design software system, could you design a user journal for": 0.3157894736842105,
+            "Use UML to design all Data Structure for": 0.28571428571428575,
+            "Use PlantUML to design all Data Structure for": 0.28571428571428575,
+            "Use Spring + Java to create a api for ": 0.28571428571428575,
+            "Write unit test for follow code": 0.16666666666666666,
+            "Write controller test for follow code": 0.16666666666666666,
+            "Generate a list of 5 topics about \"Food\"": 0.14285714285714288,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.13793103448275862,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.11764705882352942,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1111111111111111
+        },
+        "avg_similarity_score": 0.12266842728160057
+    },
+    {
+        "instruction": "Detect entities in following sentence",
+        "input": "I am going to visit New York",
+        "output": "The entities in this sentence are: \n- I (person) \n- New York (place)",
+        "most_similar_instructions": {
+            "Translate the following sentence to Spanish": 0.3636363636363636,
+            "Identify the type of the following sentence": 0.3333333333333333,
+            "Summarize the following passage": 0.22222222222222224,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.0909090909090909,
+            "Design a system for Professional Networking": 0.0,
+            "Use Spring + Java to create a api for ": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0
+        },
+        "avg_similarity_score": 0.05316321105794789
+    },
+    {
+        "instruction": "Fix the typo in following sentence",
+        "input": "He have a lot of money",
+        "output": "He has a lot of money.",
+        "most_similar_instructions": {
+            "Detect entities in following sentence": 0.5454545454545454,
+            "Translate the following sentence to Spanish": 0.5,
+            "Identify the type of the following sentence": 0.4615384615384615,
+            "Summarize the following passage": 0.4,
+            "Find the rhyme scheme": 0.2,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.1739130434782609,
+            "Use Spring + Java to create a api for ": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0
+        },
+        "avg_similarity_score": 0.1140453025235634
+    },
+    {
+        "instruction": "Analyze the following sentence",
+        "input": "I enjoyed the movie",
+        "output": "This sentence is expressing a positive opinion about the movie. The speaker is conveying that they enjoyed it.",
+        "most_similar_instructions": {
+            "Fix the typo in following sentence": 0.6,
+            "Translate the following sentence to Spanish": 0.6,
+            "Identify the type of the following sentence": 0.5454545454545454,
+            "Summarize the following passage": 0.5,
+            "Detect entities in following sentence": 0.4444444444444445,
+            "Find the rhyme scheme": 0.25,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.09523809523809523,
+            "Use Spring + Java to create a api for ": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0
+        },
+        "avg_similarity_score": 0.14453033738748028
+    },
+    {
+        "instruction": "Describe the major trade routes in Europe during the Late Middle Ages",
+        "input": "",
+        "output": "During the Late Middle Ages, Europe was linked by a series of trade routes. Major ones included the Hansa Trade Route connecting Germany, the Netherlands, and the Baltic Sea; the Saxon Trade Route connecting the Baltic Sea, Scandinavia and Britain; the Varangian Trade Route connecting Russia and Byzantium; and the Mediterranean Route connecting the Byzantine Empire, Italy, and the Islamic World. These routes allowed for the exchange of valuable goods such as spices, salt, timber, and furs. They also helped to spread culture, knowledge, and ideas across Europe and beyond.",
+        "most_similar_instructions": {
+            "Fix the typo in following sentence": 0.2222222222222222,
+            "Identify the type of the following sentence": 0.2105263157894737,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.20689655172413793,
+            "Analyze the following sentence": 0.125,
+            "Find the rhyme scheme": 0.125,
+            "Summarize the following passage": 0.125,
+            "Detect entities in following sentence": 0.11764705882352941,
+            "Translate the following sentence to Spanish": 0.1111111111111111,
+            "Use Spring + Java to create a api for ": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0
+        },
+        "avg_similarity_score": 0.056518329985021556
+    },
+    {
+        "instruction": "Find the main idea of following passage",
+        "input": "Digital marketing is the process of using digitalized techniques such as SEO and social media to target online audiences, promote products and services, and generate leads.",
+        "output": "The main idea of this passage is that digital marketing involves using digital techniques to reach online audiences, promote products and services, and generate leads.",
+        "most_similar_instructions": {
+            "Summarize the following passage": 0.5454545454545454,
+            "Identify the type of the following sentence": 0.42857142857142855,
+            "Analyze the following sentence": 0.36363636363636365,
+            "Find the rhyme scheme": 0.36363636363636365,
+            "Fix the typo in following sentence": 0.30769230769230765,
+            "Translate the following sentence to Spanish": 0.30769230769230765,
+            "Detect entities in following sentence": 0.16666666666666666,
+            "Generate a list of 5 topics about \"Food\"": 0.13333333333333333,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.10526315789473685,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.08333333333333333
+        },
+        "avg_similarity_score": 0.12196868730049505
+    },
+    {
+        "instruction": "Build an algorithm to identify the most suitable hotel",
+        "input": "a person who is looking for a hotel in Los Angels with a budget of $200 and no more than three stars",
+        "output": "Sure! Here is an algorithm that can be used to identify the most suitable hotel for a person given the given criteria.\n\nStep 1: Initialize a list for storing all the hotels in Los Angeles.\n\nStep 2: Iterate through each hotel in the list and check the star rating and price. If the star rating is equal to or less than 3 and the price is equal to or less than $200, add it to a list of suitable hotels.\n\nStep 3: For each hotel in the list of suitable hotels, calculate its \u201csuitability score\u201d. This score will be based on criteria such as the price, location, star rating, distance from attractions, reviews, and any other criteria that the user deems important.\n\nStep 4: Iterate through the list of suitable hotels and select the one with the highest suitability score as the most suitable hotel.\n\nStep 5: Output the most suitable hotel along with its other corresponding details.\n\nThis algorithm can be modified according to the user\u2019s specific needs and preferences. The suitability score can also be adjusted based on the importance given to each criteria.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.25,
+            "Create an algorithm that plays tic-tac-toe": 0.23529411764705882,
+            "Analyze the following sentence": 0.15384615384615383,
+            "Find the rhyme scheme": 0.15384615384615383,
+            "Summarize the following passage": 0.15384615384615383,
+            "Fix the typo in following sentence": 0.13333333333333333,
+            "Translate the following sentence to Spanish": 0.13333333333333333,
+            "Find the main idea of following passage": 0.125,
+            "Use UML to design all Data Structure for": 0.11764705882352941,
+            "Use Spring + Java to create a api for ": 0.11764705882352941
+        },
+        "avg_similarity_score": 0.09217703252629723
+    },
+    {
+        "instruction": "Come up with a solution to predict user emotions",
+        "input": "Tweets from verified Twitter accounts",
+        "output": "Sure! Here's one possible solution to predict user emotions using tweets from verified Twitter accounts. \n\nStep 1: Collect a large dataset of tweets from verified Twitter accounts.\n\nStep 2: Clean and preprocess the dataset. This will involve removing stop words, punctuation, special characters, etc.\n\nStep 3: Identify which words have a strong correlation with certain emotions. This can be done using statistical techniques such as sentiment analysis.\n\nStep 4: Train a machine learning model using the cleaned dataset. The model should be able to predict which emotion a tweet is likely to evoke.\n\nStep 5: Evaluate the model by testing it on a subset of the data.\n\nWith this solution, it is possible to accurately predict what emotion a tweet from a verified account is likely to evoke.",
+        "most_similar_instructions": {
+            "I working on design software system, could you design a user journal for": 0.18181818181818185,
+            "Translate the following sentence to Spanish": 0.13333333333333333,
+            "Design a system for Professional Networking": 0.13333333333333333,
+            "Use Spring + Java to create a api for ": 0.11764705882352941,
+            "Use PlantUML to design all Data Structure for": 0.11764705882352941,
+            "Use UML to design all Data Structure for": 0.11764705882352941,
+            "Generate a list of 5 topics about \"Food\"": 0.11764705882352941,
+            "Build an algorithm to identify the most suitable hotel": 0.1111111111111111,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.09999999999999999,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.09523809523809525
+        },
+        "avg_similarity_score": 0.05823017831841362
+    },
+    {
+        "instruction": "Develop a database for the following application",
+        "input": "An online music streaming application",
+        "output": "Sure! Here's a possible database design for an online music streaming application:\n\nTables:\n\nUsers: This table will store user information such as their usernames, email addresses, passwords, payment information, and subscription status.\n\nSongs: This table will store song information such as title, artist, length, album, genre, language, release date, and lyrics.\n\nArtists: This table will store artist information such as name, bios, and contact information.\n\nPlaylists: This table will store playlist information such as name, description, and genre.\n\nFollowers: This table will store which users follow which artists.\n\nActivity: This table will store which users are listening to which songs and playlists.\n\nTags: This table will store which tags are associated with which songs.\n\nThis database design can be modified or extended based on the specific needs and requirements of the application.",
+        "most_similar_instructions": {
+            "Summarize the following passage": 0.36363636363636365,
+            "Analyze the following sentence": 0.36363636363636365,
+            "Fix the typo in following sentence": 0.30769230769230765,
+            "Translate the following sentence to Spanish": 0.30769230769230765,
+            "Design a system for Professional Networking": 0.30769230769230765,
+            "Identify the type of the following sentence": 0.2857142857142857,
+            "Find the main idea of following passage": 0.2857142857142857,
+            "Use Spring + Java to create a api for ": 0.26666666666666666,
+            "I working on design software system, could you design a user journal for": 0.2,
+            "Find the rhyme scheme": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.1788304924944601
+    },
+    {
+        "instruction": "Create a smartphone app for",
+        "input": "a car rental service",
+        "output": "Sure! Here's a possible design for a smartphone app for a car rental service:\n \nHome: This page will contain car rental information such as current availability, pricing, types of cars available, and any special offers. \n\nSearch: Users can use this page to search for cars based on various criteria such as location, type, price, etc.\n\nBooking page: This page will allow users to book a car, including selecting the date and time of the rental and entering their payment information.\n\nProfile: Users can view their profile information, current and past bookings, and payment history. \n\nNotifications: The app will send notifications to users about new offers, special discounts, and upcoming rentals.\n\nCustomer service: Users can access a contact page with a form to contact customer service.\n\nThis design for the smartphone app can be further customized based on the specific needs and requirements of the car rental service.",
+        "most_similar_instructions": {
+            "Use Spring + Java to create a api for ": 0.4615384615384615,
+            "Design a system for Professional Networking": 0.3636363636363636,
+            "Develop a database for the following application": 0.3333333333333333,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.23529411764705882,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.2222222222222222,
+            "I working on design software system, could you design a user journal for": 0.2222222222222222,
+            "Write controller test for follow code": 0.1818181818181818,
+            "Write unit test for follow code": 0.1818181818181818,
+            "Generate a list of 5 topics about \"Food\"": 0.15384615384615385,
+            "Create an algorithm that plays tic-tac-toe": 0.15384615384615385
+        },
+        "avg_similarity_score": 0.12292189171274137
+    },
+    {
+        "instruction": "Suggest a title for",
+        "input": "A book about the lives of women teachers in the 1940s",
+        "output": "How about this title for the book about the lives of women teachers in the 1940s: \n\n\"A Women's Work: The Lives of 1940s Female Teachers\" \n\nOr you can add more words (e.g. \"Women's Struggles\") to the title to make it more descriptive and interesting.",
+        "most_similar_instructions": {
+            "Create a smartphone app for": 0.4444444444444445,
+            "Design a system for Professional Networking": 0.4,
+            "Develop a database for the following application": 0.36363636363636365,
+            "Use Spring + Java to create a api for ": 0.3333333333333333,
+            "I working on design software system, could you design a user journal for": 0.23529411764705882,
+            "Write controller test for follow code": 0.2,
+            "Write unit test for follow code": 0.2,
+            "Use PlantUML to design all Data Structure for": 0.16666666666666666,
+            "Use UML to design all Data Structure for": 0.16666666666666666,
+            "Generate a list of 5 topics about \"Food\"": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.12056596337058521
+    },
+    {
+        "instruction": "Design a logo for",
+        "input": "an online music streaming service",
+        "output": "Sure! Here is a possible design for a logo for an online music streaming service: \n\nThe logo will feature a loudspeaker with a music note inside it. The loudspeaker could be filled with a pseudo-3D texture that reflects light to give it a bright and glossy look. \nThe music note could be coloured in shades of purple and blue, to reflect the feel of a modern and youthful online music streaming service. \nAt the top of the logo, the name of the service can be written in modern and sleek fonts. The colours could be shades of black and white, to be more subtle and elegant. \n\nThis logo can be further customized according to the specific needs and requirements of the streaming service.",
+        "most_similar_instructions": {
+            "Design a system for Professional Networking": 0.6,
+            "Suggest a title for": 0.5,
+            "Create a smartphone app for": 0.4444444444444445,
+            "Develop a database for the following application": 0.36363636363636365,
+            "I working on design software system, could you design a user journal for": 0.3529411764705882,
+            "Use Spring + Java to create a api for ": 0.3333333333333333,
+            "Use PlantUML to design all Data Structure for": 0.3333333333333333,
+            "Use UML to design all Data Structure for": 0.3333333333333333,
+            "Write controller test for follow code": 0.2,
+            "Write unit test for follow code": 0.2
+        },
+        "avg_similarity_score": 0.1586517738140456
+    },
+    {
+        "instruction": "Generate an API endpoint for",
+        "input": "fetching brand information",
+        "output": "Sure! Here is an API endpoint that can be used to fetch brand information:\n\nAPI URL: GET /brands\n\nRequest Body:\n{\n    \"name\": \"Brand name\",\n  \t\"description\": \"Brand description\"\n}\n\nResponse Body:\n{\n    \"id\": 1,\n    \"name\": \"Brand name\", \n    \"description\": \"Brand description\",\n    \"logo_url\": \"URL of the brand's logo\"\n}\n\nThis API endpoint can be further modified or extended according to the specific needs of the application.",
+        "most_similar_instructions": {
+            "Use Spring + Java to create a api for ": 0.3076923076923077,
+            "Design a logo for": 0.22222222222222224,
+            "Generate 5 positive affirmations": 0.22222222222222224,
+            "Suggest a title for": 0.22222222222222224,
+            "Create a smartphone app for": 0.20000000000000004,
+            "Write controller test for follow code": 0.1818181818181818,
+            "Design a system for Professional Networking": 0.1818181818181818,
+            "Write unit test for follow code": 0.1818181818181818,
+            "Develop a database for the following application": 0.16666666666666666,
+            "Generate a list of 5 topics about \"Food\"": 0.15384615384615385
+        },
+        "avg_similarity_score": 0.10841494562082797
+    },
+    {
+        "instruction": "Develop an algorithm to",
+        "input": "identify spam emails",
+        "output": "Sure! Here is an algorithm that can be used to identify spam emails:\n\nStep 1: Compile a dataset of spam emails.\n\nStep 2: Analyze the dataset to identify unique features of spam emails. This may include words and phrases that are commonly used in spam emails, sudden changes in the language from previous emails, suspicious links or attachments, etc. \n\nStep 3: Train a machine learning model using the features generated in Step 2.\n\nStep 4: Evaluate the model using a test set.\n\nStep 5: Deploy the model in a production environment.\n\nThis algorithm can be further modified based on the specific needs and requirements. Additional features can also be added to improve the accuracy of the model.",
+        "most_similar_instructions": {
+            "Build an algorithm to identify the most suitable hotel": 0.46153846153846156,
+            "Create an algorithm that plays tic-tac-toe": 0.3333333333333333,
+            "Generate an API endpoint for": 0.22222222222222224,
+            "Translate the following sentence to Spanish": 0.2,
+            "Develop a database for the following application": 0.18181818181818182,
+            "Use Spring + Java to create a api for ": 0.16666666666666666,
+            "Use PlantUML to design all Data Structure for": 0.16666666666666666,
+            "Use UML to design all Data Structure for": 0.16666666666666666,
+            "Come up with a solution to predict user emotions": 0.15384615384615383,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.13333333333333333
+        },
+        "avg_similarity_score": 0.08073589738675127
+    },
+    {
+        "instruction": "Build a chatbot that can",
+        "input": "help customers book a vacation package",
+        "output": "Sure! Here's a design for a chatbot that can help customers book a vacation package: \n\nIntroduction: The chatbot will greet the user and introduce itself, ask the user to enter their name, and provide the user with information about the service, such as the types of packages that are available and the services that are included.\n\nSelection: The chatbot will ask the user to select the type of package they are interested in and then provide the user with further information about the selected package.\n\nBooking: The chatbot will ask the user to provide the details necessary to book the selected package, such as the dates, number of travelers, payment method, etc.\n\nConfirmation: The chatbot will provide the user with confirmation of their booking, as well as any additional information they may need such as payment receipts, terms and conditions, etc.\n\nThis design for the chatbot can be modified according to the specific needs and requirements of the service.",
+        "most_similar_instructions": {
+            "Design a logo for": 0.22222222222222224,
+            "Suggest a title for": 0.22222222222222224,
+            "Create a smartphone app for": 0.20000000000000004,
+            "Design a system for Professional Networking": 0.1818181818181818,
+            "Develop a database for the following application": 0.16666666666666666,
+            "Use Spring + Java to create a api for ": 0.15384615384615385,
+            "Generate a list of 5 topics about \"Food\"": 0.15384615384615385,
+            "Create an algorithm that plays tic-tac-toe": 0.15384615384615385,
+            "Come up with a solution to predict user emotions": 0.14285714285714285,
+            "Build an algorithm to identify the most suitable hotel": 0.14285714285714285
+        },
+        "avg_similarity_score": 0.06660243351419821
+    },
+    {
+        "instruction": "Explain what's Thread Pool?",
+        "input": "",
+        "output": "A thread pool is a collection of threads that can execute multiple tasks concurrently. It is a data structure that can be used to manage a set of threads in order to process multiple tasks simultaneously. It is also known as a pool of tasks or a worker pool. Thread pools are typically used to improve the performance and resource utilization of programs that are currently using a large amount of threads. They provide a convenient way to manage the execution of tasks and make it easier to identify and debug problems with multithreaded applications. Thread pools can also reduce the overhead of thread creation and destruction, enabling efficient resource usage and high throughput. In addition, they allow for the control of the number of threads executing at any given time, which reduces the complexity associated with the synchronization of concurrent tasks.",
+        "most_similar_instructions": {
+            "Use graphviz format to draw C4 architecture's Container level for": 0.12500000000000003,
+            "Build a chatbot that can": 0.0,
+            "Generate 5 positive affirmations": 0.0,
+            "Use Spring + Java to create a api for ": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.0,
+            "Use UML to design all Data Structure for": 0.0
+        },
+        "avg_similarity_score": 0.003787878787878789
+    },
+    {
+        "instruction": "Findbugs in follow code",
+        "input": "@PostMapping(\"/users/permit\")\n    public Mono<Token> permitOtp(@RequestBody OtpVerification request) {\n        return userService.verifyOtpForRegistration(request);\n    }",
+        "output": "Sure, here are some common potential bugs that FindBugs may detect in the permitOtp method:\n\n1. The request object is not validated, which may lead to errors if it contains invalid data.\n2. The userService object may be null, causing a NullPointerException to be thrown.\n3. The returned Mono<Token> may not be subscribed to, leading to the task not being executed.\n4. The userService.verifyOtpForRegistration method might not have been implemented or have incorrect arguments, leading to a NoSuchMethodError.\n5. The @PostMapping annotation is missing the produces attribute, which may prevent the proper Content-Type header from being sent.\n6. The method is potentially vulnerable to a denial of service attack, as it is not checking the rate of requests.",
+        "most_similar_instructions": {
+            "Write controller test for follow code": 0.4,
+            "Write unit test for follow code": 0.4,
+            "Detect entities in following sentence": 0.22222222222222224,
+            "Fix the typo in following sentence": 0.2,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.19047619047619047,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.125,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.125,
+            "Summarize the following passage": 0.0,
+            "Generate a list of 5 topics about \"Food\"": 0.0,
+            "Use UML to design all Data Structure for": 0.0
+        },
+        "avg_similarity_score": 0.04890289449112978
+    },
+    {
+        "instruction": "Rewrite the follow code to use async",
+        "input": "public List<Integer> getData() {\n    List<Integer> result = new ArrayList<>();\n    for (int i = 0; i < 5; i++) {\n        result.add(callApi());\n    }\n    return result;\n}",
+        "output": "public CompletableFuture<List<Integer>> getData() {\n    List<CompletableFuture<Integer>> futures = new ArrayList<>();\n    for (int i = 0; i < 5; i++) {\n        CompletableFuture<Integer> future = CompletableFuture.supplyAsync(\n            () -> callApi());\n        futures.add(future);\n    }\n    return CompletableFuture.allOf(futures.toArray(new CompletableFuture<?>[futures.size()]))\n        .thenApply(v -> futures.stream().map(CompletableFuture::join).collect(Collectors.toList()));\n}",
+        "most_similar_instructions": {
+            "Findbugs in follow code": 0.36363636363636365,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.3157894736842105,
+            "Write controller test for follow code": 0.30769230769230765,
+            "Write unit test for follow code": 0.30769230769230765,
+            "Translate the following sentence to Spanish": 0.30769230769230765,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.2,
+            "Summarize the following passage": 0.18181818181818182,
+            "Develop an algorithm to": 0.18181818181818182,
+            "Find the rhyme scheme": 0.18181818181818182,
+            "Analyze the following sentence": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.12034001921219965
+    },
+    {
+        "instruction": "What's the difference between traditional coding and data driven coding?",
+        "input": "",
+        "output": "The main difference between traditional coding and data driven coding is the way in which the code is developed. Traditional coding relies heavily on hard-coding the logic and algorithms, while data driven coding mainly focuses on the use of data sets to form the logic and algorithms. \n\nTraditional coding is used when you have a specific idea in mind and you know exactly how to implement it. It is used when you have a fixed set of inputs and outputs with known relationships. It is less data-driven and more based on the programmer's knowledge and skill set.\n\nData driven coding uses data to drive the code and to make decisions. It works by feeding data into algorithms and synthesizing the data to achieve desired outcomes. This approach allows the programmer to quickly develop code that is flexible and can be quickly adapted to changing data sets. Data driven coding is often used in AI and machine learning applications.",
+        "most_similar_instructions": {
+            "Explain what's Thread Pool?": 0.25000000000000006,
+            "Find the rhyme scheme": 0.13333333333333333,
+            "Analyze the following sentence": 0.13333333333333333,
+            "Summarize the following passage": 0.13333333333333333,
+            "Translate the following sentence to Spanish": 0.11764705882352942,
+            "Fix the typo in following sentence": 0.11764705882352942,
+            "Develop a database for the following application": 0.1111111111111111,
+            "Identify the type of the following sentence": 0.1111111111111111,
+            "Find the main idea of following passage": 0.1111111111111111,
+            "Rewrite the follow code to use async": 0.1111111111111111
+        },
+        "avg_similarity_score": 0.05480256653586398
+    },
+    {
+        "instruction": "Given a list of numbers, recreate the following task:",
+        "input": "1 2 3 4 5",
+        "output": "Sure thing, here's how you can recreate the following task: \n\n1. Create a for loop to iterate over the list of numbers.\n2. Create a temporary variable and set it to 0.\n3. For each number in the list, add the current number to the temporary variable.\n4. After you have iterated over the entire list, print out the contents of the temporary variable. \n\nExample Code:\n\nList<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5);\nint temp = 0;\nfor (Integer number : numbers) {\n   temp += number;\n}\nSystem.out.println(temp);  // Outputs 15",
+        "most_similar_instructions": {
+            "Develop a database for the following application": 0.375,
+            "Identify the type of the following sentence": 0.375,
+            "Generate a list of 5 topics about \"Food\"": 0.35294117647058826,
+            "Summarize the following passage": 0.30769230769230765,
+            "Analyze the following sentence": 0.30769230769230765,
+            "Translate the following sentence to Spanish": 0.26666666666666666,
+            "Fix the typo in following sentence": 0.26666666666666666,
+            "Find the main idea of following passage": 0.25,
+            "Design a logo for": 0.15384615384615383,
+            "Suggest a title for": 0.15384615384615383
+        },
+        "avg_similarity_score": 0.12644897718427128
+    },
+    {
+        "instruction": "What's the best way to represent a save feature?",
+        "input": "",
+        "output": "The best way to represent a save feature is to use an action button that clearly indicates that it is used for saving data. This could be a \"Save\" button, or a graphical representation of a save such as a floppy disk or a save icon. When the user clicks on the button or icon, the data should be validated and saved to the database. This can be done using AJAX calls to the server, or by refreshing the page and saving the data. The feedback to the user should be immediate, such as displaying a status message or a notification, or updating the page with the data that has been saved.",
+        "most_similar_instructions": {
+            "What's the difference between traditional coding and data driven coding?": 0.28571428571428564,
+            "Explain what's Thread Pool?": 0.26666666666666666,
+            "Translate the following sentence to Spanish": 0.25,
+            "Rewrite the follow code to use async": 0.23529411764705882,
+            "Use Spring + Java to create a api for ": 0.22222222222222224,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1818181818181818,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.14814814814814817,
+            "Analyze the following sentence": 0.14285714285714288,
+            "Develop an algorithm to": 0.14285714285714288,
+            "Design a logo for": 0.14285714285714288
+        },
+        "avg_similarity_score": 0.11702656527241548
+    },
+    {
+        "instruction": "How can follow code be refactored?",
+        "input": "public List<String> getData(String query) {\n    List<String> results = new ArrayList<>();\n    for (int i = 0; i < 10; i++) {\n        if (query == \"test\") {\n            results.add(\"test\" + i);\n        } else {\n            results.add(\"other\" + i);\n        }\n    }\n    return results;\n}",
+        "output": "The code can be refactored to remove the duplication and make it more efficient. Here's how you can do it:\n\n1. Create a method to encapsulate the logic for adding data to the list. \n2. Replace the if-else statement with a ternary operator to check the query and call the new method. \n3. Use the Java 8 Stream API to create a stream of numbers from 0 to 9 and use the forEach method to call the new method. \n\nExample Code:\n\npublic List<String> getData(String query) {\n    List<String> results = new ArrayList<>();\n    // Create the method \n    void add(String str) {\n        results.add(str);\n    }\n    // Replace the if-else statement\n    String s = query == \"test\" ? \"test\" : \"other\";\n\n    // Stream API \n    IntStream.range(0, 10).forEach(i -> add(s + i));\n    return results;\n}",
+        "most_similar_instructions": {
+            "Findbugs in follow code": 0.4,
+            "Write controller test for follow code": 0.3333333333333333,
+            "Write unit test for follow code": 0.3333333333333333,
+            "Rewrite the follow code to use async": 0.30769230769230765,
+            "Build a chatbot that can": 0.1818181818181818,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1111111111111111,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.08695652173913045,
+            "Generate 5 positive affirmations": 0.0,
+            "Identify the type of the following sentence": 0.0,
+            "Translate the following sentence to Spanish": 0.0
+        },
+        "avg_similarity_score": 0.044980635616087124
+    },
+    {
+        "instruction": "Create a job for the new designer",
+        "input": "Job Title: Junior Graphic Designer\nLocation: Munich, Germany",
+        "output": "Sure thing, here's an example of a job description for the Junior Graphic Designer position in Munich, Germany:\n\nWe are looking for a Junior Graphic Designer to join our team in Munich, Germany. The ideal candidate should have a keen eye for detail and a strong understanding of visual design principles. The purpose of this role is to create high-quality graphics for our products, campaigns, websites, presentations, and print materials.\n\nResponsibilities:\n- Working closely with the marketing team to design visual assets for projects\n- Illustrate various content to visualize concepts\n- Review and improve existing designs\n- Develop creative ideas aligned to brand guidelines\n- Brainstorm concepts, develop storyboards, and create mockups\n- Ensure accuracy and consistency when executing designs\n\nRequirements:\n- Bachelor's degree in graphic design or a related field\n- Knowledge of Adobe Creative Suite (InDesign, Photoshop, Illustrator)\n- Excellent communication skills, both written and verbal\n- Ability to work under tight deadlines\n- Strong attention to detail",
+        "most_similar_instructions": {
+            "Create a smartphone app for": 0.5,
+            "Develop a database for the following application": 0.42857142857142855,
+            "Use Spring + Java to create a api for ": 0.39999999999999997,
+            "Design a logo for": 0.36363636363636365,
+            "Suggest a title for": 0.36363636363636365,
+            "Design a system for Professional Networking": 0.30769230769230765,
+            "Given a list of numbers, recreate the following task:": 0.25,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.2105263157894737,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.2,
+            "I working on design software system, could you design a user journal for": 0.2
+        },
+        "avg_similarity_score": 0.16688181185859202
+    },
+    {
+        "instruction": "How to delete follow element with vanilla JavaScript",
+        "input": "<h1>Hello World</h1>",
+        "output": "Sure, here's how you can delete this element using vanilla JavaScript: \n\n// Get the element \nlet elem = document.querySelector('h1');\n// Delete the element\nelem.parentNode.removeChild(elem);",
+        "most_similar_instructions": {
+            "How can follow code be refactored?": 0.28571428571428575,
+            "Findbugs in follow code": 0.16666666666666666,
+            "Develop an algorithm to": 0.16666666666666666,
+            "Translate the following sentence to Spanish": 0.14285714285714288,
+            "Write unit test for follow code": 0.14285714285714288,
+            "Write controller test for follow code": 0.14285714285714288,
+            "Rewrite the follow code to use async": 0.13333333333333333,
+            "Use Spring + Java to create a api for ": 0.125,
+            "Use PlantUML to design all Data Structure for": 0.125,
+            "Use UML to design all Data Structure for": 0.125
+        },
+        "avg_similarity_score": 0.05725304858233271
+    },
+    {
+        "instruction": "How to persist data using redux",
+        "input": "",
+        "output": "To persist data with Redux, you can use a persisted Redux store. This means that the store's state is persisted to a storage medium (such as localStorage, sessionStorage, or IndexedDB) so that it can be retrieved later. You can configure the persisted Redux store to either save the entire state or only specific parts of it. You can also configure the store to perform automatic data persistence when the store's state is updated. \n\nAdditionally, you can use middleware to further extend the persisted Redux store's capabilities. For example, you can use middleware to respond to certain actions and store the state accordingly.",
+        "most_similar_instructions": {
+            "How to delete follow element with vanilla JavaScript": 0.28571428571428575,
+            "Use PlantUML to design all Data Structure for": 0.28571428571428575,
+            "Use UML to design all Data Structure for": 0.28571428571428575,
+            "Develop an algorithm to": 0.2,
+            "How can follow code be refactored?": 0.16666666666666666,
+            "Translate the following sentence to Spanish": 0.16666666666666666,
+            "Rewrite the follow code to use async": 0.15384615384615383,
+            "Use Spring + Java to create a api for ": 0.14285714285714288,
+            "Come up with a solution to predict user emotions": 0.13333333333333333,
+            "Build an algorithm to identify the most suitable hotel": 0.13333333333333333
+        },
+        "avg_similarity_score": 0.06396277570189454
+    },
+    {
+        "instruction": "Rewrite follow function to arrow function",
+        "input": "function add(a, b) {\n    return a + b;\n}",
+        "output": "Sure, here's how you can rewrite this function as an arrow function: \n\nconst add = (a, b) => a + b;",
+        "most_similar_instructions": {
+            "Rewrite the follow code to use async": 0.4615384615384615,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.2222222222222222,
+            "Develop an algorithm to": 0.2,
+            "Findbugs in follow code": 0.2,
+            "Write controller test for follow code": 0.16666666666666666,
+            "Write unit test for follow code": 0.16666666666666666,
+            "Translate the following sentence to Spanish": 0.16666666666666666,
+            "How to persist data using redux": 0.16666666666666666,
+            "How can follow code be refactored?": 0.16666666666666666,
+            "How to delete follow element with vanilla JavaScript": 0.14285714285714288
+        },
+        "avg_similarity_score": 0.07376895323602094
+    },
+    {
+        "instruction": "Name a real-world application that uses blockchains",
+        "input": "",
+        "output": "One real-world application that uses blockchains is cryptocurrency transactions. Cryptocurrencies such as Bitcoin, Ethereum, and Litecoin use blockchains to record and validate transactions. This provides users with a secure and immutable record of their transactions and helps to protect against fraud and counterfeiting. \n\nAnother real-world application that uses blockchain technology is supply chain management. Companies such as Walmart and IBM are using blockchains to track and manage their supply chains, allowing for better transparency and accuracy across their entire supply chain.",
+        "most_similar_instructions": {
+            "Build a chatbot that can": 0.3076923076923077,
+            "Develop a database for the following application": 0.26666666666666666,
+            "Design a logo for": 0.16666666666666666,
+            "Suggest a title for": 0.16666666666666666,
+            "Create a smartphone app for": 0.15384615384615385,
+            "Design a system for Professional Networking": 0.14285714285714288,
+            "Create a job for the new designer": 0.13333333333333333,
+            "Create an algorithm that plays tic-tac-toe": 0.125,
+            "Use Spring + Java to create a api for ": 0.125,
+            "Generate a list of 5 topics about \"Food\"": 0.125
+        },
+        "avg_similarity_score": 0.0545201906990332
+    },
+    {
+        "instruction": "Generate a query to get the monthly sales data",
+        "input": "MySQL database",
+        "output": "Here is an example query for getting monthly sales data from a MySQL database:\nSELECT DATE_FORMAT(sales_date, '%Y-%m') AS 'month', COUNT(id) AS 'num_sales', SUM(amount) AS 'total_sales'\nFROM sales\nGROUP BY DATE_FORMAT(sales_date, '%Y-%m')\nORDER BY DATE_FORMAT(sales_date, '%Y-%m') DESC;",
+        "most_similar_instructions": {
+            "How to persist data using redux": 0.26666666666666666,
+            "Create a job for the new designer": 0.25,
+            "Develop a database for the following application": 0.25,
+            "Generate a list of 5 topics about \"Food\"": 0.23529411764705882,
+            "Use UML to design all Data Structure for": 0.23529411764705882,
+            "Use PlantUML to design all Data Structure for": 0.23529411764705882,
+            "Given a list of numbers, recreate the following task:": 0.2222222222222222,
+            "Build an algorithm to identify the most suitable hotel": 0.2222222222222222,
+            "Come up with a solution to predict user emotions": 0.2222222222222222,
+            "What's the difference between traditional coding and data driven coding?": 0.19999999999999998
+        },
+        "avg_similarity_score": 0.1311086307912933
+    },
+    {
+        "instruction": "Describe an example data visualization",
+        "input": "A bar chart showing budget vs. actual cost",
+        "output": "This visualization is an example of a bar chart showing a comparison of budget to actual cost. The x-axis displays the various budget categories while the y-axis shows the corresponding cost of each budget category. The visualization is presented as a series of bars; one bar per budget category. The bars are colored blue to show the budget cost and red to show the actual cost. There is a legend to the right of the chart to provide clarity to the color coding. The visualization also has a gridline and labels for each bar to ensure precision. This visualization is useful for comparing the budget to actual costs to identify discrepancies or unexpected variations in spending. It also provides insight into how much of the budget was allocated to each category, highlighting where funds were concentrated. It offers users a comprehensive overview of budget and actual spending in an easy to understand visual format.",
+        "most_similar_instructions": {
+            "Develop an algorithm to": 0.22222222222222224,
+            "Generate an API endpoint for": 0.20000000000000004,
+            "How to persist data using redux": 0.1818181818181818,
+            "Use PlantUML to design all Data Structure for": 0.15384615384615385,
+            "Use UML to design all Data Structure for": 0.15384615384615385,
+            "Create an algorithm that plays tic-tac-toe": 0.15384615384615385,
+            "Generate a query to get the monthly sales data": 0.14285714285714285,
+            "Build an algorithm to identify the most suitable hotel": 0.14285714285714285,
+            "What's the difference between traditional coding and data driven coding?": 0.12500000000000003,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.11764705882352941
+        },
+        "avg_similarity_score": 0.03465087413297132
+    },
+    {
+        "instruction": "Identify the Named Entity Recognition (NER) tags for the following sentence",
+        "input": "He won the Nobel Prize for Literature",
+        "output": "The Named Entity Recognition (NER) tags for the sentence \"He won the Nobel Prize of Literature\" would be \"He\" (Person), \"Nobel Prize\" (Organization), and \"Literature\" (Object).",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.5555555555555556,
+            "Analyze the following sentence": 0.39999999999999997,
+            "Translate the following sentence to Spanish": 0.3529411764705882,
+            "Fix the typo in following sentence": 0.3529411764705882,
+            "Develop a database for the following application": 0.33333333333333326,
+            "Summarize the following passage": 0.26666666666666666,
+            "Detect entities in following sentence": 0.25000000000000006,
+            "Find the main idea of following passage": 0.2222222222222222,
+            "Create a job for the new designer": 0.2222222222222222,
+            "Given a list of numbers, recreate the following task:": 0.19999999999999998
+        },
+        "avg_similarity_score": 0.12323398500885806
+    },
+    {
+        "instruction": "Generate a menu bar structure",
+        "input": "website for online store",
+        "output": "Here's an example of a menu bar structure for an online store website: \nHome\nShop\n  Women\n  Men\n  Kids\n  Promotions\nServices\nFAQ\nContact",
+        "most_similar_instructions": {
+            "Generate a list of 5 topics about \"Food\"": 0.3076923076923077,
+            "Generate a query to get the monthly sales data": 0.2857142857142857,
+            "Generate 5 positive affirmations": 0.22222222222222224,
+            "Suggest a title for": 0.22222222222222224,
+            "Design a logo for": 0.22222222222222224,
+            "Build a chatbot that can": 0.20000000000000004,
+            "Generate an API endpoint for": 0.20000000000000004,
+            "Create a smartphone app for": 0.20000000000000004,
+            "Design a system for Professional Networking": 0.1818181818181818,
+            "Create a job for the new designer": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.07918235087352736
+    },
+    {
+        "instruction": "Classify the window type",
+        "input": "Casement window",
+        "output": "The type of window represented by the phrase \"casement window\" is classified as a casement window. Casement windows are hinged on one side and open outward and often have a single pane of glass. They use a crank mechanism to open and close the window. Casement windows are typically more airtight than other window types, making them energy efficient and a popular choice for modern homes.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.36363636363636365,
+            "Find the rhyme scheme": 0.25,
+            "Analyze the following sentence": 0.25,
+            "Summarize the following passage": 0.25,
+            "Fix the typo in following sentence": 0.2,
+            "Translate the following sentence to Spanish": 0.2,
+            "Find the main idea of following passage": 0.18181818181818182,
+            "Develop a database for the following application": 0.18181818181818182,
+            "Create a job for the new designer": 0.18181818181818182,
+            "Rewrite the follow code to use async": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.0680042746369277
+    },
+    {
+        "instruction": "Describe the impact of climate change",
+        "input": "",
+        "output": "Climate change has a wide range of impacts on the environment and human life. It can lead to an increase in temperatures, causing droughts, extreme weather events and sea level rise. It can also cause changes to ecosystems, such as the loss of biodiversity and increased spread of pests and pathogens. Furthermore, climate change can lead to a decline in food production due to changing growing season lengths and increased heat stress. Additionally, increased temperatures can lead to increased air pollution levels, which has a negative impact on human health. Finally, climate change has the potential to displace large numbers of people due to rising sea levels, drought and extreme weather. All these factors combined lead to an array of negative impacts on both the environment and human life.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.30769230769230765,
+            "Find the main idea of following passage": 0.30769230769230765,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.2222222222222222,
+            "Classify the window type": 0.2,
+            "Summarize the following passage": 0.2,
+            "Find the rhyme scheme": 0.2,
+            "Analyze the following sentence": 0.2,
+            "Describe an example data visualization": 0.1818181818181818,
+            "Translate the following sentence to Spanish": 0.16666666666666666,
+            "Fix the typo in following sentence": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.07208809193080294
+    },
+    {
+        "instruction": "Modify the following code to fix the bug",
+        "input": "if (orderAmount > 100):\ndiscountAmount = 0.10;\nelse:\ndiscountAmount = 0.05;",
+        "output": "Here's a modified version of the code snippet that fixes the bug: if (orderAmount > 100):\n    discountAmount = 0.10;\nelif (orderAmount <= 100) and (orderAmount >= 50):\n    discountAmount = 0.05;\nelse:\n    discountAmount = 0;",
+        "most_similar_instructions": {
+            "Translate the following sentence to Spanish": 0.42857142857142855,
+            "Rewrite the follow code to use async": 0.39999999999999997,
+            "Summarize the following passage": 0.3333333333333333,
+            "Analyze the following sentence": 0.3333333333333333,
+            "Fix the typo in following sentence": 0.28571428571428575,
+            "Find the main idea of following passage": 0.26666666666666666,
+            "Develop a database for the following application": 0.26666666666666666,
+            "Identify the type of the following sentence": 0.26666666666666666,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.24,
+            "Generate a query to get the monthly sales data": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.13840195846622785
+    },
+    {
+        "instruction": "Generate a list of 5-10 keywords",
+        "input": "online shopping",
+        "output": "Here's a list of 5-10 keywords related to online shopping: \n1. Shopping\n2. Online Shopping \n3. eCommerce \n4. Online Store \n5. Retail\n6. Buy \n7. Shopping Cart \n8. Deals \n9. Payment \n10. Delivery",
+        "most_similar_instructions": {
+            "Generate a list of 5 topics about \"Food\"": 0.6666666666666666,
+            "Given a list of numbers, recreate the following task:": 0.375,
+            "Generate 5 positive affirmations": 0.36363636363636365,
+            "Generate a menu bar structure": 0.3333333333333333,
+            "Generate a query to get the monthly sales data": 0.25,
+            "Design a logo for": 0.18181818181818182,
+            "Suggest a title for": 0.18181818181818182,
+            "Build a chatbot that can": 0.16666666666666666,
+            "Create a smartphone app for": 0.16666666666666666,
+            "Generate an API endpoint for": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.08838404788035652
+    },
+    {
+        "instruction": "Generate a program to find the greatest common divisor",
+        "input": "two input numbers",
+        "output": "Here's an example program written in Python to find the greatest common divisor of two input numbers: \n\ndef greatest_common_divisor(a, b):\n    if b == 0:\n        return a\n    else:\n        return greatest_common_divisor(b, a % b)\n\n# two input numbers\na = 54\nb = 24\n\n# find the greatest common divisor\ngcd = greatest_common_divisor(a, b)\n\n# print the output\nprint(gcd)\n# Output: 6",
+        "most_similar_instructions": {
+            "Generate a query to get the monthly sales data": 0.4444444444444444,
+            "Find the rhyme scheme": 0.30769230769230765,
+            "Generate a menu bar structure": 0.2857142857142857,
+            "Generate a list of 5-10 keywords": 0.25,
+            "Find the main idea of following passage": 0.25,
+            "Create a job for the new designer": 0.25,
+            "Develop a database for the following application": 0.25,
+            "Modify the following code to fix the bug": 0.23529411764705882,
+            "Generate a list of 5 topics about \"Food\"": 0.23529411764705882,
+            "Build an algorithm to identify the most suitable hotel": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.13797621553696676
+    },
+    {
+        "instruction": "Create an outline for a presentation",
+        "input": "The Impact of Technology on Education",
+        "output": "Here's an example outline for a presentation on The Impact of Technology on Education: \n\nI. Introduction\n   A. Definition of Technology \n   B. Overview of Educational Impact\nII. Positive Impacts of Technology on Education\n   A. Accessibility and Learning Opportunities \n   B. Increased Engagement and Improved Learning Outcomes\nIII. Negative Impacts of Technology on Education\n   A. Security and Privacy Issues \n   B. Distraction During Class \nIV. Conclusion \n   A. Overview of Benefits and Challenges \n   B. Takeaways",
+        "most_similar_instructions": {
+            "Create a smartphone app for": 0.3636363636363636,
+            "Generate an API endpoint for": 0.3636363636363636,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.3333333333333333,
+            "Create a job for the new designer": 0.30769230769230765,
+            "Create an algorithm that plays tic-tac-toe": 0.28571428571428575,
+            "Use Spring + Java to create a api for ": 0.28571428571428575,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.21052631578947367,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.20689655172413793,
+            "Suggest a title for": 0.2,
+            "Design a logo for": 0.2
+        },
+        "avg_similarity_score": 0.11297973510673277
+    },
+    {
+        "instruction": "Describe the features of a specific software",
+        "input": "Microsoft Office",
+        "output": "Microsoft Office is a suite of productivity software applications developed by Microsoft. This software includes Word, Excel, PowerPoint, Outlook and OneNote. The Microsoft Office suite offers users the ability to quickly and effectively complete their work. Word allows users to create and edit text documents, Excel enables users to calculate and analyze data, PowerPoint provides a platform for creating presentations, Outlook is for managing email, contacts and calendars, and OneNote offers users an efficient way to take notes and organize information. Microsoft Office uses automated features such as spell check, auto-correct and knowledge search to save users time and effort. It also supports a range of file formats which enable users to easily collaborate with others.",
+        "most_similar_instructions": {
+            "Describe the impact of climate change": 0.4615384615384615,
+            "Identify the type of the following sentence": 0.2857142857142857,
+            "Find the main idea of following passage": 0.2857142857142857,
+            "What's the best way to represent a save feature?": 0.23529411764705882,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.2105263157894737,
+            "Find the rhyme scheme": 0.18181818181818182,
+            "Suggest a title for": 0.18181818181818182,
+            "Analyze the following sentence": 0.18181818181818182,
+            "Design a logo for": 0.18181818181818182,
+            "Classify the window type": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.11349688104683885
+    },
+    {
+        "instruction": "Edit the following code to make it more efficient",
+        "input": "for i in range(1, 100):\n    if i % 2 == 0:\n        print(i)",
+        "output": "Here's an edited version of the code snippet that makes it more efficient:\nfor i in range(2, 100, 2):\n    print(i)",
+        "most_similar_instructions": {
+            "Modify the following code to fix the bug": 0.47058823529411764,
+            "Translate the following sentence to Spanish": 0.4,
+            "Rewrite the follow code to use async": 0.375,
+            "Analyze the following sentence": 0.30769230769230765,
+            "Summarize the following passage": 0.30769230769230765,
+            "Fix the typo in following sentence": 0.26666666666666666,
+            "Find the main idea of following passage": 0.25,
+            "Develop a database for the following application": 0.25,
+            "Identify the type of the following sentence": 0.25,
+            "Given a list of numbers, recreate the following task:": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.12377489158158662
+    },
+    {
+        "instruction": "Generate an algorithm to find all prime numbers",
+        "input": "",
+        "output": "Here is an algorithm for finding all prime numbers:\n\n// Step 1: Create an empty list to store prime numbers \nPrimeList = [];\n\n// Step 2: Iterate through all the numbers starting from 2 to the maximum number\nfor i = 2 to M do: \n  // Step 3: Set IsPrime as true\n  IsPrime = true;\n  \n  // Step 4: Iterate through numbers from 2 to square root of i\n  for j = 2 to sqrt(i) do:\n    // Step 5: If i modulo j is 0, set IsPrime as false\n    if (i modulo j == 0) IsPrime = false;\n    \n  // Step 6: If IsPrime is true, add i to the PrimeList\n  if (IsPrime) PrimeList.add(i);\n  \n// Step 7: Return the PrimeList\nreturn PrimeList;",
+        "most_similar_instructions": {
+            "Develop an algorithm to": 0.5,
+            "Build an algorithm to identify the most suitable hotel": 0.35294117647058826,
+            "Generate a program to find the greatest common divisor": 0.35294117647058826,
+            "Generate an API endpoint for": 0.3076923076923077,
+            "Use UML to design all Data Structure for": 0.25,
+            "Create an algorithm that plays tic-tac-toe": 0.25,
+            "Use PlantUML to design all Data Structure for": 0.25,
+            "Generate a query to get the monthly sales data": 0.23529411764705882,
+            "Find the rhyme scheme": 0.16666666666666666,
+            "Generate 5 positive affirmations": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.09657734718445267
+    },
+    {
+        "instruction": "Design a data validation algorithm",
+        "input": "credit card information",
+        "output": "Here is an example algorithm for validating credit card information:\n\n// Step 1: Ask user to input their credit card information\ncreditCardNumber, expirationDate, cvvNumber = UserInput()\n\n// Step 2: Validate the credit card number\nIsValidCreditCardNumber = CreditCardNumberValidation(creditCardNumber) \n\n// Step 3: Validate the expiration date \nIsValidExpirationDate = ExpirationDateValidation(expirationDate)\n\n// Step 4: Validate the CVV number \nIsValidCvvNumber = CvvNumberValidation(cvvNumber) \n\n// Step 5: If all of the validations are true, return true; otherwise, return false\nif (IsValidCreditCardNumber && IsValidExpirationDate && IsValidCvvNumber) return true;\nelse return false;",
+        "most_similar_instructions": {
+            "Design a logo for": 0.4444444444444445,
+            "Design a system for Professional Networking": 0.3636363636363636,
+            "Use PlantUML to design all Data Structure for": 0.3076923076923077,
+            "Use UML to design all Data Structure for": 0.3076923076923077,
+            "Generate a query to get the monthly sales data": 0.2857142857142857,
+            "Suggest a title for": 0.22222222222222224,
+            "Develop an algorithm to": 0.22222222222222224,
+            "I working on design software system, could you design a user journal for": 0.2222222222222222,
+            "Generate a menu bar structure": 0.20000000000000004,
+            "Build a chatbot that can": 0.20000000000000004
+        },
+        "avg_similarity_score": 0.1061475064264111
+    },
+    {
+        "instruction": "Given a JSON input, write the code to parse the JSON",
+        "input": "{\"name\": \"John\", \"age\": 28, \"hobbies\": [\"writing\", \"reading\"]}",
+        "output": "Sure, here is an example of how to parse this JSON using Java:\n\nString jsonInput = \"{\\\"name\\\":\\\"John\\\",\\\"age\\\":28,\\\"hobbies\\\":[\\\"writing\\\",\\\"reading\\\"]}\";\n\nJSONObject jsonObject = new JSONObject(jsonInput);\n\nString name = jsonObject.getString(\"name\");\nint age = jsonObject.getInt(\"age\");\n\nJSONArray hobbiesArray = jsonObject.getJSONArray(\"hobbies\");\n\nList<String> hobbies = new ArrayList<String>();\nfor (int i = 0; i < hobbiesArray.length(); i++) {\n    hobbies.add(hobbiesArray.getString(i));\n}\n\nSystem.out.println(\"Name: \" + name);\nSystem.out.println(\"Age: \" + age);\nSystem.out.println(\"Hobbies: \" + hobbies);",
+        "most_similar_instructions": {
+            "Modify the following code to fix the bug": 0.4210526315789474,
+            "Rewrite the follow code to use async": 0.33333333333333326,
+            "Edit the following code to make it more efficient": 0.3,
+            "Generate a program to find the greatest common divisor": 0.3,
+            "Given a list of numbers, recreate the following task:": 0.3,
+            "Generate a query to get the monthly sales data": 0.3,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.2857142857142857,
+            "Write controller test for follow code": 0.23529411764705885,
+            "Write unit test for follow code": 0.23529411764705885,
+            "Translate the following sentence to Spanish": 0.23529411764705885
+        },
+        "avg_similarity_score": 0.14570892264413532
+    },
+    {
+        "instruction": "Generate 10 unique passwords containing 8 uppercase, lowercase, and numeric characters",
+        "input": "",
+        "output": "Sure, here are 10 unique passwords that you may use:\n\n1. Y5D7e3@z \n2. 8Ssrz9XV \n3. uAuV7Y4d \n4. 8MkRb6Tv \n5. 5QX3jq3y \n6. 4sGdW8gu \n7. skwaP9TY \n8. tXDy6f2e \n9. R5hE8f7f \n10. 8XDmZ6zf",
+        "most_similar_instructions": {
+            "Generate a list of 5-10 keywords": 0.2222222222222222,
+            "Generate 5 positive affirmations": 0.13333333333333333,
+            "Generate an API endpoint for": 0.12500000000000003,
+            "Generate a menu bar structure": 0.12500000000000003,
+            "Generate an algorithm to find all prime numbers": 0.10526315789473685,
+            "Generate a list of 5 topics about \"Food\"": 0.10526315789473685,
+            "Generate a program to find the greatest common divisor": 0.09999999999999999,
+            "Generate a query to get the monthly sales data": 0.09999999999999999,
+            "What's the difference between traditional coding and data driven coding?": 0.09090909090909091,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.08333333333333334
+        },
+        "avg_similarity_score": 0.019838738259790892
+    },
+    {
+        "instruction": "Analyze the following statement to determine if it is an effective argument",
+        "input": "The current climate conditions around the world are the result of an unnatural warming at an unprecedented pace.",
+        "output": "Yes, this statement is an effective argument. The statement is well-defined and asserts a clear position, making it convincing and therefore an effective argument. By focusing on the current climate conditions and the unnatural pace of warming, the statement identifies the problem and the causes of it. This is the basis of an effective argument.  However, in order for it to be truly effective, it needs to feature authoritative facts and data from reliable sources that back up the claims being made.  These facts and data can then be used to support the statement and provide evidence for its claims.  Without this, the argument cannot be considered to be fully effective.",
+        "most_similar_instructions": {
+            "Edit the following code to make it more efficient": 0.380952380952381,
+            "Analyze the following sentence": 0.375,
+            "Translate the following sentence to Spanish": 0.3333333333333333,
+            "Modify the following code to fix the bug": 0.3,
+            "Summarize the following passage": 0.25,
+            "Fix the typo in following sentence": 0.2222222222222222,
+            "Identify the type of the following sentence": 0.2105263157894737,
+            "Develop a database for the following application": 0.2105263157894737,
+            "Rewrite the follow code to use async": 0.2105263157894737,
+            "Find the main idea of following passage": 0.2105263157894737
+        },
+        "avg_similarity_score": 0.10384075510004552
+    },
+    {
+        "instruction": "Find the root of this equation",
+        "input": "x3 + 8x2 - 10x - 24",
+        "output": "Sure, the root of this equation is x = 2 as derived by the quadratic formula: x = (-b \u00b1 \u221a(b2 - 4ac))/2a. Here's the calculation: \n\nx = (-8 \u00b1 \u221a(82  - 4*1*(-24)))/(2*1) \nx = (-8 \u00b1 \u221a(64 + 96))/2 \nx = (-8 \u00b1 8)/2 \nx = (2, -6)/2 \nx = 2,",
+        "most_similar_instructions": {
+            "Find the main idea of following passage": 0.4615384615384615,
+            "Find the rhyme scheme": 0.4,
+            "Describe the impact of climate change": 0.3333333333333333,
+            "Describe the features of a specific software": 0.30769230769230765,
+            "Identify the type of the following sentence": 0.30769230769230765,
+            "Generate a program to find the greatest common divisor": 0.26666666666666666,
+            "Analyze the following sentence": 0.2,
+            "Summarize the following passage": 0.2,
+            "Classify the window type": 0.2,
+            "Fix the typo in following sentence": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.08668815658028593
+    },
+    {
+        "instruction": "Complete the code to implement a recursive binary search",
+        "input": "array = [3, 5, 7, 8, 12, 14, 21, 24, 25]\n\ndef binarySearch(array, target, start, end):\n    # TODO: complete code",
+        "output": "Sure, here's an example of how to implement a recursive binary search in Python:\n\narray = [3, 5, 7, 8, 12, 14, 21, 24, 25]\n\ndef binarySearch(array, target, start, end):\n    if start > end:\n        return -1\n    \n    mid = (start+end)//2\n    if array[mid] == target:\n        return mid\n    elif array[mid] < target:\n        return binarySearch(array, target, mid+1, end)\n    else:\n        return binarySearch(array, target, start, mid-1)",
+        "most_similar_instructions": {
+            "Rewrite the follow code to use async": 0.375,
+            "Modify the following code to fix the bug": 0.35294117647058826,
+            "Edit the following code to make it more efficient": 0.3333333333333333,
+            "What's the best way to represent a save feature?": 0.3157894736842105,
+            "Given a JSON input, write the code to parse the JSON": 0.3,
+            "Translate the following sentence to Spanish": 0.26666666666666666,
+            "Describe the features of a specific software": 0.25,
+            "Use Spring + Java to create a api for ": 0.23529411764705882,
+            "Analyze the following statement to determine if it is an effective argument": 0.1904761904761905,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1904761904761905
+        },
+        "avg_similarity_score": 0.13790235910610374
+    },
+    {
+        "instruction": "Identify and explain the type of design pattern used in the following code",
+        "input": "public class UserService {\n    private Database database;\n\n    public UserService(Database database) {\n        this.database = database;\n    }\n\n    public User getUser(String id) {\n        return database.selectUser(id);\n    }\n}",
+        "output": "The code shown is an example of the Dependency Injection design pattern. In this pattern, objects are provided with the instances of their dependent objects. In the given code, this is done through the UserService class, which has a Database object as a dependency. The Database instance is passed in through the UserService constructor, and this is used to get a User with the selectUser() method. This Dependency Injection pattern allows the UserService to be reusable and testable, as the Database dependency can be provided by different sources, allowing the logic to remain unchanged.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.6,
+            "Identify the Named Entity Recognition (NER) tags for the following sentence": 0.33333333333333337,
+            "Fix the typo in following sentence": 0.3157894736842105,
+            "Find the main idea of following passage": 0.3,
+            "Modify the following code to fix the bug": 0.2857142857142857,
+            "Edit the following code to make it more efficient": 0.27272727272727276,
+            "Given a list of numbers, recreate the following task:": 0.27272727272727276,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.26666666666666666,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.24000000000000002,
+            "Summarize the following passage": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.12470883300192426
+    },
+    {
+        "instruction": "Compute the result of the following equation",
+        "input": "2(x+3) - 5x = 11",
+        "output": "Sure, the result of the equation 2(x+3) - 5x = 11 is x = 8.  Here's the calculation: \n\n2(x+3) - 5x = 11\n2x + 6 - 5x = 11\n-3x = 5\nx = 5/3\nx = 8",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.5714285714285714,
+            "Find the root of this equation": 0.4615384615384615,
+            "Find the main idea of following passage": 0.42857142857142855,
+            "Identify and explain the type of design pattern used in the following code": 0.4,
+            "Given a list of numbers, recreate the following task:": 0.375,
+            "Summarize the following passage": 0.36363636363636365,
+            "Analyze the following sentence": 0.36363636363636365,
+            "Identify the Named Entity Recognition (NER) tags for the following sentence": 0.33333333333333326,
+            "Translate the following sentence to Spanish": 0.30769230769230765,
+            "Describe the impact of climate change": 0.30769230769230765
+        },
+        "avg_similarity_score": 0.12214191024503004
+    },
+    {
+        "instruction": "Explain the difference between supervised and unsupervised learning",
+        "input": "",
+        "output": "Supervised learning is a type of machine learning where a model is trained using labeled data to make predictions. The model learns from the labeled data, which contains the correct output for each input. The model then tries to identify patterns in the data so that it can accurately predict the output for new data. On the other hand, unsupervised learning is a type of machine learning where data is not labeled, so the model has to make sense of the data to find patterns in it. Unlike supervised learning, the model is not given correct answers, so it is up to the model to make sense of the data and find patterns in it.",
+        "most_similar_instructions": {
+            "What's the difference between traditional coding and data driven coding?": 0.4210526315789474,
+            "Identify and explain the type of design pattern used in the following code": 0.1904761904761905,
+            "Classify the window type": 0.16666666666666666,
+            "Analyze the following sentence": 0.16666666666666666,
+            "Find the rhyme scheme": 0.16666666666666666,
+            "Summarize the following passage": 0.16666666666666666,
+            "Explain what's Thread Pool?": 0.15384615384615385,
+            "Fix the typo in following sentence": 0.14285714285714288,
+            "Find the root of this equation": 0.14285714285714288,
+            "Translate the following sentence to Spanish": 0.14285714285714288
+        },
+        "avg_similarity_score": 0.06923976636824936
+    },
+    {
+        "instruction": "Suggest one marketing strategy that could increase sales",
+        "input": "",
+        "output": "One marketing strategy that could be used to increase sales is to use targeted email campaigns. By creating email lists based on customer interests and preferences, companies can create personalized emails that highlight promotions and deals that are relevant to the customer. This targeted approach to email campaigns can help to drive sales by directly engaging potential customers in meaningful and relevant conversations.",
+        "most_similar_instructions": {
+            "Suggest a title for": 0.16666666666666666,
+            "Build a chatbot that can": 0.15384615384615385,
+            "Name a real-world application that uses blockchains": 0.125,
+            "Create an algorithm that plays tic-tac-toe": 0.125,
+            "Generate a query to get the monthly sales data": 0.11764705882352941,
+            "I working on design software system, could you design a user journal for": 0.09523809523809525,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.0,
+            "Detect entities in following sentence": 0.0,
+            "Fix the typo in following sentence": 0.0,
+            "Analyze the following sentence": 0.0
+        },
+        "avg_similarity_score": 0.011692507083200673
+    },
+    {
+        "instruction": "Name the type of attitude portrayed in this quote",
+        "input": "\"If you want something done right, do it yourself\"",
+        "output": "The type of attitude portrayed in this quote is a sense of self-reliance. The quote implies that one should take matters into their own hands and not rely on others to get the job done. It promotes an independent attitude and suggests that one should trust their own skills and abilities to get the job done right.",
+        "most_similar_instructions": {
+            "Find the root of this equation": 0.4,
+            "Identify the type of the following sentence": 0.375,
+            "Identify and explain the type of design pattern used in the following code": 0.3636363636363637,
+            "Classify the window type": 0.30769230769230765,
+            "Describe the impact of climate change": 0.26666666666666666,
+            "Fix the typo in following sentence": 0.26666666666666666,
+            "Compute the result of the following equation": 0.25,
+            "Find the main idea of following passage": 0.25,
+            "Describe the features of a specific software": 0.25,
+            "Describe the major trade routes in Europe during the Late Middle Ages": 0.1904761904761905
+        },
+        "avg_similarity_score": 0.08975464111254494
+    },
+    {
+        "instruction": "Suggest one way of improving customer loyalty",
+        "input": "",
+        "output": "One way of improving customer loyalty is by providing personalized experiences and rewards. Companies should create customer loyalty programs that reward customers with discounts, rewards, and other benefits based on their buying behavior. Additionally, companies should strive to provide personalized customer experiences based on customer preferences and interests. This will create meaningful connections with customers and incentivize them to stay loyal to the company.",
+        "most_similar_instructions": {
+            "Suggest one marketing strategy that could increase sales": 0.26666666666666666,
+            "Suggest a title for": 0.18181818181818182,
+            "Find the root of this equation": 0.15384615384615383,
+            "Describe the impact of climate change": 0.15384615384615383,
+            "Describe the features of a specific software": 0.14285714285714285,
+            "Compute the result of the following equation": 0.14285714285714285,
+            "Find the main idea of following passage": 0.14285714285714285,
+            "Identify the type of the following sentence": 0.14285714285714285,
+            "Generate a list of 5-10 keywords": 0.14285714285714285,
+            "Generate a list of 5 topics about \"Food\"": 0.13333333333333333
+        },
+        "avg_similarity_score": 0.030020916849561347
+    },
+    {
+        "instruction": "Give an example of a situation in which a chatbot can be used",
+        "input": "",
+        "output": "Chatbots can be used in a variety of situations, such as customer service, customer outreach, product recommendations, and more. For example, a chatbot can be used to provide customer service, such as answering common questions or directing customers to the right person to talk to. Additionally, a chatbot can be used to reach out to customers to provide product and promotional updates. Finally, chatbots can be used to provide personalized product recommendations to customers in order to increase sales.",
+        "most_similar_instructions": {
+            "Build a chatbot that can": 0.33333333333333337,
+            "Describe an example data visualization": 0.2222222222222222,
+            "How can follow code be refactored?": 0.21052631578947367,
+            "Create an outline for a presentation": 0.21052631578947367,
+            "Describe the features of a specific software": 0.2,
+            "Name the type of attitude portrayed in this quote": 0.18181818181818185,
+            "Identify and explain the type of design pattern used in the following code": 0.15384615384615385,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.13333333333333333,
+            "Suggest a title for": 0.11764705882352941,
+            "Develop an algorithm to": 0.11764705882352941
+        },
+        "avg_similarity_score": 0.07653165411081299
+    },
+    {
+        "instruction": "List three features of the Python language",
+        "input": "",
+        "output": "Three features of the Python language are its easy-to-read syntax, its extensive library of modules and packages, and its strong dynamic typing system. \n\nPython's syntax is easy to read and understand, making it an ideal language for beginners. Additionally, Python comes with an extensive library of modules and packages, which allows developers to quickly add functionality to their programs. The language also has a strong dynamic typing system, which allows variables to change types automatically, making it easier and faster to write code.",
+        "most_similar_instructions": {
+            "Given a list of numbers, recreate the following task:": 0.375,
+            "Compute the result of the following equation": 0.2857142857142857,
+            "Describe the features of a specific software": 0.2857142857142857,
+            "Identify the type of the following sentence": 0.2857142857142857,
+            "Generate a list of 5-10 keywords": 0.2857142857142857,
+            "Generate a list of 5 topics about \"Food\"": 0.26666666666666666,
+            "Identify and explain the type of design pattern used in the following code": 0.2,
+            "Summarize the following passage": 0.18181818181818182,
+            "Analyze the following sentence": 0.18181818181818182,
+            "Find the rhyme scheme": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.0831404728790592
+    },
+    {
+        "instruction": "Design the process flow of creating a React component",
+        "input": "",
+        "output": "Sure, here is an example of a process flow for creating a React component: \n1. Create a folder and a file to store the component code \n2. Write the component code, including the JSX markup and any logic\n3. Install any necessary packages \n4. Import and use the component in the application \n5. Test the component's functionality\n6. Build and deploy the component",
+        "most_similar_instructions": {
+            "Describe the features of a specific software": 0.375,
+            "Design a logo for": 0.30769230769230765,
+            "Design a data validation algorithm": 0.2857142857142857,
+            "Design a system for Professional Networking": 0.26666666666666666,
+            "Describe the impact of climate change": 0.26666666666666666,
+            "Find the root of this equation": 0.26666666666666666,
+            "Identify the type of the following sentence": 0.25,
+            "Find the main idea of following passage": 0.25,
+            "Compute the result of the following equation": 0.25,
+            "Name the type of attitude portrayed in this quote": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.11696375854012592
+    },
+    {
+        "instruction": "Find the y-intercept of the following equation",
+        "input": "2x + 4y = 6",
+        "output": "Sure, the y-intercept of the equation 2x + 4y = 6 is y = -1.5. Here's the calculation: \n\n2x + 4y = 6 \n4y = -2x + 6 \ny = (-2x + 6)/4 \ny = (-2*0 + 6)/4 \ny = -1.5",
+        "most_similar_instructions": {
+            "Compute the result of the following equation": 0.6666666666666666,
+            "Find the root of this equation": 0.5714285714285715,
+            "Find the main idea of following passage": 0.5333333333333333,
+            "Identify the type of the following sentence": 0.5333333333333333,
+            "Identify and explain the type of design pattern used in the following code": 0.380952380952381,
+            "Given a list of numbers, recreate the following task:": 0.35294117647058826,
+            "Analyze the following sentence": 0.3333333333333333,
+            "Find the rhyme scheme": 0.3333333333333333,
+            "Summarize the following passage": 0.3333333333333333,
+            "Identify the Named Entity Recognition (NER) tags for the following sentence": 0.3157894736842105
+        },
+        "avg_similarity_score": 0.13516014073904567
+    }
+]
