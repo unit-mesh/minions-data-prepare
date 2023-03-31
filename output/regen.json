@@ -1,0 +1,848 @@
+[
+    {
+        "instruction": "Translate the following equation into a sentence",
+        "input": "E=mc^2",
+        "output": "The equation E=mc^2 expresses the relationship between mass and energy, which states that energy is equal to the product of mass and the speed of light squared.",
+        "most_similar_instructions": {
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.16666666666666666,
+            "Use Spring + Java to create a api for ": 0.13333333333333333,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.10526315789473685,
+            "I working on design software system, could you design a user journal for": 0.1,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.06666666666666667,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0
+        },
+        "avg_similarity_score": 0.05199362041467304
+    },
+    {
+        "instruction": "Identify the type of the following sentence",
+        "input": "He drove all the way to town.",
+        "output": "This sentence is a declarative sentence, which makes a statement and usually ends with a period.",
+        "most_similar_instructions": {
+            "Translate the following equation into a sentence": 0.42857142857142855,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.16666666666666666,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0
+        },
+        "avg_similarity_score": 0.0496031746031746
+    },
+    {
+        "instruction": "Describe the role of \"imperative\" in modern writing",
+        "input": "",
+        "output": "Imperative sentences have become increasingly popular in modern writing. These sentences are used for instructions or requests and often begin with a verb or imperative verb phrase such as \u201cPlease,\u201d \u201cGo,\u201d or \u201cDo.\u201d The primary goal of an imperative sentence is to get the reader to take action. Imperative sentences are also commonly used in advertising, marketing, and user manuals. Additionally, they are often used as commands in pieces of code, such as in programming. Imperative sentences encourage the reader to act and thus are a powerful tool in rhetoric and communication.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.26666666666666666,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.15999999999999998,
+            "Translate the following equation into a sentence": 0.13333333333333333,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0
+        },
+        "avg_similarity_score": 0.04307692307692308
+    },
+    {
+        "instruction": "Summarize the main points of \"On Liberty\" by John Stuart Mill",
+        "input": "",
+        "output": "John Stuart Mill's On Liberty argues the importance of individual freedom. In the essay, Mill emphasizes the need for individuals to be able to pursue their own values and goals in life without interference from governments or societies. He also argues for the protection of individual rights, including a person's right to liberty of speech and thought. In addition, Mill argues for limiting the powers of state over citizens and for freedom from public opinion. He argues that individuals should have the freedom to direct their own lives as long as it does not negatively affect others, further emphasizing the importance of individual liberty.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.2222222222222222,
+            "Describe the role of \"imperative\" in modern writing": 0.2105263157894737,
+            "Translate the following equation into a sentence": 0.1111111111111111,
+            "I working on design software system, could you design a user journal for": 0.08333333333333334,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.07142857142857142,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0
+        },
+        "avg_similarity_score": 0.0499015395631937
+    },
+    {
+        "instruction": "Name the types of networks",
+        "input": "",
+        "output": "The types of networks include local area networks (LANs), metropolitan area networks (MANs), wide area networks (WANs), peer-to-peer networks, corporate area networks, and virtual private networks (VPNs). LANs are used to connect computers in a single geographic space, while MANs are used to connect multiple LANs in a larger geographic area. WANs are networks used to connect LANs over long distances. In peer-to-peer networks, all computers can send data directly to one another. Corporate area networks are used to connect multiple offices within an organization, and VPNs are used to create secure remote networks for remote access.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.3333333333333333,
+            "Describe the role of \"imperative\" in modern writing": 0.3076923076923077,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.25000000000000006,
+            "Translate the following equation into a sentence": 0.16666666666666666,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.0909090909090909,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Use PlantUML to design all Data Structure for": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0
+        },
+        "avg_similarity_score": 0.07657342657342657
+    },
+    {
+        "instruction": "Describe how a neural network works",
+        "input": "",
+        "output": "A neural network is a computer system modeled after the human brain. It involves layers of interconnected nodes, or \"neurons,\" that transmit signals through artificial synapses. When presented with an input, the neurons in the neural network process the data and then output a result. The neurons are programmed with weights that either amplify or reduce the strength of the incoming signals, thus allowing the network to solve problems and recognize patterns. Many neurons in the different layers work together to process the data, and the interconnections between neurons can be adjusted as the network learns more about the data it is presented with.",
+        "most_similar_instructions": {
+            "Translate the following equation into a sentence": 0.15384615384615383,
+            "Describe the role of \"imperative\" in modern writing": 0.14285714285714288,
+            "Use Spring + Java to create a api for ": 0.14285714285714288,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1111111111111111,
+            "I working on design software system, could you design a user journal for": 0.10526315789473684,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.08695652173913045,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.06896551724137931,
+            "Name the types of networks": 0.0,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.0,
+            "Identify the type of the following sentence": 0.0
+        },
+        "avg_similarity_score": 0.05074104672167483
+    },
+    {
+        "instruction": "Write an algorithm for removing duplicates from a list",
+        "input": "[5, 2, 3, 2, 8, 4, 7, 5]",
+        "output": "The algorithm for removing duplicates from a given list would involve the following steps:\n1. Initialize an empty set.\n2. Iterate through the list.\n3. For each element in the list, check if it is in the set.\n4. If it is not in the set, add it to the set.\n5. If it is in the set, move on to the next element.\n6. Return the set once all elements in the list have been checked. \n\nThis algorithm with the given list would return a set with elements [5, 2, 3, 8, 4, 7].",
+        "most_similar_instructions": {
+            "Write unit test for follow code": 0.26666666666666666,
+            "Write controller test for follow code": 0.26666666666666666,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1904761904761905,
+            "Describe how a neural network works": 0.13333333333333333,
+            "Translate the following equation into a sentence": 0.125,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.125,
+            "Use PlantUML to design all Data Structure for": 0.11764705882352941,
+            "Use Spring + Java to create a api for ": 0.11764705882352941,
+            "Use UML to design all Data Structure for": 0.11764705882352941,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.09999999999999999
+        },
+        "avg_similarity_score": 0.10698972307968846
+    },
+    {
+        "instruction": "Use the A-B-C method to write an outline for",
+        "input": "A presentation on how Artificial Intelligence can be used in the healthcare industry",
+        "output": "A. Introduction \n- Brief description of Artificial Intelligence \n- Benefits of using AI in the healthcare industry\n\nB. Advantages\n- Enhanced precision and accuracy \n- Increased productivity \n- Reduced costs \n\nC. Implications \n- Improved diagnosis, treatment and patient care\n- Enhanced decision-making for physicians \n- Enhanced patient safety \n\nD. Conclusion \n- Summarize key points \n- Final Remarks",
+        "most_similar_instructions": {
+            "Use UML to design all Data Structure for": 0.3157894736842105,
+            "Use PlantUML to design all Data Structure for": 0.3157894736842105,
+            "Use Spring + Java to create a api for ": 0.3157894736842105,
+            "Write an algorithm for removing duplicates from a list": 0.3,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.2727272727272727,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.24999999999999994,
+            "Write unit test for follow code": 0.23529411764705885,
+            "Write controller test for follow code": 0.23529411764705885,
+            "Translate the following equation into a sentence": 0.2222222222222222,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.1764705882352941
+        },
+        "avg_similarity_score": 0.2040413339595598
+    },
+    {
+        "instruction": "Identify the 5W1H (what, why, when, where, who, how) in the following sentence",
+        "input": "The doctor saw the patient yesterday.",
+        "output": "What: The doctor saw the patient\nWhy: Unknown\nWhen: Yesterday\nWhere: Unknown\nWho: The doctor\nHow: Unknown",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.5,
+            "Translate the following equation into a sentence": 0.3,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.20000000000000004,
+            "Describe the role of \"imperative\" in modern writing": 0.1904761904761905,
+            "Name the types of networks": 0.1111111111111111,
+            "Describe how a neural network works": 0.10526315789473684,
+            "Use the A-B-C method to write an outline for": 0.08333333333333334,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.08333333333333334,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.07692307692307693,
+            "I working on design software system, could you design a user journal for": 0.0
+        },
+        "avg_similarity_score": 0.08686527384588326
+    },
+    {
+        "instruction": "Create a table to compare traditional learning and online learning",
+        "input": "",
+        "output": "| Traditional Learning | Online Learning | \n| --- | --- | \n| Face-to-face classes | Virtual classes |  \n| Set meeting times | Flexible meeting times |\n| Classroom setting | Self-paced setting |\n| Group collaboration and socialization | Limited group collaboration |\n| Usually more expensive | Usually more affordable | \n| All material must be printed | Digital material |  \n| Must be physically present in class | Can access course material remotely |",
+        "most_similar_instructions": {
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.2727272727272727,
+            "Use Spring + Java to create a api for ": 0.22222222222222224,
+            "Use the A-B-C method to write an outline for": 0.1904761904761905,
+            "Describe how a neural network works": 0.125,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.12121212121212122,
+            "Translate the following equation into a sentence": 0.11764705882352941,
+            "Use PlantUML to design all Data Structure for": 0.11111111111111112,
+            "Use UML to design all Data Structure for": 0.11111111111111112,
+            "Write an algorithm for removing duplicates from a list": 0.10526315789473685,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.09523809523809525
+        },
+        "avg_similarity_score": 0.08599977291843627
+    },
+    {
+        "instruction": "Classify the different types of adjectives",
+        "input": "",
+        "output": "The different types of adjectives include possessive adjectives, demonstrative adjectives, interrogative adjectives, indefinite adjectives, distributive adjectives, and intensive adjectives. \n\nPossessive adjectives are used to indicate ownership or possession, such as \"my,\" \"his,\" and \"her.\" Demonstrative adjectives point out a certain person, place, or thing and can be singular (\"this\") or plural (\"these\"). Interrogative adjectives are used in questions to ask for specific information, such as \"which\" or \"whom.\" Indefinite adjectives are used to refer to something that is not specific, such as \"some\" or \"any.\" Distributive adjectives describe the distribution of people or things, such as \"each\" or \"every.\" Finally, intensive adjectives are used to emphasize something, such as \" own\" or \" very.\"",
+        "most_similar_instructions": {
+            "Name the types of networks": 0.5454545454545454,
+            "Identify the type of the following sentence": 0.30769230769230765,
+            "Describe the role of \"imperative\" in modern writing": 0.28571428571428575,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.23529411764705885,
+            "Translate the following equation into a sentence": 0.15384615384615383,
+            "Use the A-B-C method to write an outline for": 0.11764705882352942,
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.10526315789473684,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.08695652173913045,
+            "Create a table to compare traditional learning and online learning": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0
+        },
+        "avg_similarity_score": 0.08751753089579753
+    },
+    {
+        "instruction": "Write a comprehensive tutorial on using command line",
+        "input": "",
+        "output": "This tutorial will provide a comprehensive guide on using the command line. It will cover the basics of command line usage, as well as more advanced topics such as prompt customization, text-based file navigation, and command history. \n\nTo begin, we will explore the basics of the command line interface. We will learn about the prompt, which is the area where we enter our commands. We will learn about arguments and flags, which modify the parameters of a command. We will also discuss basic commands like `dir` (to list the contents of a directory), `cd` (to change the current directory), `pwd` (to print the current working directory), and `echo` (to print text to the screen).\n\nNext, we will cover customizing the command line prompt. We will learn how to define a custom prompt string with the `PS1` environment variable. We will also discuss how to use bash aliases and environment variables to store common commands and paths, as well as how to use color in the prompt.\n\nAfterwards, we will cover more advanced topics such as text-based file navigation with `less` and `more`, navigating previous commands with `history`, and running multiple commands at once with `&&` and `;`. We will discuss how to search through command history with `!` and `CTRL+R`. We will also learn about the `pacman` command for managing software packages in Linux.\n\nFinally, we will discuss how to avoid common mistakes when using the command line. We will discuss the importance of being precise when entering commands and flags, as well as the importance of being aware of file permissions and user privileges. We will learn about common pitfalls, such as misusing special characters, and how to protect against them.",
+        "most_similar_instructions": {
+            "Write an algorithm for removing duplicates from a list": 0.23529411764705882,
+            "Write unit test for follow code": 0.14285714285714288,
+            "Describe how a neural network works": 0.14285714285714288,
+            "Write controller test for follow code": 0.14285714285714288,
+            "Translate the following equation into a sentence": 0.13333333333333333,
+            "Use Spring + Java to create a api for ": 0.125,
+            "Create a table to compare traditional learning and online learning": 0.11111111111111112,
+            "Use the A-B-C method to write an outline for": 0.10526315789473685,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.10526315789473685,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1
+        },
+        "avg_similarity_score": 0.07198138776012541
+    },
+    {
+        "instruction": "Rewrite the following article in the active voice",
+        "input": "The mistakes were made by the website designer.",
+        "output": "The website designer made the mistakes.",
+        "most_similar_instructions": {
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.2857142857142857,
+            "Translate the following equation into a sentence": 0.26666666666666666,
+            "Identify the type of the following sentence": 0.26666666666666666,
+            "Describe the role of \"imperative\" in modern writing": 0.25,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.24,
+            "Name the types of networks": 0.15384615384615385,
+            "Classify the different types of adjectives": 0.14285714285714288,
+            "Use the A-B-C method to write an outline for": 0.10526315789473685,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.10526315789473685,
+            "Use Spring + Java to create a api for ": 0.0
+        },
+        "avg_similarity_score": 0.07896857528436475
+    },
+    {
+        "instruction": "Create storyboard using given structure",
+        "input": "Structure:[Opening \u2013 3 Frames, Rising Action - 7 Frames, Climax - 2 Frames, Falling Action - 4 Frames, Resolution]-",
+        "output": "Opening\nFrame 1: Protagonist mulling over problems with current website design\nFrame 2: Protagonist opens website design software\nFrame 3: Protagonist begins to make changes\n\nRising Action\nFrame 4: Protagonist continues to make changes, becoming increasingly frustrated \nFrame 5: Protagonist begins to question the effectiveness of the design\nFrame 6: Protagonist makes more changes in an effort to fix the issue\nFrame 7: Protagonist realizes that the issue is caused by a mistake in coding\nFrame 8: Protagonist attempts to fix the mistake, but the website crashes\nFrame 9: protagonist becomes more exasperated \nFrame 10: Protagonist notices a potential solution\nFrame 11: Protagonist begins to implement the solution \nFrame 12: The website begins to behave as expected \n\nClimax\nFrame 13: Protagonist is relieved that the problem was fixed \nFrame 14: Protagonist double checks their code and finds the mistake \n\nFalling Action\nFrame 15: Protagonist decides to take a break before fixing the mistake \nFrame 16: Protagonist takes a walk to clear their head \nFrame 17: Protagonist returns to the computer and begins to fix the mistake \nFrame 18: Protagonist realizes how the mistake was made and resolves to fix it \nFrame 19: Protagonist makes the necessary changes and double-checks their work\n\nResolution\nFrame 20: Protagonist tests the website and finds that the changes worked \nFrame 21: Protagonist saves the changes and celebrates their success",
+        "most_similar_instructions": {
+            "Use Spring + Java to create a api for ": 0.15384615384615385,
+            "Use PlantUML to design all Data Structure for": 0.15384615384615385,
+            "Use UML to design all Data Structure for": 0.15384615384615385,
+            "Write a comprehensive tutorial on using command line": 0.15384615384615385,
+            "Create a table to compare traditional learning and online learning": 0.13333333333333333,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.11764705882352941,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.1111111111111111,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.0909090909090909,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.07142857142857142,
+            "Write unit test for follow code": 0.0
+        },
+        "avg_similarity_score": 0.047492240874593826
+    },
+    {
+        "instruction": "Propose a suitable storage system for",
+        "input": "Log files",
+        "output": "A suitable storage system for log files would depend on how much of it needs to be stored, how accessible it needs to be, and the platform it needs to be used on. \n\nFor example, if the log file needs to be stored quickly and conveniently with sufficient redundancy across multiple platforms, an object storage system like Amazon S3 could be an ideal solution. But if the log files need to be stored with high availability requirements, going for a distributed file system like Apache HDFS or GlusterFS would make more sense. \n\nThe flexibility of the storage system should also be taken into account when selecting the right one. For example, if the log files need to be accessed and analysed in near real-time, then a system which supports Change Data Capture (CDC) or event streaming would be a good choice. \n\nRegardless of the platform or specific storage system, it should be designed in such a way that it will be scalable, secure and cost-effective for the particular scenario.",
+        "most_similar_instructions": {
+            "Use Spring + Java to create a api for ": 0.28571428571428575,
+            "Use the A-B-C method to write an outline for": 0.23529411764705885,
+            "I working on design software system, could you design a user journal for": 0.21052631578947367,
+            "Describe how a neural network works": 0.16666666666666666,
+            "Write controller test for follow code": 0.16666666666666666,
+            "Write unit test for follow code": 0.16666666666666666,
+            "Translate the following equation into a sentence": 0.15384615384615383,
+            "Use PlantUML to design all Data Structure for": 0.14285714285714288,
+            "Use UML to design all Data Structure for": 0.14285714285714288,
+            "Write a comprehensive tutorial on using command line": 0.14285714285714288
+        },
+        "avg_similarity_score": 0.10248916006846484
+    },
+    {
+        "instruction": "Analyse the given text",
+        "input": "\"I am the best. Everyone else is insignificant.\"",
+        "output": "This text suggests a negative attitude and poor self-esteem. The writer appears to be overly critical of others and too self-aggrandizing. Such thoughts can be indicative of underlying mental health issues, like narcissism, low self-worth and insecurity. Furthermore, an outlook that assumes one's superiority over others can erode relationships and the ability to share meaningful connections with the world. It is important to acknowledge the potential issues in this text, and engage in self-reflection and critical self-appraisal in order to understand the underlying causes and actively strive towards a more balanced and healthy outlook on life.",
+        "most_similar_instructions": {
+            "Create storyboard using given structure": 0.22222222222222224,
+            "Name the types of networks": 0.22222222222222224,
+            "Classify the different types of adjectives": 0.2,
+            "Identify the type of the following sentence": 0.18181818181818182,
+            "Translate the following equation into a sentence": 0.18181818181818182,
+            "Rewrite the following article in the active voice": 0.16666666666666666,
+            "Describe the role of \"imperative\" in modern writing": 0.16666666666666666,
+            "Use the A-B-C method to write an outline for": 0.13333333333333333,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.13333333333333333,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.11764705882352941
+        },
+        "avg_similarity_score": 0.07456203926792161
+    },
+    {
+        "instruction": "Construct a logical query based on the following data",
+        "input": "Customers Table\n  -CustomerID \n  -CustomerName\n  -City\n  -Country\n\nOrders Table\n  -OrderID\n  -CustomerID\n  -OrderAmount",
+        "output": "A sample query for this data could be:\n\nSELECT CustomerName, City, Country, SUM(OrderAmount)\nFROM Customers c\nJOIN Orders o ON c.CustomerID = o.CustomerID\nGROUP BY CustomerName, City, Country;\n\nThis query will generate a list of customers along with the sum of their orders, organized by customer name, city, and country.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.25,
+            "Translate the following equation into a sentence": 0.25,
+            "Rewrite the following article in the active voice": 0.23529411764705882,
+            "Write a comprehensive tutorial on using command line": 0.23529411764705882,
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.18181818181818185,
+            "Analyse the given text": 0.15384615384615383,
+            "Using the comment as a guide, replace the \"TODO\" comment in the code with the proper code.": 0.15384615384615383,
+            "Name the types of networks": 0.14285714285714285,
+            "Classify the different types of adjectives": 0.13333333333333333,
+            "Describe how a neural network works": 0.13333333333333333
+        },
+        "avg_similarity_score": 0.1162431688188482
+    },
+    {
+        "instruction": "Discuss why data virtualization is important",
+        "input": "",
+        "output": "Data virtualization is important because it provides a unified view and access to disparate data sources without the need for complex integration, and without having to replicate or move the data. This makes it faster and easier to query and analyze data from multiple data sources, such as databases, NoSQL stores, and external APIs.\n\nData virtualization also offers unified data governance services, such as data masking, encryption, and role-based access control. This makes it possible to secure and protect data from unauthorized access or use.\n\nData virtualization also provides data agility, making it easier for organizations to incorporate and extract new data sources in real-time. This helps organizations respond quickly to changing business requirements, reducing the amount of time it takes to remain competitive in today\u2019s fast-changing markets.",
+        "most_similar_instructions": {
+            "Use PlantUML to design all Data Structure for": 0.14285714285714288,
+            "Use UML to design all Data Structure for": 0.14285714285714288,
+            "Construct a logical query based on the following data": 0.13333333333333333,
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.10526315789473684,
+            "Identify the type of the following sentence": 0.0,
+            "Use Spring + Java to create a api for ": 0.0,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0
+        },
+        "avg_similarity_score": 0.018725384890798426
+    },
+    {
+        "instruction": "Describe the output of the following program",
+        "input": "def calculate_sum(numbers):\n    \n    \n    total_sum = 0\n    for numbers in numbers:\n        total_sum += numbers\n    \n    return total_sum",
+        "output": "The output of this program would be a single numeric value, which is the sum of all numbers in the given list. For example, if the list consists of [2, 4, 6], the output would be 12, the sum of 2+4+6.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.5714285714285714,
+            "Describe the role of \"imperative\" in modern writing": 0.39999999999999997,
+            "Name the types of networks": 0.3333333333333333,
+            "Classify the different types of adjectives": 0.30769230769230765,
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.3,
+            "Translate the following equation into a sentence": 0.2857142857142857,
+            "Rewrite the following article in the active voice": 0.26666666666666666,
+            "Construct a logical query based on the following data": 0.25,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.2222222222222222,
+            "Analyse the given text": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.12243101725860346
+    },
+    {
+        "instruction": "Compare and contrast 2 different cloud storage solutions",
+        "input": "Amazon S3 and Microsoft Azure Blob Storage",
+        "output": "Amazon S3 and Microsoft Azure Blob Storage are two of the most popular cloud storage solutions. \n\nAmazon S3 is an object storage system that allows users to store virtually any type of file. It has advanced features such as versioning and access control, as well as integration with a range of other AWS services. It can also handle high amounts of data, making it suitable for large organizations.\n\nMicrosoft Azure Blob Storage is a type of storage used specifically to store unstructured data. It is based on the Azure Service Fabric platform, making it easier to scale and providing better performance and security. It is also integrated with other Azure services, such as Azure Cognitive Services and Machine Learning.\n\nThe main difference between Amazon S3 and Azure Blob Storage is the storage type. Amazon S3 stores objects, while Azure Blob Storage stores blobs. This affects the type of data that can be stored, how it\u2019s stored, and how it is accessed. Furthermore, while both services are reliable and highly secure, they have different pricing models.",
+        "most_similar_instructions": {
+            "Create a table to compare traditional learning and online learning": 0.22222222222222224,
+            "Propose a suitable storage system for": 0.14285714285714288,
+            "Classify the different types of adjectives": 0.14285714285714288,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.09523809523809525,
+            "Describe the output of the following program": 0.0,
+            "Identify the type of the following sentence": 0.0,
+            "Use Spring + Java to create a api for ": 0.0,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.0,
+            "Use follows format \"User Information\nPOST create_user() /register Create user\nPOST login_user() /login Login user\" to design all api for a": 0.0,
+            "I working on design software system, could you design a user journal for": 0.0
+        },
+        "avg_similarity_score": 0.02010582010582011
+    },
+    {
+        "instruction": "Generate an abstract noun based on",
+        "input": "Light",
+        "output": "The abstract noun generated from the word 'Light' is 'Illuminance'.",
+        "most_similar_instructions": {
+            "Construct a logical query based on the following data": 0.26666666666666666,
+            "Write a comprehensive tutorial on using command line": 0.14285714285714288,
+            "Write an algorithm for removing duplicates from a list": 0.13333333333333333,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.11764705882352942,
+            "Use the A-B-C method to write an outline for": 0.11764705882352942,
+            "I working on design software system, could you design a user journal for": 0.10526315789473684,
+            "Compare and contrast 2 different cloud storage solutions": 0.0,
+            "Use UML to design all Data Structure for": 0.0,
+            "Write unit test for follow code": 0.0,
+            "Write controller test for follow code": 0.0
+        },
+        "avg_similarity_score": 0.028497239303191566
+    },
+    {
+        "instruction": "Describe the impact of blockchain to the Logistics industry",
+        "input": "",
+        "output": "The impact of blockchain technology on the Logistics industry is far-reaching. Blockchain\u2019s distributed ledger technology provides a secure, immutable way to store and exchange data, which can greatly reduce the risk and cost of handling logistics-related paperwork. This can reduce the time taken to process and ship goods, as well as improve the accuracy of the data being exchanged.\n\nBlockchain can also provide better transparency, allowing stakeholders in the supply chain to track and trace the movement of goods in real-time. This enables stakeholders to monitor the performance of their shipments, detect any irregularities, and quickly take corrective action. Blockchain can also help reduce the risk of fraud and unauthorized access, as all data stored on the distributed ledger is cryptographically secure. \n\nOverall, blockchain has the potential to revolutionize the Logistics industry by increasing efficiency, reducing costs, and driving down risks associated with the movement of goods.",
+        "most_similar_instructions": {
+            "Describe the output of the following program": 0.5,
+            "Identify the type of the following sentence": 0.375,
+            "Describe the role of \"imperative\" in modern writing": 0.35294117647058826,
+            "Name the types of networks": 0.2857142857142857,
+            "Classify the different types of adjectives": 0.26666666666666666,
+            "Rewrite the following article in the active voice": 0.23529411764705882,
+            "Use the A-B-C method to write an outline for": 0.19999999999999998,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.19999999999999998,
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.18181818181818185,
+            "Analyse the given text": 0.15384615384615383
+        },
+        "avg_similarity_score": 0.12754445940518888
+    },
+    {
+        "instruction": "Draft a test plan for a web-based application",
+        "input": "",
+        "output": "A test plan is a document that outlines the details of the tests that need to be conducted on a web-based application. It includes details such as the test objectives, test environment setup, test cases, and the expected results.\n\nThe following elements need to be included in the test plan:\n- Test objectives: These are the goals and objectives of the testing process that should be met.\n- Test environment setup: This should describe the hardware and software requirements for running the tests.\n- Test cases: This should detail the tests that need to be conducted and the data that should be input.\n- Expected results: This should describe how the application should behave after a particular test has been carried out.\n\nThe test plan should be reviewed and approved by stakeholders before the testing process can begin. This will help ensure that the tests are correctly designed and the expected results are met.",
+        "most_similar_instructions": {
+            "Write controller test for follow code": 0.26666666666666666,
+            "Write unit test for follow code": 0.26666666666666666,
+            "Propose a suitable storage system for": 0.26666666666666666,
+            "Use Spring + Java to create a api for ": 0.23529411764705882,
+            "Construct a logical query based on the following data": 0.2222222222222222,
+            "Write an algorithm for removing duplicates from a list": 0.2222222222222222,
+            "Use the A-B-C method to write an outline for": 0.19999999999999998,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.1904761904761905,
+            "I working on design software system, could you design a user journal for": 0.18181818181818185,
+            "Generate an abstract noun based on": 0.13333333333333333
+        },
+        "avg_similarity_score": 0.0998404879772738
+    },
+    {
+        "instruction": "Explain the value of Data Analytics for business",
+        "input": "",
+        "output": "Data analytics is a powerful tool that can help businesses to better understand their customers and make more informed decisions. By collecting and analyzing large sets of data, businesses can gain insights into customer behavior, preferences, and trends. This can allow businesses to develop targeted strategies to increase customer engagement and optimize their operations.\n\nData analytics can also help businesses to identify potential risk areas and mitigate them in a more cost-effective way. This can lead to greater efficiency and improved decision-making. In addition, data analytics can help businesses to identify the factors that drive revenue growth and make more accurate predictions about their future performance.\n\nOverall, data analytics can provide invaluable insights that can help businesses to grow and stay competitive in today\u2019s fast-changing markets.",
+        "most_similar_instructions": {
+            "Name the types of networks": 0.3076923076923077,
+            "Classify the different types of adjectives": 0.28571428571428575,
+            "Identify the type of the following sentence": 0.26666666666666666,
+            "Describe the output of the following program": 0.26666666666666666,
+            "Use PlantUML to design all Data Structure for": 0.25,
+            "Describe the role of \"imperative\" in modern writing": 0.25,
+            "Use UML to design all Data Structure for": 0.25,
+            "Construct a logical query based on the following data": 0.23529411764705882,
+            "Describe the impact of blockchain to the Logistics industry": 0.23529411764705882,
+            "Use the A-B-C method to write an outline for": 0.2105263157894737
+        },
+        "avg_similarity_score": 0.14001756045087949
+    },
+    {
+        "instruction": "Generate a new phrase using Synonyms",
+        "input": "Livid",
+        "output": "A new phrase generated from the word \"Livid\" might be \"Incensed.\"",
+        "most_similar_instructions": {
+            "Write a comprehensive tutorial on using command line": 0.28571428571428575,
+            "Create storyboard using given structure": 0.1818181818181818,
+            "Generate an abstract noun based on": 0.16666666666666666,
+            "Describe how a neural network works": 0.16666666666666666,
+            "Propose a suitable storage system for": 0.16666666666666666,
+            "Translate the following equation into a sentence": 0.15384615384615383,
+            "Use Spring + Java to create a api for ": 0.14285714285714288,
+            "Write an algorithm for removing duplicates from a list": 0.13333333333333333,
+            "Draft a test plan for a web-based application": 0.13333333333333333,
+            "Construct a logical query based on the following data": 0.13333333333333333
+        },
+        "avg_similarity_score": 0.06511940374416146
+    },
+    {
+        "instruction": "Construct a sentiment analysis for",
+        "input": "\"This company really cares about its customers.\"",
+        "output": "Based on the given statement, the sentiment can be assessed as positive. This suggests that the speaker has a favourable opinion of the company and its commitment to customer satisfaction.",
+        "most_similar_instructions": {
+            "Propose a suitable storage system for": 0.3636363636363636,
+            "Use Spring + Java to create a api for ": 0.3076923076923077,
+            "Draft a test plan for a web-based application": 0.2857142857142857,
+            "Construct a logical query based on the following data": 0.2857142857142857,
+            "Use the A-B-C method to write an outline for": 0.25000000000000006,
+            "I working on design software system, could you design a user journal for": 0.2222222222222222,
+            "Generate a new phrase using Synonyms": 0.1818181818181818,
+            "Write controller test for follow code": 0.1818181818181818,
+            "Write unit test for follow code": 0.1818181818181818,
+            "Describe how a neural network works": 0.1818181818181818
+        },
+        "avg_similarity_score": 0.11157193841017371
+    },
+    {
+        "instruction": "Determine the antonym for",
+        "input": "Flawless",
+        "output": "The antonym for \"Flawless\" is \"Flawed\".",
+        "most_similar_instructions": {
+            "Explain the value of Data Analytics for business": 0.3333333333333333,
+            "Use the A-B-C method to write an outline for": 0.26666666666666666,
+            "Analyse the given text": 0.25,
+            "Name the types of networks": 0.22222222222222224,
+            "Construct a sentiment analysis for": 0.22222222222222224,
+            "Write unit test for follow code": 0.2,
+            "Propose a suitable storage system for": 0.2,
+            "Classify the different types of adjectives": 0.2,
+            "Write controller test for follow code": 0.2,
+            "Describe the output of the following program": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.13520370138017196
+    },
+    {
+        "instruction": "Identify new uses for",
+        "input": "Voice recognition technology",
+        "output": "Voice recognition technology has a variety of potential uses, including helping to automate mundane tasks, providing contextual understanding of incoming messages, searching for files and documents, and transcribing conversations. It can also be useful in educational settings, allowing students with disabilities to easily interact with the material. Furthermore, voice recognition technology can be used to improve customer service by allowing customers to interact with products and services more easily. Finally, it can be used to create immersive experiences in gaming, allowing users to use their voice to control game elements.",
+        "most_similar_instructions": {
+            "Determine the antonym for": 0.25,
+            "Construct a sentiment analysis for": 0.22222222222222224,
+            "Generate a new phrase using Synonyms": 0.2,
+            "Write controller test for follow code": 0.2,
+            "Write unit test for follow code": 0.2,
+            "Propose a suitable storage system for": 0.2,
+            "Identify the type of the following sentence": 0.18181818181818182,
+            "Explain the value of Data Analytics for business": 0.16666666666666666,
+            "Use Spring + Java to create a api for ": 0.16666666666666666,
+            "Use PlantUML to design all Data Structure for": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.08544950777922913
+    },
+    {
+        "instruction": "Give a definition for",
+        "input": "Data Paradigm",
+        "output": "The data paradigm is an approach to data management in which data is stored in a hierarchical structure, with relationships between elements defined by the data's organization. In this paradigm, data is seen as a centralized entity, with the application or other system interacting with the data through a standard set of access functions. This approach is used in many modern technologies, including NoSQL, cloud computing, and mobile computing. The data paradigm also emphasizes features like data-sharing and scalability, as well as providing redundancy and high availability. Essentially, the data paradigm is designed to make data management easier, while still being secure and reliable.",
+        "most_similar_instructions": {
+            "Construct a sentiment analysis for": 0.4444444444444445,
+            "Propose a suitable storage system for": 0.4,
+            "Use Spring + Java to create a api for ": 0.3333333333333333,
+            "Draft a test plan for a web-based application": 0.30769230769230765,
+            "Use the A-B-C method to write an outline for": 0.26666666666666666,
+            "Determine the antonym for": 0.25,
+            "Identify new uses for": 0.25,
+            "I working on design software system, could you design a user journal for": 0.23529411764705882,
+            "Write controller test for follow code": 0.2,
+            "Write unit test for follow code": 0.2
+        },
+        "avg_similarity_score": 0.13158353154582417
+    },
+    {
+        "instruction": "Generate a List of",
+        "input": "Healthy Substitutes for Dairy",
+        "output": "Here are some healthy substitutes for dairy:\n- Soy milk\n- Almond milk \n- Coconut milk\n- Oat milk\n- Hemp milk\n- Cashew milk\n- Rice milk\n- Potato milk\n- Pea milk\n- Flaxseed milk \n- Avocado milk\n- Sunflower seed milk \n- Pumpkin seed milk \n- Chia seed milk\n- Quinoa milk \n- Tofu \n- Soy yogurt\n- Coconut yogurt\n- Cashew cheese \n- Hemp cheese\n- Nutritional yeast \n- Tahini \n- Coconut oil \n- Flaxseed oil \n- Avocado oil.",
+        "most_similar_instructions": {
+            "Generate a new phrase using Synonyms": 0.4,
+            "Write an algorithm for removing duplicates from a list": 0.30769230769230765,
+            "Give a definition for": 0.25,
+            "Construct a sentiment analysis for": 0.22222222222222224,
+            "Name the types of networks": 0.22222222222222224,
+            "Describe how a neural network works": 0.2,
+            "Classify the different types of adjectives": 0.2,
+            "Propose a suitable storage system for": 0.2,
+            "Generate an abstract noun based on": 0.2,
+            "Describe the output of the following program": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.11743198658639835
+    },
+    {
+        "instruction": "Use the given input to create a one sentence summary",
+        "input": "A young man wishes to return to the past to correct a mistake",
+        "output": "The protagonist longs to go back in time to undo a fateful mistake.",
+        "most_similar_instructions": {
+            "Use Spring + Java to create a api for ": 0.4444444444444445,
+            "Translate the following equation into a sentence": 0.3529411764705882,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.34782608695652173,
+            "Analyse the given text": 0.28571428571428575,
+            "Use the A-B-C method to write an outline for": 0.28571428571428564,
+            "According follow APIs to create use stories for a Online MovieTicket website. ": 0.2727272727272727,
+            "Identify the type of the following sentence": 0.23529411764705882,
+            "Use PlantUML to design all Data Structure for": 0.22222222222222224,
+            "Use UML to design all Data Structure for": 0.22222222222222224,
+            "Describe the impact of blockchain to the Logistics industry": 0.2105263157894737
+        },
+        "avg_similarity_score": 0.1503081711299999
+    },
+    {
+        "instruction": "Generate an appropriate title for",
+        "input": "A horror story about a family's camping trip",
+        "output": "\"Camping Chaos: A Family's Terrifying Trip into the Unknown\".",
+        "most_similar_instructions": {
+            "Generate an abstract noun based on": 0.3636363636363636,
+            "Write an algorithm for removing duplicates from a list": 0.2857142857142857,
+            "Use the A-B-C method to write an outline for": 0.25000000000000006,
+            "Generate a List of": 0.22222222222222224,
+            "Give a definition for": 0.22222222222222224,
+            "Identify new uses for": 0.22222222222222224,
+            "Determine the antonym for": 0.22222222222222224,
+            "Construct a sentiment analysis for": 0.20000000000000004,
+            "Write controller test for follow code": 0.1818181818181818,
+            "Propose a suitable storage system for": 0.1818181818181818
+        },
+        "avg_similarity_score": 0.09547742562448444
+    },
+    {
+        "instruction": "Edit the given sentence to provide emphasis",
+        "input": "I'm going to the museum tomorrow",
+        "output": "I'm going *definitely* to the *museum* *tomorrow*!",
+        "most_similar_instructions": {
+            "Analyse the given text": 0.36363636363636365,
+            "Use the given input to create a one sentence summary": 0.3529411764705882,
+            "Identify the type of the following sentence": 0.2857142857142857,
+            "Translate the following equation into a sentence": 0.2857142857142857,
+            "Describe the impact of blockchain to the Logistics industry": 0.25,
+            "Use the A-B-C method to write an outline for": 0.2222222222222222,
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.2,
+            "Use given-when-then and AC1,AC2,AC3... to Create use story for": 0.2,
+            "Determine the antonym for": 0.18181818181818182,
+            "Create storyboard using given structure": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.10447012987332664
+    },
+    {
+        "instruction": "Translate the given phrase",
+        "input": "\"Allons-y\"",
+        "output": "\"Let's go\".",
+        "most_similar_instructions": {
+            "Analyse the given text": 0.5,
+            "Edit the given sentence to provide emphasis": 0.36363636363636365,
+            "Translate the following equation into a sentence": 0.36363636363636365,
+            "Use the given input to create a one sentence summary": 0.28571428571428575,
+            "Determine the antonym for": 0.25,
+            "Name the types of networks": 0.22222222222222224,
+            "Create storyboard using given structure": 0.22222222222222224,
+            "Generate a new phrase using Synonyms": 0.2,
+            "Classify the different types of adjectives": 0.2,
+            "Identify the type of the following sentence": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.09945361382527157
+    },
+    {
+        "instruction": "Provide the reason why",
+        "input": "Fairy tales are appealing to young children",
+        "output": "Fairy tales are appealing to young children because they provide a safe and imaginative way for them to explore their emotions and the world. Through these stories, children can discover new possibilities, find explanations for the unknown and practice problem-solving. The use of colorful characters and visual stories also helps to keep them engaged.",
+        "most_similar_instructions": {
+            "Translate the given phrase": 0.25,
+            "Analyse the given text": 0.25,
+            "Determine the antonym for": 0.25,
+            "Identify the 5W1H (what, why, when, where, who, how) in the following sentence": 0.23529411764705882,
+            "Name the types of networks": 0.22222222222222224,
+            "Discuss why data virtualization is important": 0.2,
+            "Classify the different types of adjectives": 0.2,
+            "Describe the output of the following program": 0.18181818181818182,
+            "Translate the following equation into a sentence": 0.18181818181818182,
+            "Edit the given sentence to provide emphasis": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.08104985065769378
+    },
+    {
+        "instruction": "Develop a test scenario for",
+        "input": "Adding an item to the shopping cart",
+        "output": "Test scenario for adding an item to the shopping cart: \n\n1. Log into the website\n2. Navigate to the product page\n3. Click the \u2018Add to Cart\u2019 button\n4. Verify that the item has been added to the correct cart in the correct quantity\n5. Click the \u2018Checkout\u2019 button\n6. Verify that the order total is correct and the item is visible in the list of items in the order\n7. Complete the checkout process",
+        "most_similar_instructions": {
+            "Give a definition for": 0.4444444444444445,
+            "Draft a test plan for a web-based application": 0.42857142857142855,
+            "Construct a sentiment analysis for": 0.4000000000000001,
+            "Propose a suitable storage system for": 0.3636363636363636,
+            "Write unit test for follow code": 0.3636363636363636,
+            "Write controller test for follow code": 0.3636363636363636,
+            "Use Spring + Java to create a api for ": 0.3076923076923077,
+            "Use the A-B-C method to write an outline for": 0.25000000000000006,
+            "Determine the antonym for": 0.22222222222222224,
+            "Identify new uses for": 0.22222222222222224
+        },
+        "avg_similarity_score": 0.1353189258879796
+    },
+    {
+        "instruction": "Classify the given input",
+        "input": "\"The Starry Night\"",
+        "output": "\"The Starry Night\" is a painting by Vincent van Gogh, created in 1889. It is an oil on canvas artwork categorized as Post-Impressionism.",
+        "most_similar_instructions": {
+            "Translate the given phrase": 0.5,
+            "Analyse the given text": 0.5,
+            "Use the given input to create a one sentence summary": 0.4285714285714285,
+            "Classify the different types of adjectives": 0.4,
+            "Edit the given sentence to provide emphasis": 0.36363636363636365,
+            "Determine the antonym for": 0.25,
+            "Provide the reason why": 0.25,
+            "Name the types of networks": 0.22222222222222224,
+            "Create storyboard using given structure": 0.22222222222222224,
+            "Translate the following equation into a sentence": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.1082339993478917
+    },
+    {
+        "instruction": "Provide an explanation for",
+        "input": "Why does water boil when heated?",
+        "output": "Water boils when heated because it reaches its boiling point, which is the temperature at which the liquid's vapor pressure is equal to the atmospheric pressure. Heat increases the molecules' kinetic energy, which is the energy that the molecules have because of their movement. This causes them to move faster, spread out, and turn into gas molecules. This phenomenon is called evaporation, and the molecules that are changing into gas form bubbles, which increase in size until they rise to the surface, creating a rolling boil.",
+        "most_similar_instructions": {
+            "Generate an appropriate title for": 0.4444444444444445,
+            "Write an algorithm for removing duplicates from a list": 0.30769230769230765,
+            "Use the A-B-C method to write an outline for": 0.26666666666666666,
+            "Identify new uses for": 0.25,
+            "Give a definition for": 0.25,
+            "Determine the antonym for": 0.25,
+            "Provide the reason why": 0.25,
+            "Construct a sentiment analysis for": 0.22222222222222224,
+            "Develop a test scenario for": 0.22222222222222224,
+            "Write controller test for follow code": 0.2
+        },
+        "avg_similarity_score": 0.10069334147152774
+    },
+    {
+        "instruction": "Construct a SQL query to",
+        "input": "Find the title and price of all books",
+        "output": "SELECT title, price FROM books;",
+        "most_similar_instructions": {
+            "Construct a logical query based on the following data": 0.42857142857142855,
+            "Construct a sentiment analysis for": 0.4000000000000001,
+            "Create a table to compare traditional learning and online learning": 0.26666666666666666,
+            "Use the A-B-C method to write an outline for": 0.25000000000000006,
+            "Generate a List of": 0.22222222222222224,
+            "Give a definition for": 0.22222222222222224,
+            "Develop a test scenario for": 0.20000000000000004,
+            "Generate a new phrase using Synonyms": 0.1818181818181818,
+            "Propose a suitable storage system for": 0.1818181818181818,
+            "Describe how a neural network works": 0.1818181818181818
+        },
+        "avg_similarity_score": 0.09536666814577978
+    },
+    {
+        "instruction": "Explain the difference between",
+        "input": "development and test",
+        "output": "Development and test are two stages of the software development lifecycle. During development, the software is being built and refined, and the developers focus on adding and improving features. During the testing phase, the software is being tested to ensure that all the features are implemented correctly and the code is stable and reliable. The testing phase also covers identifying any bugs and performance issues, as well as making sure that the software meets the user's expectations.",
+        "most_similar_instructions": {
+            "Explain the value of Data Analytics for business": 0.3333333333333333,
+            "Classify the given input": 0.25,
+            "Provide the reason why": 0.25,
+            "Translate the given phrase": 0.25,
+            "Analyse the given text": 0.25,
+            "Determine the antonym for": 0.25,
+            "Name the types of networks": 0.22222222222222224,
+            "Classify the different types of adjectives": 0.2,
+            "Describe the output of the following program": 0.18181818181818182,
+            "Translate the following equation into a sentence": 0.18181818181818182
+        },
+        "avg_similarity_score": 0.07992525774878717
+    },
+    {
+        "instruction": "Describe the ML architecture for",
+        "input": "Image Denoising",
+        "output": "For image denoising, one approach is to use a convolutional encoder-decoder network. This network contains convolutional layers for encoding the image and feature maps, and then additional convolutional layers for decoding the image after the noise has been reduced. The model can be trained using supervised learning, and by using the ground truth clean results as labels.\n\nThe encoder-decoder architecture involves repeated convolutional and pooling operations to transform an input image into a feature map, and then reconstruction of the image back from the feature map. The convolutional layers use size-appropriate kernels, as well as a non-linear activation function, such as Sigmoid or ReLU. The pooling layers are used to reduce the size and complexity of the feature map.\n\nThe model is trained using supervised learning, with the aim of minimizing the difference between the clean ground truth image and the reconstruction image. The model can be regularized to prevent overfitting. Once trained, the model can be used to reduce noise from new inputs and produce denoised outputs.",
+        "most_similar_instructions": {
+            "Determine the antonym for": 0.4444444444444445,
+            "Describe the output of the following program": 0.3333333333333333,
+            "Explain the value of Data Analytics for business": 0.3076923076923077,
+            "Describe the role of \"imperative\" in modern writing": 0.3076923076923077,
+            "Describe the impact of blockchain to the Logistics industry": 0.2857142857142857,
+            "Use the A-B-C method to write an outline for": 0.25000000000000006,
+            "Use graphviz format to draw C4 architecture's Container level for": 0.25000000000000006,
+            "Explain the difference between": 0.22222222222222224,
+            "Analyse the given text": 0.22222222222222224,
+            "Identify new uses for": 0.22222222222222224
+        },
+        "avg_similarity_score": 0.15845789799076995
+    },
+    {
+        "instruction": "Provide 3 SQL queries for",
+        "input": "retrieve student information",
+        "output": "Query 1: SELECT student_id, first_name, last_name, email, phone FROM students;\n\nQuery 2: SELECT student_id, course_name FROM course_enrollment WHERE student_id = <specified_student_id>;\n\nQuery 3: SELECT student_id, AVG(grade) FROM student_grades WHERE student_id = <specified_student_id> GROUP BY student_id;\n\nExplanation:\n\nThe first query retrieves general information about all students stored in the students table.\n\nThe second query retrieves all courses of a specified student (specified_student_id).\n\nThe third query retrieves the average grade of a specified student (specified_student_id) by grouping the student_grades table by student_id.",
+        "most_similar_instructions": {
+            "Provide an explanation for": 0.4444444444444445,
+            "Give a definition for": 0.22222222222222224,
+            "Provide the reason why": 0.22222222222222224,
+            "Determine the antonym for": 0.22222222222222224,
+            "Identify new uses for": 0.22222222222222224,
+            "Describe the ML architecture for": 0.20000000000000004,
+            "Construct a SQL query to": 0.20000000000000004,
+            "Develop a test scenario for": 0.20000000000000004,
+            "Construct a sentiment analysis for": 0.20000000000000004,
+            "Generate an appropriate title for": 0.20000000000000004
+        },
+        "avg_similarity_score": 0.08861252498130326
+    },
+    {
+        "instruction": "Provide an algorithm to",
+        "input": "Sort an array of numbers in ascending order",
+        "output": "One algorithm to sort an array of numbers in ascending order is the Bubble Sort algorithm. Here is an implementation of the Bubble Sort algorithm in Python:\n\ndef bubbleSort(arr): \n\tn = len(arr) \n  \n\t# Traverse through all array elements \n\tfor i in range(n): \n\n\t\t# Last i elements are already in place \n\t\tfor j in range(0, n-i-1): \n   \n\t\t\t# traverse the array from 0 to n-i-1 \n\t\t\t# Swap if the element found is greater \n\t\t\t# than the next element \n\t\t\tif arr[j] > arr[j+1] : \n\t\t\t\tarr[j], arr[j+1] = arr[j+1], arr[j] \n\nExplanation:\n\nThe Bubble Sort algorithm is a primitive sorting algorithm. It compares each pair of adjacent elements and swaps them if they are in the wrong order. The operation is repeated until all the elements are in sorted order. The time complexity of the Bubble Sort algorithm is O(n^2) in the worst case.",
+        "most_similar_instructions": {
+            "Provide an explanation for": 0.5,
+            "Write an algorithm for removing duplicates from a list": 0.30769230769230765,
+            "Provide the reason why": 0.25,
+            "Provide 3 SQL queries for": 0.22222222222222224,
+            "Construct a SQL query to": 0.22222222222222224,
+            "Generate an appropriate title for": 0.22222222222222224,
+            "Generate an abstract noun based on": 0.2,
+            "Edit the given sentence to provide emphasis": 0.18181818181818182,
+            "Use Spring + Java to create a api for ": 0.16666666666666666,
+            "Use PlantUML to design all Data Structure for": 0.16666666666666666
+        },
+        "avg_similarity_score": 0.06847406406229936
+    },
+    {
+        "instruction": "What is the name of the algorithm used for",
+        "input": "Text tokenization",
+        "output": "The algorithm used for text tokenization is the Natural Language Processing (NLP) algorithm. The NLP algorithm is used to break a text into smaller pieces or tokens, such as sentences and words. This tokenized text is then used for downstream text processing tasks, such as text classification and machine translation.",
+        "most_similar_instructions": {
+            "Identify the type of the following sentence": 0.375,
+            "Describe the output of the following program": 0.375,
+            "Explain the value of Data Analytics for business": 0.35294117647058826,
+            "Describe the impact of blockchain to the Logistics industry": 0.3333333333333333,
+            "Determine the antonym for": 0.30769230769230765,
+            "Describe the ML architecture for": 0.2857142857142857,
+            "Name the types of networks": 0.2857142857142857,
+            "Classify the different types of adjectives": 0.26666666666666666,
+            "Describe the role of \"imperative\" in modern writing": 0.23529411764705882,
+            "Rewrite the following article in the active voice": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.1485878356599891
+    },
+    {
+        "instruction": "Generate a report for",
+        "input": "Sales in the last quarter",
+        "output": "Sure, I can generate a report for sales in the last quarter. Here is an example report:\n\nThis report examines the sales performance in the last quarter. The following categories are covered in this report: total revenue, revenue and gross profit by product type, revenue and gross profit by region, and revenue by promotional campaigns.\n\nTotal revenue: \nIn the last quarter, total revenue was $X million, a Y% increase compared to the same period last year.\n\nRevenue and gross profit by product type:\nThe table below shows revenue and gross profit for the main product categories in the last quarter: \n\nProduct Type | Revenue | Gross Profit\n------------ | ------- | ------------\nProduct A | $X million | $Y million\nProduct B | $X million | $Y million\nProduct C | $X million | $Y million\n\nRevenue and gross profit by region:\nThe following table shows revenue and gross profit for each region in the last quarter:\n\nRegion | Revenue | Gross Profit\n------------ | ------- | ------------\nRegion A | $X million | $Y million\nRegion B | $X million | $Y million\nRegion C | $X million | $Y million\n\nRevenue by promotional campaigns:\nThe following table shows revenue generated by promotional campaigns in the last quarter:\n\nCampaign | Revenue \n------------ | -------\nCampaign 1 | $X million\nCampaign 2 | $X million\nCampaign 3 | $X million\n\nExplanation:\n\nThis report outlines sales performance for the past quarter, with a focus on total revenue, revenue and gross profit by product type, region, and promotional campaigns. Data from the last quarter is compared to data from the same period last year.",
+        "most_similar_instructions": {
+            "Generate a List of": 0.5,
+            "Give a definition for": 0.5,
+            "Develop a test scenario for": 0.4444444444444445,
+            "Construct a sentiment analysis for": 0.4444444444444445,
+            "Generate an appropriate title for": 0.4444444444444445,
+            "Generate a new phrase using Synonyms": 0.4,
+            "Propose a suitable storage system for": 0.4,
+            "Use Spring + Java to create a api for ": 0.3333333333333333,
+            "Draft a test plan for a web-based application": 0.30769230769230765,
+            "Use the A-B-C method to write an outline for": 0.26666666666666666
+        },
+        "avg_similarity_score": 0.1569821196826544
+    },
+    {
+        "instruction": "Rewrite the following piece of code using Java8",
+        "input": "int sum = 0;\nfor(int i=0 ; i < arr.length ; i++){\n  sum += arr[i];\n}",
+        "output": "Here is an example of how the code can be rewritten using Java 8:\n\nint sum = Arrays.stream(arr)\n                .reduce(0, (a, b) -> a + b);\n                \nExplanation:\n\nThe Arrays.stream() method is used to transform the array into a Stream object. The reduce() method is then used with an initial value of 0, and a lambda expression that adds each element of the array to the initial value. This reduces the code to a single line of code.",
+        "most_similar_instructions": {
+            "Rewrite the following article in the active voice": 0.375,
+            "Name the types of networks": 0.3076923076923077,
+            "Classify the different types of adjectives": 0.28571428571428575,
+            "Translate the following equation into a sentence": 0.26666666666666666,
+            "Identify the type of the following sentence": 0.26666666666666666,
+            "Describe the output of the following program": 0.26666666666666666,
+            "Explain the value of Data Analytics for business": 0.25,
+            "Describe the role of \"imperative\" in modern writing": 0.25,
+            "Describe the impact of blockchain to the Logistics industry": 0.23529411764705882,
+            "What is the name of the algorithm used for": 0.23529411764705882
+        },
+        "avg_similarity_score": 0.10558802603362531
+    },
+    {
+        "instruction": "What are the inputs and outputs of",
+        "input": "A website search algorithm",
+        "output": "The inputs of a website search algorithm include the keywords that a user would type in the search bar, as well as parameters like language, location, and time. The output of the website search algorithm is a list of relevant results (webpages) that match the search query.",
+        "most_similar_instructions": {
+            "What is the name of the algorithm used for": 0.375,
+            "Name the types of networks": 0.3333333333333333,
+            "Classify the different types of adjectives": 0.30769230769230765,
+            "Describe the output of the following program": 0.2857142857142857,
+            "Identify the type of the following sentence": 0.2857142857142857,
+            "Rewrite the following piece of code using Java8": 0.26666666666666666,
+            "Describe the role of \"imperative\" in modern writing": 0.26666666666666666,
+            "Explain the value of Data Analytics for business": 0.26666666666666666,
+            "Describe the impact of blockchain to the Logistics industry": 0.25,
+            "Summarize the main points of \"On Liberty\" by John Stuart Mill": 0.2222222222222222
+        },
+        "avg_similarity_score": 0.10010859453583912
+    }
+]
