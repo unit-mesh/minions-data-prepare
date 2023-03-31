@@ -1,0 +1,10 @@
+{
+  "instruction": "Write controller test for follow code",
+    "instances": [
+    {
+      "input": "@PostMapping(\"/users/permit\")\n    public Mono<Token> permitOtp(@RequestBody OtpVerification request) {\n        return userService.verifyOtpForRegistration(request);\n    }",
+      "output": "Here's a sample controller test for the provided code snippet: @RunWith(SpringRunner.class)\n@WebFluxTest(controllers = UserController.class)\npublic class UserControllerTest {\n\n    @Autowired\n    private WebTestClient webTestClient;\n\n    @MockBean\n    private UserService userService;\n\n    @Test\n    public void testPermitOtp() {\n        OtpVerification request = new OtpVerification(\"123456\", \"john@example.com\");\n        Token expectedToken = new Token(\"access_token\");\n\n        // Mock the userService.verifyOtpForRegistration() method\n        when(userService.verifyOtpForRegistration(request)).thenReturn(Mono.just(expectedToken));\n\n        // Send a POST request to \"/users/permit\" endpoint with the request body\n        webTestClient.post().uri(\"/users/permit\")\n                .contentType(MediaType.APPLICATION_JSON)\n                .body(Mono.just(request), OtpVerification.class)\n                .exchange()\n\n                // Verify that the response is HTTP 200 OK and the response body contains the expected token\n                .expectStatus().isOk()\n                .expectBody(Token.class)\n                .isEqualTo(expectedToken);\n    }\n}\n"
+    }
+  ],
+  "is_classification": false
+}

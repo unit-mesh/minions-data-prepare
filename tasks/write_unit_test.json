@@ -1,0 +1,10 @@
+{
+  "instruction": "Write unit test for follow code",
+    "instances": [
+    {
+      "input": "@PostMapping(\"/users/permit\")\n    public Mono<Token> permitOtp(@RequestBody OtpVerification request) {\n        return userService.verifyOtpForRegistration(request);\n    }",
+      "output": "Sure, here's a unit test in Java using JUnit 5 and Mockito to test the permitOtp method: @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)\npublic class UserControllerTest {\n\n    @Mock\n    private UserService userService;\n\n    @InjectMocks\n    private UserController userController;\n\n    @Test\n    void permitOtp_returnsToken() {\n        OtpVerification request = new OtpVerification(\"123456\", \"john@example.com\");\n\n        Token expectedToken = new Token(\"abc123\");\n\n        when(userService.verifyOtpForRegistration(any(OtpVerification.class)))\n            .thenReturn(Mono.just(expectedToken));\n\n        WebTestClient client = WebTestClient.bindToController(userController).build();\n\n        client.post()\n              .uri(\"/users/permit\")\n              .contentType(MediaType.APPLICATION_JSON)\n              .body(BodyInserters.fromValue(request))\n              .exchange()\n              .expectStatus().isOk()\n              .expectBody(Token.class)\n              .isEqualTo(expectedToken);\n    }\n}\n\nExplanation:\n\n    We use @Mock to create a mock object of UserService, and @InjectMocks to inject that mock into the UserController instance that we want to test.\n    In the permitOtp_returnsToken test method, we create an instance of OtpVerification and an expected Token.\n    We use Mockito's when() method to stub the `\n\n"
+    }
+  ],
+  "is_classification": false
+}

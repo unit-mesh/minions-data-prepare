@@ -1,0 +1,10 @@
+{
+  "instruction": "Use UML to design all Data Structure for",
+  "instances": [
+    {
+      "input": " Animation and Comics - Payment",
+      "output": "Sure! Here is an UML diagram representing the data structures for Animation and Comics - Payment:                                       +----------------------+\n                                      |        Payment       |\n                                      +----------------------+\n                                      | -id: int             |\n                                      | -amount: float       |\n                                      | -status: PaymentStatus|\n                                      | -timestamp: datetime |\n                                      +----------------------+\n\n+--------------------------+          +-----------------------+\n|        PaymentStatus     |          |       PaymentMethod    |\n+--------------------------+          +-----------------------+\n| -status: string          |          | -method: string        |\n| +PENDING: PaymentStatus  |          | +CREDIT_CARD: string   |\n| +COMPLETED: PaymentStatus|          | +PAYPAL: string        |\n| +FAILED: PaymentStatus   |          +-----------------------+\n+--------------------------+\n\n"
+    }
+  ],
+  "is_classification": false
+}
