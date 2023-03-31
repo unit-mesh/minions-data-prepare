@@ -1,0 +1,11 @@
+{
+  "name": "design_api_data_structure",
+  "instruction": "Design API Data Structure",
+  "instances": [
+    {
+      "input": "Animation and Comics",
+      "output": ""
+    }
+  ],
+  "is_classification": false
+}
