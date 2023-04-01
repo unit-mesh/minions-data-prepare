@@ -18,7 +18,22 @@ output_dir = 'test_to_code'
 
 
 def merge_test_to_jsonl():
-    json_to_jsonl('test-api', jsonl_path, ".prompt")
+    source = 'test-api'
+    target = jsonl_path
+
+    walkdir = os.walk(source)
+
+    index = 0
+    with open(target, 'w') as out_file:
+        for root, dirs, files in walkdir:
+            for file in files:
+                if file.endswith('.json'):
+                    # format json to one line
+                    with open(os.path.join(root, file), 'r') as f:
+                        data = json.load(f)
+                        data['id'] = 'task_' + str(index)
+                        json.dump(data, out_file)
+                        out_file.write('\n')
 
 
 def merge_test_output_to_jsonl():
