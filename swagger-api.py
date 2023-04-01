@@ -21,28 +21,18 @@ def encode_prompt(prompt_instructions):
     prompt += f"{idx + 2}. Instruction:"
     return prompt
 
+instruction = "You are a BA in a agile Team.Please according the input apis, to create the user stories of this software system in backend. 用户故事的模板如下：\n    \n    \"\"\"\n    用户故事：可以选择宝贝出行服务\n    作为 莉莉妈\n    我想 在滴滴打车的手机客户端里选择宝贝出行服务\n    以便于 我能够带宝宝打车出行的时候打到有儿童座椅的车\n    AC 1:  莉莉妈可以选择宝贝出行服务\n        假设 xxx\n        当 xxx\n        于是 xxx\n    \"\"\"\n"
+
 def generate_prompt_input(value):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
         messages=[
-            {"role": "system", "content": "这是一个能够将文本翻译成中文的AI助手。请将引号中的文本翻译成简体中文。"},
-            {"role": "user", "content": f"'{value}'\n 中文翻译: "},
-        ],
-        max_tokens=4096,
-        temperature=0,
+            {"role": "system", "content": instruction},
+            {"role": "user", "content": f'{value}'},
+        ]
     )
+
     return response.choices[0]["message"]["content"].strip().replace("", "").replace("", "")
-
-
-def process_item(item):
-    processed_item = {}
-    for key, value in item.items():
-        if value:
-            translated_value = generate_prompt_input(value)
-            processed_item[key] = translated_value
-        else:
-            processed_item[key] = ''
-    return processed_item
 
 
 def save_item(item, file_name):
@@ -50,23 +40,21 @@ def save_item(item, file_name):
         json.dump(item, f, ensure_ascii=False, indent=4)
 
 def process_swagger(item, i):
-    print(item)
-        # translated_item = process_item(swagger_file['string'])
-        # save_item(translated_item, f"swagger_output/swagger{i}.json")
-
+    print("processing: ", i)
+    output = generate_prompt_input(item['string'])
+    translated_item = {
+        "instruction": instruction,
+        "input": item['string'],
+        "output": output
+    }
+    save_item(translated_item, f"swagger_output/swagger{i}.json")
 
 def main(**kwargs):
-    with open('swagger-merged.json', 'r') as f:
+    with open('swagger-list.json', 'r') as f:
         data = json.load(f)
 
-    print(encode_prompt([{
-        "instruction": "Please according the following apis, to create the user stories of this software system in backend.",
-        "input": "\nGET get_student_by_id(student_id: number) /student/{student_id} gets student\nDELETE delete_student(student_id: number) /student/{student_id} gets student\nPOST add_student() /student Add a new student",
-        "output": "As a user, I want to get student by id, so that I can get the student information.\nAs a user, I want to delete student by id, so that I can delete the student information.\nAs a user, I want to add a new student, so that I can add a new student to the system."
-    }]))
-    #
-    # with ThreadPoolExecutor(max_workers=1) as executor:
-    #     futures = {executor.submit(process_swagger, item, i) for i, item in enumerate(data)}
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        futures = {executor.submit(process_swagger, item, i) for i, item in enumerate(data)}
 
 
 if __name__ == "__main__":

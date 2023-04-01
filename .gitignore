@@ -130,4 +130,5 @@ dmypy.json
 .idea
 _exec
 ggml-alpaca-7b-q4.bin
-swagger-merged.json
+swagger-list.json
+swagger_output
