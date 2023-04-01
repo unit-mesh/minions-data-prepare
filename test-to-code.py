@@ -85,7 +85,7 @@ def generate_code_from_tests():
             )
 
             code = response['choices'][0]['text']
-            progress_bar.update(idx / total * 100)
+            progress_bar.update(idx / total)
 
             output = {
                 "classInfo": task['classInfo'],
@@ -97,7 +97,7 @@ def generate_code_from_tests():
             with open(f"{output_dir}/{idx}.json", 'w') as file:
                 json.dump(output, file)
 
-            sleep_time = 30
+            sleep_time = 3
             time.sleep(sleep_time)
             idx = idx + 1
         except Exception as e:
