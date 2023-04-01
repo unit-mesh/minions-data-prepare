@@ -72,34 +72,39 @@ def generate_code_from_tests():
 
         prompt = f"{base_prompt}\n class information: ### {task['classInfo']} \n ### test code: ### {task['testMethod']} \n ###"
 
-        response = openai.Completion.create(
-            model="text-davinci-003",
-            prompt=prompt,
-            temperature=0,
-            max_tokens=150,
-            top_p=1.0,
-            frequency_penalty=0.0,
-            presence_penalty=0.0,
-            stop=["\"\"\""]
-        )
+        try:
+            response = openai.Completion.create(
+                model="text-davinci-003",
+                prompt=prompt,
+                temperature=0,
+                max_tokens=150,
+                top_p=1.0,
+                frequency_penalty=0.0,
+                presence_penalty=0.0,
+                stop=["\"\"\""]
+            )
 
-        code = response['choices'][0]['text']
-        progress_bar.update(idx / total * 100)
+            code = response['choices'][0]['text']
+            progress_bar.update(idx / total * 100)
 
-        output = {
-            "classInfo": task['classInfo'],
-            "testMethod": task['testMethod'],
-            "code": code
-        }
+            output = {
+                "classInfo": task['classInfo'],
+                "testMethod": task['testMethod'],
+                "code": code
+            }
 
-        # write to file in test_to_code
-        with open(f"{output_dir}/{idx}.json", 'w') as file:
-            json.dump(output, file)
+            # write to file in test_to_code
+            with open(f"{output_dir}/{idx}.json", 'w') as file:
+                json.dump(output, file)
 
-        sleep_time = 30
-        time.sleep(sleep_time)
-        idx = idx + 1
-
+            sleep_time = 30
+            time.sleep(sleep_time)
+            idx = idx + 1
+        except Exception as e:
+            print(e)
+            print("Error, sleeping for 5 minutes")
+            time.sleep(300)
+            continue
 
 def main(task, **kwargs):
     globals()[task](**kwargs)
