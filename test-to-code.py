@@ -21,6 +21,10 @@ def merge_test_to_jsonl():
     json_to_jsonl('test-api', jsonl_path, ".prompt")
 
 
+def merge_test_output_to_jsonl():
+    json_to_jsonl(output_dir, "test_to_code_output.jsonl", ".json")
+
+
 def generate_code_from_tests():
     tasks = []
     with open(jsonl_path, 'r') as file:
@@ -60,7 +64,7 @@ def generate_code_from_tests():
         )
 
         code = response['choices'][0]['text']
-        progress_bar.update(idx/total * 100)
+        progress_bar.update(idx / total * 100)
 
         output = {
             "classInfo": task['classInfo'],
@@ -75,6 +79,7 @@ def generate_code_from_tests():
         sleep_time = 3
         time.sleep(sleep_time)
         idx = idx + 1
+
 
 def main(task, **kwargs):
     globals()[task](**kwargs)
