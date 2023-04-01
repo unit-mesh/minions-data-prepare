@@ -9,20 +9,6 @@ import json
 
 import fire
 
-
-#  merge swagger_output/*.json to one jsonl file
-def merge_swagger_output():
-    walkdir = os.walk('swagger_output')
-    with open('swagger_output.jsonl', 'w') as out_file:
-        for root, dirs, files in walkdir:
-            for file in files:
-                if file.endswith('.json'):
-                    # format json to one line
-                    with open(os.path.join(root, file), 'r') as f:
-                        data = json.load(f)
-                        json.dump(data, out_file)
-                        out_file.write('\n')
-
 # walkdir in tasks/*.json to crate jsonl file
 # origin json :
 # {
