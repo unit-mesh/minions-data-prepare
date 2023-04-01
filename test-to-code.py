@@ -46,7 +46,6 @@ def generate_code_from_tests():
 
     total = len(tasks)
     for task in tasks:
-        idx = idx + 1
         prompt = f"{base_prompt}\n class information: ### {task['classInfo']} \n ### test code: ### {task['testMethod']} \n ###"
 
         response = openai.Completion.create(
@@ -75,7 +74,7 @@ def generate_code_from_tests():
 
         sleep_time = 3
         time.sleep(sleep_time)
-
+        idx = idx + 1
 
 def main(task, **kwargs):
     globals()[task](**kwargs)
