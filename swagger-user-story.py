@@ -5,11 +5,13 @@ python -m swagger-user-story userstory_to_swagger
 """
 import openai
 import json
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from tqdm import tqdm
+from concurrent.futures import ThreadPoolExecutor
 import os
 import re
 import fire
+
+from utils import json_to_jsonl
+
 
 def encode_prompt(prompt_instructions):
     """Encode multiple prompt instructions into a single string."""
@@ -77,18 +79,6 @@ def merge_swagger_output():
 
 def merge_api_output():
     json_to_jsonl('userstory_output', 'userstory_to_api.jsonl')
-
-def json_to_jsonl(source, target):
-    walkdir = os.walk(source)
-    with open(target, 'w') as out_file:
-        for root, dirs, files in walkdir:
-            for file in files:
-                if file.endswith('.json'):
-                    # format json to one line
-                    with open(os.path.join(root, file), 'r') as f:
-                        data = json.load(f)
-                        json.dump(data, out_file)
-                        out_file.write('\n')
 
 
 def userstory_to_swagger():
