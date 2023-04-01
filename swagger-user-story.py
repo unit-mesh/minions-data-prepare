@@ -88,7 +88,7 @@ def userstory_to_swagger():
         futures = {executor.submit(process_userstory, item, i) for i, item in enumerate(data)}
 
 def process_userstory(item, i):
-    print("processing: ", i, item['output'])
+    print("processing: ", i)
     # the input will be the output of the previous task
     output = prompt_davinci(item['output'])
     translated_item = {
@@ -99,6 +99,10 @@ def process_userstory(item, i):
     save_item(translated_item, f"userstory_output/userstory{i}.json")
 
 def main(task, **kwargs):
+    if not os.path.exists('userstory_output'):
+        os.makedirs('userstory_output')
+    if not os.path.exists('swagger_output'):
+        os.makedirs('swagger_output')
     globals()[task](**kwargs)
 
 
