@@ -90,11 +90,11 @@ def process_userstory(item, i):
     # read create_api_prompt.txt.txt as the prompt
     create_api_prompt = open("create_api_prompt.txt").read() + "\n"
 
-    print("processing: ", i)
+    print("processing user story: ", i)
     # the input will be the output of the previous task
     output = prompt_gpt35(create_api_prompt, item['output'])
     translated_item = {
-        "instruction": create_user_story_prompt,
+        "instruction": create_api_prompt,
         "input": item['output'],
         "output": output
     }
