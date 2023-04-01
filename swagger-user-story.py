@@ -27,8 +27,6 @@ def encode_prompt(prompt_instructions):
     prompt += f"{idx + 2}. Instruction:"
     return prompt
 
-create_user_story_prompt = "You are a BA in a agile Team.Please according the input apis, to create the user stories of this software system in backend. 用户故事的模板如下：\n    \n    \"\"\"\n    用户故事：可以选择宝贝出行服务\n    作为 莉莉妈\n    我想 在滴滴打车的手机客户端里选择宝贝出行服务\n    以便于 我能够带宝宝打车出行的时候打到有儿童座椅的车\n    AC 1:  莉莉妈可以选择宝贝出行服务\n        假设 xxx\n        当 xxx\n        于是 xxx\n    \"\"\"\n"
-
 def prompt_gpt35(prompt, value):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -55,6 +53,7 @@ def save_item(item, file_name):
         json.dump(item, f, ensure_ascii=False, indent=4)
 
 def process_swagger(item, i):
+    create_user_story_prompt = open("create_userstory_from_swagger.md").read() + "\n"
     print("processing: ", i)
     output = prompt_gpt35(create_user_story_prompt, item['string'])
     translated_item = {
