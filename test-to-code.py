@@ -65,6 +65,11 @@ def generate_code_from_tests():
 
     total = len(tasks)
     for task in tasks:
+        # if output file exists, skip
+        if os.path.exists(f"{output_dir}/{idx}.json"):
+            idx = idx + 1
+            continue
+
         prompt = f"{base_prompt}\n class information: ### {task['classInfo']} \n ### test code: ### {task['testMethod']} \n ###"
 
         response = openai.Completion.create(
@@ -91,7 +96,7 @@ def generate_code_from_tests():
         with open(f"{output_dir}/{idx}.json", 'w') as file:
             json.dump(output, file)
 
-        sleep_time = 10
+        sleep_time = 30
         time.sleep(sleep_time)
         idx = idx + 1
 
