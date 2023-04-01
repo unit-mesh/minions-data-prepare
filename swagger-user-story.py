@@ -49,13 +49,16 @@ def process_swagger(item, i):
     }
     save_item(translated_item, f"swagger_output/swagger{i}.json")
 
-def main(**kwargs):
+def swagger_to_userstory():
     with open('swagger-list.json', 'r') as f:
         data = json.load(f)
 
     with ThreadPoolExecutor(max_workers=1) as executor:
         futures = {executor.submit(process_swagger, item, i) for i, item in enumerate(data)}
 
+def main(task, **kwargs):
+    globals()[task](**kwargs)
+
 
 if __name__ == "__main__":
-    main()
+    fire.Fire(main)
