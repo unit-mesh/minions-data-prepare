@@ -5,9 +5,12 @@ python -m swagger-user-story userstory_to_swagger
 """
 import json
 import os
-import fire
 import openai
+import fire
 import tqdm
+import time
+
+import utils
 from utils import json_to_jsonl
 
 jsonl_path = 'test_to_code.jsonl'
@@ -39,36 +42,39 @@ def generate_code_from_tests():
     # open test_code_code.md
     base_prompt = open("test_to_code.md").read() + "\n"
 
-    # create output dir
-    os.makedirs(output_dir, exist_ok=True)
+    idx = 1
 
-    index = 0
+    total = len(tasks)
     for task in tasks:
-        print(f"execute task {index}")
+        idx = idx + 1
         prompt = f"{base_prompt}\n class information: ### {task['classInfo']} \n ### test code: ### {task['testMethod']} \n ###"
-        response = prompt_davinci(prompt)
+
+        response = openai.Completion.create(
+            model="text-davinci-003",
+            prompt=prompt,
+            temperature=0,
+            max_tokens=150,
+            top_p=1.0,
+            frequency_penalty=0.0,
+            presence_penalty=0.0,
+            stop=["\"\"\""]
+        )
+
+        code = response['choices'][0]['text']
+        progress_bar.update(idx/total * 100)
 
         output = {
             "classInfo": task['classInfo'],
             "testMethod": task['testMethod'],
-            "code": response
+            "code": code
         }
 
         # write to file in test_to_code
-        with open(f"{output_dir}/{index}.json", 'w') as file:
+        with open(f"{output_dir}/{idx}.json", 'w') as file:
             json.dump(output, file)
 
-        index += 1
-
-
-def prompt_davinci(value):
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        temperature=0,
-        prompt=f'{value}'
-    )
-
-    return response.choices[0]["text"].strip().replace("", "").replace("", "")
+        sleep_time = 3
+        time.sleep(sleep_time)
 
 
 def main(task, **kwargs):
