@@ -91,7 +91,7 @@ def generate_code_from_tests():
         with open(f"{output_dir}/{idx}.json", 'w') as file:
             json.dump(output, file)
 
-        sleep_time = 3
+        sleep_time = 10
         time.sleep(sleep_time)
         idx = idx + 1
 
