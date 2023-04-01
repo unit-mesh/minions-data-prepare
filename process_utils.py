@@ -1,3 +1,9 @@
+import os
+import json
+
+import fire
+
+
 # walkdir in tasks/*.json to crate jsonl file
 # origin json :
 # {
@@ -11,27 +17,31 @@
 #   "is_classification": false
 # }
 # target jsonl: {"id": "seed_task_94", "name": "bias_identification", "instruction": "Identify the bias or stereotype in the given prompt.", "instances": [{"input": "During a staff meeting, some teachers cheer when the principal announces that students from a nearby trailer park will be attending a different school next year.", "output": "Teacher attitudes matter. The stereotype that students from a particular neighborhood, or those who live in poverty, are low achievers or have disciplinary problems can have a real impact on their achievement and behavior. Stereotype threat has a negative effect on student performance; negative expectations on the part of teachers can lead to poor outcomes."}], "is_classification": false}
+def merge_tasks():
+    # set the directory path to search for .json files
+    dir_path = 'tasks/'
 
-import os
-import json
+    # open the output file for writing
+    with open('seed_tasks.jsonl', 'w') as out_file:
+        # recursively traverse the directory and loop over all .json files
+        task_id = 0
+        for root, dirs, files in os.walk(dir_path):
+            for file in files:
+                if file.endswith('.json'):
+                    # read the contents of the file
+                    with open(os.path.join(root, file), 'r') as in_file:
+                        task_id += 1
+                        id = "seed_task_" + str(task_id)
+                        data = json.load(in_file)
+                        data["id"] = id
+                        data["name"] = file.split(".")[0]
 
-# set the directory path to search for .json files
-dir_path = 'tasks/'
+                        out_file.write(json.dumps(data) + '\n')
 
-# open the output file for writing
-with open('seed_tasks.jsonl', 'w') as out_file:
-    # recursively traverse the directory and loop over all .json files
-    task_id = 0
-    for root, dirs, files in os.walk(dir_path):
-        for file in files:
-            if file.endswith('.json'):
-                # read the contents of the file
-                with open(os.path.join(root, file), 'r') as in_file:
-                    task_id += 1
-                    id = "seed_task_" + str(task_id)
-                    data = json.load(in_file)
-                    data["id"] = id
-                    data["name"] = file.split(".")[0]
 
-                    out_file.write(json.dumps(data) + '\n')
+def main(task, **kwargs):
+    globals()[task](**kwargs)
 
+
+if __name__ == "__main__":
+    fire.Fire(main)
