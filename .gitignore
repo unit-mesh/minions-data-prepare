@@ -132,3 +132,4 @@ _exec
 ggml-alpaca-7b-q4.bin
 swagger-list.json
 swagger_output
+swagger_output.jsonl
