@@ -1,3 +1,8 @@
+"""
+python -m swagger-user-story swagger_to_userstory
+python -m swagger-user-story userstory_to_swagger
+
+"""
 import openai
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -69,8 +74,14 @@ def swagger_to_userstory():
 
 #  merge swagger_output/*.json to one jsonl file
 def merge_swagger_output():
-    walkdir = os.walk('swagger_output')
-    with open('swagger_output.jsonl', 'w') as out_file:
+    json_to_jsonl('swagger_output', 'swagger_output.jsonl')
+
+def merge_api_output():
+    json_to_jsonl('userstory_output', 'userstory_to_api.jsonl')
+
+def json_to_jsonl(source, target):
+    walkdir = os.walk(source)
+    with open(target, 'w') as out_file:
         for root, dirs, files in walkdir:
             for file in files:
                 if file.endswith('.json'):
@@ -79,6 +90,7 @@ def merge_swagger_output():
                         data = json.load(f)
                         json.dump(data, out_file)
                         out_file.write('\n')
+
 
 def userstory_to_swagger():
     data = [json.loads(l) for l in open('swagger_output.jsonl', "r")]
