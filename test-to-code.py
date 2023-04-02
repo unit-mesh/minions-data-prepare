@@ -50,24 +50,19 @@ def generate_code_from_tests():
 
     os.makedirs(output_dir, exist_ok=True)
 
-    request_idx = 0
-
-    machine_instruction_data = []
-
-    progress_bar = tqdm.tqdm(total=100)
-    if machine_instruction_data:
-        progress_bar.update(len(machine_instruction_data))
-
     # open test_code_code.md
     base_prompt = open("test_to_code.md").read() + "\n"
 
     idx = 1
 
     total = len(tasks)
+    progress_bar = tqdm.tqdm(total=total)
+
     for task in tasks:
         # if output file exists, skip
         if os.path.exists(f"{output_dir}/{idx}.json"):
             idx = idx + 1
+            progress_bar.update()
             continue
 
         prompt = f"{base_prompt}\n class information: ### {task['classInfo']} \n ### test code: ### {task['testMethod']} \n ###"
@@ -85,7 +80,7 @@ def generate_code_from_tests():
             )
 
             code = response['choices'][0]['text']
-            progress_bar.update(idx / total)
+            progress_bar.update()
 
             output = {
                 "classInfo": task['classInfo'],
@@ -97,8 +92,8 @@ def generate_code_from_tests():
             with open(f"{output_dir}/{idx}.json", 'w') as file:
                 json.dump(output, file)
 
-            sleep_time = 3
-            time.sleep(sleep_time)
+            # sleep_time = 3
+            # time.sleep(sleep_time)
             idx = idx + 1
         except Exception as e:
             print(e)
