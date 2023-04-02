@@ -29,6 +29,7 @@ def encode_prompt(prompt_instructions):
     prompt += f"{idx + 2}. Instruction:"
     return prompt
 
+
 def prompt_gpt35(prompt, value):
     response = openai.ChatCompletion.create(
         model="gpt-3.5-turbo",
@@ -39,20 +40,12 @@ def prompt_gpt35(prompt, value):
     )
 
     return response.choices[0]["message"]["content"].strip().replace("", "").replace("", "")
-def prompt_davinci(value):
-
-    response = openai.Completion.create(
-        model="text-davinci-003",
-        temperature=0,
-        prompt=create_api_prompt + f'{value}'
-    )
-
-    return response.choices[0]["text"].strip().replace("", "").replace("", "")
 
 
 def save_item(item, file_name):
     with open(file_name, 'w') as f:
         json.dump(item, f, ensure_ascii=False, indent=4)
+
 
 def process_swagger(item, i):
     create_user_story_prompt = open("create_userstory_from_swagger.md").read() + "\n"
@@ -64,6 +57,7 @@ def process_swagger(item, i):
         "output": output
     }
     save_item(translated_item, f"swagger_output/swagger{i}.json")
+
 
 def swagger_to_userstory():
     with open('swagger-list.json', 'r') as f:
@@ -77,6 +71,7 @@ def swagger_to_userstory():
 def merge_swagger_output():
     json_to_jsonl('swagger_output', 'swagger_output.jsonl')
 
+
 def merge_api_output():
     json_to_jsonl('userstory_output', 'userstory_to_api.jsonl')
 
@@ -86,6 +81,7 @@ def userstory_to_swagger():
 
     with ThreadPoolExecutor(max_workers=1) as executor:
         futures = {executor.submit(process_userstory, item, i) for i, item in enumerate(data)}
+
 
 def process_userstory(item, i):
     # read create_api_prompt.txt.txt as the prompt
@@ -100,6 +96,7 @@ def process_userstory(item, i):
         "output": output
     }
     save_item(translated_item, f"userstory_output/userstory{i}.json")
+
 
 def main(task, **kwargs):
     if not os.path.exists('userstory_output'):
