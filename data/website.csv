@@ -1,13 +1,13 @@
 Main, Children
 Arts & Entertainment , Animation and Comics
-Arts & Entertainment , Arts and Entertainment - Other
+Arts & Entertainment , Arts and Entertainment
 Arts & Entertainment , Books and Literature
 Arts & Entertainment , Humor
 Arts & Entertainment , Music
 Arts & Entertainment , Performing Arts
 Arts & Entertainment , Streaming & Online TV
 Arts & Entertainment , Visual Arts and Design
-Business and Consumer Services , Business and Consumer Services - Other
+Business and Consumer Services , Business and Consumer Services
 Business and Consumer Services , Business Services
 Business and Consumer Services , Marketing and Advertising
 Business and Consumer Services , Digital Marketing
@@ -16,7 +16,7 @@ Business and Consumer Services , Real Estate
 Business and Consumer Services , Moving & Relocation
 Business and Consumer Services , Shipping and Logistics
 Business and Consumer Services , Textiles
-Community and Society , Community and Society - Other
+Community and Society , Community and Society
 Community and Society , Decease
 Community and Society , Faith and Beliefs
 Community and Society , Holidays and Seasonal Events
@@ -26,7 +26,7 @@ Community and Society , Dating and Relationships
 Computers Electronics and Technology , Advertising Networks
 Computers Electronics and Technology , Computer Hardware
 Computers Electronics and Technology , Computer Security
-Computers Electronics and Technology , Computers Electronics and Technology - Other
+Computers Electronics and Technology , Computers Electronics and Technology
 Computers Electronics and Technology , Consumer Electronics
 Computers Electronics and Technology , Email
 Computers Electronics and Technology , File Sharing and Hosting
@@ -39,30 +39,30 @@ Computers Electronics and Technology , Web Hosting and Domain Names
 eCommerce & Shopping , Auctions
 eCommerce & Shopping , Classifieds
 eCommerce & Shopping , Coupons and Rebates
-eCommerce & Shopping , eCommerce and Shopping - Other
+eCommerce & Shopping , eCommerce and Shopping
 eCommerce & Shopping , Marketplace
 eCommerce & Shopping , Price Comparison
 eCommerce & Shopping , Tickets
 Finance , Accounting and Auditing
 Finance , Banking Credit and Lending
-Finance , Finance - Other
+Finance , Finance
 Finance , Financial Planning and Management
 Finance , Insurance
 Finance , Investing
 Food and Drink , Beverages
 Food and Drink , Cooking and Recipes
-Food and Drink , Food and Drink - Other
+Food and Drink , Food and Drink
 Food and Drink , Groceries
 Food and Drink , Restaurants and Delivery
 Food and Drink , Vegetarian and Vegan
 Gambling , Bingo
 Gambling , Casinos
-Gambling , Gambling - Other
+Gambling , Gambling
 Gambling , Lottery
 Gambling , Poker
 Gambling , Sports Betting
 Games , Board and Card Games
-Games , Games - Other
+Games , Games
 Games , Puzzles and Brainteasers
 Games , Roleplaying Games
 Games , Video Games Consoles and Accessories
@@ -73,7 +73,7 @@ Health , Childrens Health
 Health , Dentist and Dental Services
 Health , Developmental and Physical Disabilities
 Health , Geriatric and Aging Care
-Health , Health - Other
+Health , Health
 Health , Health Conditions and Concerns
 Health , Medicine
 Health , Mens Health
@@ -88,27 +88,27 @@ Heavy Industry and Engineering , Architecture
 Heavy Industry and Engineering , Chemical Industry
 Heavy Industry and Engineering , Construction and Maintenance
 Heavy Industry and Engineering , Energy Industry
-Heavy Industry and Engineering , Heavy Industry and Engineering - Other
+Heavy Industry and Engineering , Heavy Industry and Engineering
 Heavy Industry and Engineering , Metals and Mining
 Heavy Industry and Engineering , Waste Water and Environmental
 Hobbies and Leisure , Ancestry and Genealogy
 Hobbies and Leisure , Antiques and Collectibles
 Hobbies and Leisure , Camping Scouting and Outdoors
 Hobbies and Leisure , Crafts
-Hobbies and Leisure , Hobbies and Leisure - Other
+Hobbies and Leisure , Hobbies and Leisure
 Hobbies and Leisure , Models
 Hobbies and Leisure , Photography
 Home and Garden , Furniture
 Home and Garden , Gardening
-Home and Garden , Home and Garden - Other
+Home and Garden , Home and Garden
 Home and Garden , Home Improvement and Maintenance
 Home and Garden , Interior Design
 Jobs and Career , Human Resources
-Jobs and Career , Jobs and Career - Other
+Jobs and Career , Jobs and Career
 Jobs and Career , Jobs and Employment
 Law and Government , Government
 Law and Government , Immigration and Visas
-Law and Government , Law and Government - Other
+Law and Government , Law and Government
 Law and Government , Law Enforcement and Protective Services
 Law and Government , Legal
 Law and Government , National Security
@@ -117,7 +117,7 @@ Lifestyle , Childcare
 Lifestyle , Fashion and Apparel
 Lifestyle , Gifts and Flowers
 Lifestyle , Jewelry and Luxury Products
-Lifestyle , Lifestyle - Other
+Lifestyle , Lifestyle
 Lifestyle , Tobacco
 Lifestyle , Weddings
 Pets and Animals , Animals
@@ -126,11 +126,11 @@ Pets and Animals , Fish and Aquaria
 Pets and Animals , Horses
 Pets and Animals , Pet Food and Supplies
 Pets and Animals , Pets
-Pets and Animals , Pets and Animals - Other
+Pets and Animals , Pets and Animals
 Reference Materials , Dictionaries and Encyclopedias
 Reference Materials , Maps
 Reference Materials , Public Records and Directories
-Reference Materials , Reference Materials - Other
+Reference Materials , Reference Materials
 Science and Education , Astronomy
 Science and Education , Biology
 Science and Education , Business Training
@@ -146,7 +146,7 @@ Science and Education , Math
 Science and Education , Philosophy
 Science and Education , Physics
 Science and Education , Public Records and Directories
-Science and Education , Science and Education - Other
+Science and Education , Science and Education
 Science and Education , Social Sciences
 Science and Education , Universities and Colleges
 Science and Education , Weather
@@ -165,7 +165,7 @@ Sports , Martial Arts
 Sports , Rugby
 Sports , Running
 Sports , Soccer
-Sports , Sports - Other
+Sports , Sports
 Sports , Tennis
 Sports , Volleyball
 Sports , Water Sports
@@ -176,12 +176,12 @@ Travel and Tourism , Car Rentals
 Travel and Tourism , Ground Transportation
 Travel and Tourism , Tourist Attractions
 Travel and Tourism , Transportation and Excursions
-Travel and Tourism , Travel and Tourism - Other
+Travel and Tourism , Travel and Tourism
 Vehicles , Automotive Industry
 Vehicles , Aviation
 Vehicles , Boats
 Vehicles , Makes and Models
 Vehicles , Motorcycles
 Vehicles , Motorsports
-Vehicles , Vehicles - Other
-Adult ,
+Vehicles , Vehicles
+Adult ,Adult
