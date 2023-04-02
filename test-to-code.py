@@ -40,6 +40,24 @@ def merge_test_output_to_jsonl():
     json_to_jsonl(output_dir, "test_to_code_output.jsonl", ".json")
 
 
+def generate_for_lora():
+    # open test_to_code_output.jsonl, the item is a dict, format is:
+    # { testMethod, classInfo, code }
+    # save to test_lora.jsonl, the format is:
+    # { "instruction": "Write test for follow code", "input": code, "output": testMethod}
+    with open("test_to_code_output.jsonl", 'r') as file:
+        with open("test_lora.jsonl", 'w') as out_file:
+            for line in file:
+                data = json.loads(line)
+                output = {
+                    "instruction": "Write test for follow code",
+                    "input": data['code'],
+                    "output": data['testMethod']
+                }
+                json.dump(output, out_file)
+                out_file.write('\n')
+
+
 def generate_code_from_tests():
     tasks = []
     with open(jsonl_path, 'r') as file:
