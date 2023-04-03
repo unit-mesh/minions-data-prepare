@@ -45,16 +45,16 @@ def create_user_story_map():
             progress_bar.update()
             continue
 
-        prompt = f"Please design a user story map for { domain } based on your understanding. The format for the " \
+        prompt = f"Design a #User story mapping# for { domain } based on your understanding. The format for the " \
                  f"user story map is as follows: ###map {{ Before boarding {{ Display unsupported orders, " \
-                 f"Select travel time }} }} ###"
+                 f"Select travel time, ... }} On Board {{...}} }} ###"
 
         try:
             response = openai.Completion.create(
                 model="text-davinci-003",
                 prompt=prompt,
                 temperature=0,
-                max_tokens=150,
+                max_tokens=3096,
                 top_p=1.0,
                 frequency_penalty=0.0,
                 presence_penalty=0.0,
