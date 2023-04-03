@@ -61,3 +61,7 @@ todos
 > different ways and thereby raise the confidence level in the output results. This is in contrast to other prompt based
 > CoT methods, where there is no check on the validity of the intermediate steps followed. Our technique improves over
 > state-of-the-art on the MultiArith dataset () evaluated using 175B parameter GPT-based LLM. 
+
+## LICENSE
+
+This code is distributed under the MPL 2.0 license. See `LICENSE` in this directory.
