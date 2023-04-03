@@ -6,6 +6,7 @@ import csv
 import json
 import os
 import re
+from concurrent.futures import ThreadPoolExecutor
 
 import openai
 import fire
@@ -32,6 +33,7 @@ output_dir = 'userstory_map'
 def merge_created_user_story():
     utils.json_to_jsonl("userstory_map", "userstory_map.jsonl")
 
+
 # output: [{ "input": domain, "output": list of user stories }]
 def prepare_story_list():
     with open('userstory_map.jsonl', 'r') as f:
@@ -52,6 +54,50 @@ def prepare_story_list():
     with open('userstory_name.jsonl', 'w') as f:
         for item in output:
             f.write(json.dumps(item) + '\n')
+
+
+def create_user_story_detail():
+    data = [json.loads(l) for l in open('userstory_name.jsonl', "r")]
+
+    with open("prompts/create-user-story.md", 'r') as file:
+        base_prompt = file.read()
+
+    idx = 1
+
+    total = len(data)
+    progress_bar = tqdm.tqdm(total=total)
+
+    # mkdir userstory_detail
+    os.makedirs("userstory_detail", exist_ok=True)
+
+    for item in data:
+        if os.path.exists(f"userstory_detail/{idx}.json"):
+            idx = idx + 1
+            progress_bar.update()
+            continue
+
+        prompt = base_prompt.replace("${domain", item['input']).replace("${user_story}", item['output'])
+
+        try:
+            res = prompt_davinci(prompt)
+            progress_bar.update()
+
+            output = {
+                "input": item['input'] + ":" + item['output'],
+                "output": res
+            }
+
+            # write to file in test_to_code
+            with open(f"userstory_detail/{idx}.json", 'w') as file:
+                json.dump(output, file)
+
+            # sleep_time = 3
+            idx = idx + 1
+        except Exception as e:
+            print(e)
+            print("Error, sleeping for 5 minutes")
+            time.sleep(300)
+            continue
 
 
 def create_user_story_map():
@@ -76,18 +122,7 @@ def create_user_story_map():
         prompt = base_prompt.replace("${domain}", domain)
 
         try:
-            response = openai.Completion.create(
-                model="text-davinci-003",
-                prompt=prompt,
-                temperature=0,
-                max_tokens=3096,
-                top_p=1.0,
-                frequency_penalty=0.0,
-                presence_penalty=0.0,
-                stop=["\"\"\""]
-            )
-
-            res = response['choices'][0]['text']
+            res = prompt_davinci(prompt)
             progress_bar.update()
 
             output = {
@@ -107,6 +142,21 @@ def create_user_story_map():
             print("Error, sleeping for 5 minutes")
             time.sleep(300)
             continue
+
+
+def prompt_davinci(prompt):
+    response = openai.Completion.create(
+        model="text-davinci-003",
+        prompt=prompt,
+        temperature=0,
+        max_tokens=3096,
+        top_p=1.0,
+        frequency_penalty=0.0,
+        presence_penalty=0.0,
+        stop=["\"\"\""]
+    )
+    res = response['choices'][0]['text']
+    return res
 
 
 def user_story_format():
