@@ -32,6 +32,27 @@ output_dir = 'userstory_map'
 def merge_created_user_story():
     utils.json_to_jsonl("userstory_map", "userstory_map.jsonl")
 
+# output: [{ "input": domain, "output": list of user stories }]
+def prepare_story_list():
+    with open('userstory_map.jsonl', 'r') as f:
+        data = [json.loads(l) for l in f]
+
+    output = []
+    for item in data:
+        origin_stories = item['output']
+        pattern = r'\d+\.\s+(.*)'
+        matches = re.findall(pattern, origin_stories)
+
+        for match in matches:
+            output.append({
+                "input": item['input'],
+                "output": match
+            })
+
+    with open('userstory_name.jsonl', 'w') as f:
+        for item in output:
+            f.write(json.dumps(item) + '\n')
+
 
 def create_user_story_map():
     domains = init_domains()

@@ -1,4 +1,4 @@
-为下面的需求编写用户故事：${domain} 应用的 "1. Browse and search for animations and comics" 功能。
+为下面的需求编写用户故事：${domain} 应用的 ${story} 功能。
 
 要求如下：
 
