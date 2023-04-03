@@ -1,7 +1,7 @@
 """
 python -m user-story create_user_story_map
 """
-
+import concurrent
 import csv
 import json
 import os
@@ -100,6 +100,7 @@ def create_user_story_detail():
             continue
 
 
+progress_bar = tqdm.tqdm(total=2)
 def create_user_story_map():
     domains = init_domains()
 
@@ -111,33 +112,35 @@ def create_user_story_map():
     with open("prompts/create-user-story-name.md", 'r') as file:
         base_prompt = file.read()
 
-    for domain, idx in enumerate(domains):
-        if os.path.exists(f"{output_dir}/{idx}.json"):
-            progress_bar.update()
-            continue
+    process_story(base_prompt, domains, progress_bar)
 
-        prompt = base_prompt.replace("${domain}", domain)
-
-        try:
-            res = prompt_davinci(prompt)
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = {executor.submit(process_story, base_prompt, item, i) for i, item in enumerate(domains)}
+        for future in concurrent.futures.as_completed(futures):
             progress_bar.update()
 
-            output = {
-                "input": domain,
-                "output": res
-            }
+def process_story(base_prompt, domain, idx):
+    if os.path.exists(f"{output_dir}/{idx}.json"):
+        return
 
-            # write to file in test_to_code
-            with open(f"{output_dir}/{idx}.json", 'w') as file:
-                json.dump(output, file)
+    prompt = base_prompt.replace("${domain}", domain)
 
-            # sleep_time = 3
-            # time.sleep(sleep_time)
-        except Exception as e:
-            print(e)
-            print("Error, sleeping for 5 minutes")
-            time.sleep(300)
-            continue
+    try:
+        res = prompt_davinci(prompt)
+
+        output = {
+            "input": domain,
+            "output": res
+        }
+
+        # write to file in test_to_code
+        with open(f"{output_dir}/{idx}.json", 'w') as file:
+            json.dump(output, file)
+
+    except Exception as e:
+        print(e)
+        print("Error, sleeping for 5 minutes")
+        time.sleep(300)
 
 
 def merge_userstory_details():
