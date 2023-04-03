@@ -125,22 +125,22 @@ def process_story(base_prompt, domain, idx):
 
     prompt = base_prompt.replace("${domain}", domain)
 
-    try:
-        res = prompt_davinci(prompt)
+    # try:
+    res = prompt_davinci(prompt)
 
-        output = {
-            "input": domain,
-            "output": res
-        }
+    output = {
+        "input": domain,
+        "output": res
+    }
 
-        # write to file in test_to_code
-        with open(f"{output_dir}/{idx}.json", 'w') as file:
-            json.dump(output, file)
+    # write to file in test_to_code
+    with open(f"{output_dir}/{idx}.json", 'w') as file:
+        json.dump(output, file)
 
-    except Exception as e:
-        print(e)
-        print("Error, sleeping for 5 minutes")
-        time.sleep(300)
+    # except Exception as e:
+    #     print(e)
+    #     print("Error, sleeping for 5 minutes")
+    #     time.sleep(300)
 
 
 def merge_userstory_details():
