@@ -10,7 +10,6 @@ import fire
 import tqdm
 import time
 
-import utils
 from utils import json_to_jsonl
 
 jsonl_path = 'test_to_code.jsonl'
@@ -69,7 +68,7 @@ def generate_code_from_tests():
     os.makedirs(output_dir, exist_ok=True)
 
     # open test_code_code.md
-    base_prompt = open("test_to_code.md").read() + "\n"
+    base_prompt = open("prompts/test_to_code.md").read() + "\n"
 
     idx = 1
 

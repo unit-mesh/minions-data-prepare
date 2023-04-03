@@ -15,7 +15,7 @@ from utils import json_to_jsonl
 
 def encode_prompt(prompt_instructions):
     """Encode multiple prompt instructions into a single string."""
-    prompt = open("prompt_cn.txt").read() + "\n"
+    prompt = open("self-instruct/prompt_cn.txt").read() + "\n"
 
     for idx, task_dict in enumerate(prompt_instructions):
         (instruction, input, output) = task_dict["instruction"], task_dict["input"], task_dict["output"]
@@ -48,7 +48,7 @@ def save_item(item, file_name):
 
 
 def process_swagger(item, i):
-    create_user_story_prompt = open("create_userstory_from_swagger.md").read() + "\n"
+    create_user_story_prompt = open("prompts/create_userstory_from_swagger.md").read() + "\n"
     print("processing: ", i)
     output = prompt_gpt35(create_user_story_prompt, item['string'])
     translated_item = {
@@ -85,7 +85,7 @@ def userstory_to_swagger():
 
 def process_userstory(item, i):
     # read create_api_prompt.txt.txt as the prompt
-    create_api_prompt = open("create_api_prompt.txt").read() + "\n"
+    create_api_prompt = open("prompts/create_api_prompt.txt").read() + "\n"
 
     print("processing user story: ", i)
     # the input will be the output of the previous task

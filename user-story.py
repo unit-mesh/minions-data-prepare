@@ -30,9 +30,6 @@ def create_user_story_map():
 
     os.makedirs(output_dir, exist_ok=True)
 
-    # open test_code_code.md
-    base_prompt = open("test_to_code.md").read() + "\n"
-
     idx = 1
 
     total = len(domains)

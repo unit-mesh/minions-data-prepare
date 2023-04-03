@@ -10,7 +10,7 @@ import json
 import fire
 
 # walkdir in tasks/*.json to crate jsonl file
-# origin json :
+# self-instruct json :
 # {
 #   "instruction": "Write unit test for follow code",
 #     "instances": [
@@ -24,7 +24,7 @@ import fire
 # target jsonl: {"id": "seed_task_94", "name": "bias_identification", "instruction": "Identify the bias or stereotype in the given prompt.", "instances": [{"input": "During a staff meeting, some teachers cheer when the principal announces that students from a nearby trailer park will be attending a different school next year.", "output": "Teacher attitudes matter. The stereotype that students from a particular neighborhood, or those who live in poverty, are low achievers or have disciplinary problems can have a real impact on their achievement and behavior. Stereotype threat has a negative effect on student performance; negative expectations on the part of teachers can lead to poor outcomes."}], "is_classification": false}
 def merge_tasks():
     # set the directory path to search for .json files
-    dir_path = 'tasks/'
+    dir_path = '../tasks/'
 
     # open the output file for writing
     with open('seed_tasks.jsonl', 'w') as out_file:
