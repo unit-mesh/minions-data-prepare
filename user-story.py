@@ -5,6 +5,8 @@ python -m user-story create_user_story_map
 import csv
 import json
 import os
+import re
+
 import openai
 import fire
 import tqdm
@@ -42,10 +44,10 @@ def create_user_story_map():
             progress_bar.update()
             continue
 
-        prompt = f"Design a #User story mapping# for { domain } application based on your understanding. The format for your output " \
-                 f"is as follows:" \
-                 f"map {{ category1 {{ Display unsupported orders, " \
-                 f"Select travel time, ... }} category2 {{...}} }}"
+        prompt = f"Design a #User story mapping# for {domain} application based on your understanding. " \
+                 f"Your output is a Domain Specific Language, and should be like follows:" \
+                 f"```\nStoryMap.Search {{ Display all orders, Select time, ... }}\n" \
+                 f"StoryMap.GetDetail {{...}}; }}\n```"
 
         try:
             response = openai.Completion.create(
@@ -81,10 +83,50 @@ def create_user_story_map():
             continue
 
 
+def user_story_format():
+    # load all files under userstory_map/{*.json}
+    # parse each file
+    with open("userstory_map/1.json") as file:
+        parse_user_story(json.load(file))
+
+
+# input(domain, map)
+# domain:  Animation and Comics
+# map: StoryMap { Animation { Display animation library, Create animation, Edit animation, Share animation, Save animation },  Comics { Display comic library, Create comic, Edit comic, Share comic, Save comic } }
+
+def parse_user_story(json):
+    domain = json['input']
+    output_str = json['output']
+    result = parse_string(output_str)
+    print(result)
+
+
+def parse_string(s):
+    # 使用正则表达式来匹配大括号内的内容
+    pattern = r"\{\s*([^{}]+)\s*\}"
+    matches = re.findall(pattern, s)
+
+    result = {}
+
+    for match in matches:
+        sections = re.split(r"\s*,\s*", match.strip())
+
+        sub_dict = {}
+
+        for section in sections:
+            sub_dict[section] = None
+
+        parent_match = re.search(r"^\s*([^\s]+)\s*", match)
+
+        if parent_match:
+            parent = parent_match.group(1)
+            result[parent] = sub_dict
+
+    return result
+
 def main(task, **kwargs):
     globals()[task](**kwargs)
 
 
 if __name__ == "__main__":
     fire.Fire(main)
-
