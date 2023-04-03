@@ -38,16 +38,15 @@ def create_user_story_map():
     progress_bar = tqdm.tqdm(total=total)
 
     with open("prompts/user-story.md", 'r') as file:
-        prompt = file.read()
+        base_prompt = file.read()
 
     for domain in domains:
-        # if output file exists, skip
         if os.path.exists(f"{output_dir}/{idx}.json"):
             idx = idx + 1
             progress_bar.update()
             continue
 
-        prompt = prompt.replace("${domain}", domain)
+        prompt = base_prompt.replace("${domain}", domain)
 
         try:
             response = openai.Completion.create(
@@ -61,12 +60,12 @@ def create_user_story_map():
                 stop=["\"\"\""]
             )
 
-            output = response['choices'][0]['text']
+            res = response['choices'][0]['text']
             progress_bar.update()
 
             output = {
                 "input": domain,
-                "output": output
+                "output": res
             }
 
             # write to file in test_to_code
