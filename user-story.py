@@ -37,6 +37,9 @@ def create_user_story_map():
     total = len(domains)
     progress_bar = tqdm.tqdm(total=total)
 
+    with open("user-story.md", 'r') as file:
+        prompt = file.read()
+
     for domain in domains:
         # if output file exists, skip
         if os.path.exists(f"{output_dir}/{idx}.json"):
@@ -44,10 +47,7 @@ def create_user_story_map():
             progress_bar.update()
             continue
 
-        prompt = f"Design a #User story mapping# for {domain} application based on your understanding. " \
-                 f"Your output is a Domain Specific Language, and should be like follows:" \
-                 f"```\nStoryMap.Search {{ Display all orders, Select time, ... }}\n" \
-                 f"StoryMap.GetDetail {{...}}; }}\n```"
+        prompt = prompt.replace("${domain}", domain)
 
         try:
             response = openai.Completion.create(
@@ -123,6 +123,7 @@ def parse_string(s):
             result[parent] = sub_dict
 
     return result
+
 
 def main(task, **kwargs):
     globals()[task](**kwargs)
