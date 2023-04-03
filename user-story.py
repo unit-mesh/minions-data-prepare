@@ -28,6 +28,7 @@ def init_domains():
 
 output_dir = 'userstory_map'
 
+
 def merge_created_user_story():
     utils.json_to_jsonl("userstory_map", "userstory_map.jsonl")
 
