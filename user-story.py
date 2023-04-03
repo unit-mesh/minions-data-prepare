@@ -145,7 +145,21 @@ def create_user_story_map():
 
 
 def merge_userstory_details():
-    utils.json_to_jsonl("userstory_detail", "userstory_detail.jsonl")
+    source = "userstory_detail"
+    target = "userstory_detail.jsonl"
+
+    walkdir = os.walk(source)
+    with open(target, 'w') as out_file:
+        for root, dirs, files in walkdir:
+            for file in files:
+                if file.endswith(".json"):
+                    # format json to one line
+                    with open(os.path.join(root, file), 'r') as f:
+                        data = json.load(f)
+                        data["instruction"] = "create userstory tasks"
+                        json.dump(data, out_file)
+                        out_file.write('\n')
+
 
 
 def prompt_davinci(prompt):
