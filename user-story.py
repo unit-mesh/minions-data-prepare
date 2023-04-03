@@ -105,17 +105,14 @@ def create_user_story_map():
 
     os.makedirs(output_dir, exist_ok=True)
 
-    idx = 1
-
     total = len(domains)
     progress_bar = tqdm.tqdm(total=total)
 
     with open("prompts/create-user-story-name.md", 'r') as file:
         base_prompt = file.read()
 
-    for domain in domains:
+    for domain, idx in enumerate(domains):
         if os.path.exists(f"{output_dir}/{idx}.json"):
-            idx = idx + 1
             progress_bar.update()
             continue
 
@@ -136,7 +133,6 @@ def create_user_story_map():
 
             # sleep_time = 3
             # time.sleep(sleep_time)
-            idx = idx + 1
         except Exception as e:
             print(e)
             print("Error, sleeping for 5 minutes")
@@ -159,7 +155,6 @@ def merge_userstory_details():
                         data["instruction"] = "create user story tasks"
                         json.dump(data, out_file)
                         out_file.write('\n')
-
 
 
 def prompt_davinci(prompt):
