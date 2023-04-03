@@ -142,3 +142,4 @@ test_to_code.zip
 test_lora.jsonl
 userstory_map
 *.zip
+*.jsonl

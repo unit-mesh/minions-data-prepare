@@ -12,6 +12,8 @@ import fire
 import tqdm
 import time
 
+import utils
+
 
 def init_domains():
     domains = []
@@ -26,6 +28,9 @@ def init_domains():
 
 output_dir = 'userstory_map'
 
+def merge_created_user_story():
+    utils.json_to_jsonl("userstory_map", "userstory_map.jsonl")
+
 
 def create_user_story_map():
     domains = init_domains()
@@ -37,7 +42,7 @@ def create_user_story_map():
     total = len(domains)
     progress_bar = tqdm.tqdm(total=total)
 
-    with open("prompts/user-story.md", 'r') as file:
+    with open("prompts/create-user-story-name.md", 'r') as file:
         base_prompt = file.read()
 
     for domain in domains:
