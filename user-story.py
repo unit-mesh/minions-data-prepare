@@ -144,6 +144,10 @@ def create_user_story_map():
             continue
 
 
+def merge_userstory_details():
+    utils.json_to_jsonl("userstory_detail", "userstory_detail.jsonl")
+
+
 def prompt_davinci(prompt):
     response = openai.Completion.create(
         model="text-davinci-003",
