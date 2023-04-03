@@ -76,7 +76,7 @@ def create_user_story_detail():
             progress_bar.update()
             continue
 
-        prompt = base_prompt.replace("${domain", item['input']).replace("${user_story}", item['output'])
+        prompt = base_prompt.replace("${domain}", item['input']).replace("${story_name}", item['output'])
 
         try:
             res = prompt_davinci(prompt)
