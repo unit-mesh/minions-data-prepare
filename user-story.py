@@ -17,7 +17,7 @@ def init_domains():
         rd = csv.reader(fd, delimiter=",", quotechar='"')
         for row in rd:
             if len(row) > 1:
-                domains.append(row[1] + " Website")
+                domains.append(row[1])
 
     return domains
 
@@ -45,9 +45,10 @@ def create_user_story_map():
             progress_bar.update()
             continue
 
-        prompt = f"Design a #User story mapping# for { domain } based on your understanding. The format for the " \
-                 f"user story map is as follows: ###map {{ Before boarding {{ Display unsupported orders, " \
-                 f"Select travel time, ... }} On Board {{...}} }} ###"
+        prompt = f"Design a #User story mapping# for { domain } application based on your understanding. The format for your output " \
+                 f"is as follows:" \
+                 f"map {{ category1 {{ Display unsupported orders, " \
+                 f"Select travel time, ... }} category2 {{...}} }}"
 
         try:
             response = openai.Completion.create(
