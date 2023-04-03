@@ -37,7 +37,7 @@ def create_user_story_map():
     total = len(domains)
     progress_bar = tqdm.tqdm(total=total)
 
-    with open("user-story.md", 'r') as file:
+    with open("prompts/user-story.md", 'r') as file:
         prompt = file.read()
 
     for domain in domains:
