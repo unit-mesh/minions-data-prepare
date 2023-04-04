@@ -155,7 +155,7 @@ def merge_userstory_details():
                     # format json to one line
                     with open(os.path.join(root, file), 'r') as f:
                         data = json.load(f)
-                        data["instruction"] = "create user story tasks"
+                        data["instruction"] = "create Agile user story for following topic"
                         json.dump(data, out_file)
                         out_file.write('\n')
 
