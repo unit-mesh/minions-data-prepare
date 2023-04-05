@@ -181,11 +181,6 @@ def user_story_format():
     with open("userstory_map/1.json") as file:
         parse_user_story(json.load(file))
 
-
-# input(domain, map)
-# domain:  Animation and Comics
-# map: StoryMap { Animation { Display animation library, Create animation, Edit animation, Share animation, Save animation },  Comics { Display comic library, Create comic, Edit comic, Share comic, Save comic } }
-
 def parse_user_story(json):
     domain = json['input']
     output_str = json['output']
