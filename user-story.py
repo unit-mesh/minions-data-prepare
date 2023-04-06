@@ -6,12 +6,12 @@ import csv
 import json
 import os
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor
 
-import openai
 import fire
+import openai
 import tqdm
-import time
 
 import utils
 
@@ -100,7 +100,6 @@ def create_user_story_detail():
             continue
 
 
-progress_bar = tqdm.tqdm(total=2)
 def create_user_story_map():
     domains = init_domains()
 
@@ -118,6 +117,7 @@ def create_user_story_map():
         futures = {executor.submit(process_story, base_prompt, item, i) for i, item in enumerate(domains)}
         for future in concurrent.futures.as_completed(futures):
             progress_bar.update()
+
 
 def process_story(base_prompt, domain, idx):
     if os.path.exists(f"{output_dir}/{idx}.json"):
@@ -180,6 +180,7 @@ def user_story_format():
     # parse each file
     with open("userstory_map/1.json") as file:
         parse_user_story(json.load(file))
+
 
 def parse_user_story(json):
     domain = json['input']
