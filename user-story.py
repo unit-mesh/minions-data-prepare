@@ -173,6 +173,19 @@ def add_instruction():
             f.write(json.dumps(item) + '\n')
 
 
+# merge userstory_map.jsonl and userstory_detail.jsonl
+def merge_userstory_map_and_detail():
+    with open("userstory_map.jsonl", 'r') as f:
+        data = [json.loads(l) for l in f]
+
+    with open("userstory_detail.jsonl", 'r') as f:
+        data.extend([json.loads(l) for l in f])
+
+    with open("userstory_map_and_detail.jsonl", 'w') as f:
+        for item in data:
+            f.write(json.dumps(item) + '\n')
+
+
 def prompt_davinci(prompt):
     response = openai.Completion.create(
         model="text-davinci-003",
