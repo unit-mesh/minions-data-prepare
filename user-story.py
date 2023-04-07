@@ -160,6 +160,19 @@ def merge_userstory_details():
                         out_file.write('\n')
 
 
+# add instruction field to userstory_map.jsonl
+def add_instruction():
+    with open("userstory_map.jsonl", 'r') as f:
+        data = [json.loads(l) for l in f]
+
+    for item in data:
+        item["instruction"] = "split user story into tasks"
+
+    with open("userstory_map.jsonl", 'w') as f:
+        for item in data:
+            f.write(json.dumps(item) + '\n')
+
+
 def prompt_davinci(prompt):
     response = openai.Completion.create(
         model="text-davinci-003",
