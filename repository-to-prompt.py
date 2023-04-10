@@ -1,0 +1,56 @@
+"""
+python -m repository-to-prompt process_prompt
+"""
+import openai
+import json
+from concurrent.futures import ThreadPoolExecutor
+import fire
+
+
+def prompt_gpt35(prompt, value):
+    response = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo",
+        messages=[
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": f'{value}'},
+        ]
+    )
+
+    return response.choices[0]["message"]["content"].strip().replace("", "").replace("", "")
+
+
+def process_prompt():
+    # open repositories.json
+    with open("repositories.json", "r") as f:
+        data = json.load(f)
+
+    with ThreadPoolExecutor(max_workers=1) as executor:
+        futures = {executor.submit(process_repository, item, i) for i, item in enumerate(data)}
+
+
+prompt_text = "请编写用户故事，能覆盖下面的代码功能，要求：1. 分析其业务含义，突出重点 2. 你返回的内容只有： 我想 xxx。"
+
+
+def process_repository(item, i):
+    print("processing user story: ", i)
+    # the input will be the output of the previous task
+    output = prompt_gpt35(prompt_text, item['content'])
+    translated_item = {
+        "instruction": prompt_text,
+        "input": item['content'],
+        "output": output
+    }
+    save_item(translated_item, f"repositories/repository{item['id']}.json")
+
+
+def save_item(item, file_name):
+    with open(file_name, 'w') as f:
+        json.dump(item, f, ensure_ascii=False, indent=4)
+
+
+def main(task, **kwargs):
+    globals()[task](**kwargs)
+
+
+if __name__ == "__main__":
+    fire.Fire(main)

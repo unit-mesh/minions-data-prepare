@@ -144,3 +144,4 @@ userstory_map
 *.zip
 *.jsonl
 userstory_detail
+repositories.json
