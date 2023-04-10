@@ -1,6 +1,8 @@
 """
 python -m repository-to-prompt process_prompt
 """
+import os
+
 import openai
 import json
 from concurrent.futures import ThreadPoolExecutor
@@ -28,10 +30,16 @@ def process_prompt():
         futures = {executor.submit(process_repository, item, i) for i, item in enumerate(data)}
 
 
-prompt_text = "请编写用户故事，能覆盖下面的代码功能，要求：1. 分析其业务含义，突出重点 2. 你返回的内容只有： 我想 xxx。"
+prompt_text = "请编写用户故事，能覆盖下面的代码功能，要求：1. 描述业务并突出重点 2. 你返回的内容只有： 我想 xxx，以便于。 3. " \
+              "带上表和字段信息，示例：`我想查找用户（user）在某个时间段（receiptDate）内的物品清单（items），以便于进行统计和分析。`"
 
 
 def process_repository(item, i):
+    output_file = f"repositories/repository-{item['id']}.json"
+    if os.path.exists(output_file):
+        print(f"skipping {item['id']}")
+        return
+
     print("processing user story: ", i)
     # the input will be the output of the previous task
     output = prompt_gpt35(prompt_text, item['content'])
@@ -40,7 +48,7 @@ def process_repository(item, i):
         "input": item['content'],
         "output": output
     }
-    save_item(translated_item, f"repositories/repository{item['id']}.json")
+    save_item(translated_item, output_file)
 
 
 def save_item(item, file_name):
