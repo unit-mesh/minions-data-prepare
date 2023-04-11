@@ -56,6 +56,23 @@ def save_item(item, file_name):
         json.dump(item, f, ensure_ascii=False, indent=4)
 
 
+def json_to_jsonl(source, target, ext='.json'):
+    walkdir = os.walk(source)
+    with open(target, 'w') as out_file:
+        for root, dirs, files in walkdir:
+            for file in files:
+                if file.endswith(ext):
+                    # format json to one line
+                    with open(os.path.join(root, file), 'r') as f:
+                        data = json.load(f)
+                        # add file name to data
+                        data["file_name"] = file
+                        # parse id from file name repository-123.json -> 123
+                        data["id"] = file.split("-")[1].split(".")[0]
+                        json.dump(data, out_file)
+                        out_file.write('\n')
+
+
 def main(task, **kwargs):
     globals()[task](**kwargs)
 
